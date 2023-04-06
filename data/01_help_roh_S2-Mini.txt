@@ -1,0 +1,4380 @@
+>>> %Run -c $EDITOR_CONTENT
+@@@DELETE Start
+__main__          framebuf          uasyncio/lock     uplatform
+_boot             gc                uasyncio/stream   urandom
+_onewire          inisetup          ubinascii         ure
+_thread           math              ucollections      uselect
+_uasyncio         micropython       ucryptolib        usocket
+_webrepl          neopixel          uctypes           ussl
+apa106            network           uerrno            ustruct
+btree             ntptime           uhashlib          usys
+builtins          onewire           uheapq            utime
+cmath             s2mini            uio               utimeq
+dht               uarray            ujson             uwebsocket
+ds18x20           uasyncio/__init__ umachine          uzlib
+esp               uasyncio/core     uos               webrepl
+esp32             uasyncio/event    upip              webrepl_setup
+flashbdev         uasyncio/funcs    upip_utarfile     websocket_helper
+Plus any modules on the filesystem
+@@@DELETE End
+Ä1 Overview Start
+ä tbl Start
+_boot
+_onewire
+_thread
+_uasyncio
+_webrepl
+apa106
+btree
+builtins
+cmath
+dht
+ds18x20
+esp
+esp32
+flashbdev
+framebuf
+gc
+inisetup
+math
+micropython
+neopixel
+network
+ntptime
+onewire
+s2mini
+uarray
+uasyncio/core
+uasyncio/event
+uasyncio/funcs
+uasyncio/lock
+uasyncio/stream
+ubinascii
+ucollections
+ucryptolib
+uctypes
+uerrno
+uhashlib
+uheapq
+uio
+ujson
+umachine
+uos
+upip
+upip_utarfile
+uplatform
+urandom
+ure
+uselect
+usocket
+ussl
+ustruct
+usys
+utime
+utimeq
+uwebsocket
+uzlib
+webrepl
+webrepl_setup
+websocket_helper
+ä tbl End
+Ä1 Overview End
+Ä1 Module Start _boot
+@@@DELETE Start
+object <module '_boot' from '_boot.py'> is of type module
+  uos -- <module 'uos'>
+  __name__ -- _boot
+  gc -- <module 'gc'>
+  __file__ -- _boot.py
+  bdev -- <Partition type=1, subtype=129, address=2097152, size=2097152, label=vfs, encrypted=0>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module '_boot' from '_boot.py'> is of type module
+ä Submodule notdef
+uos -- <module 'uos'>
+ä Submodule notdef
+__name__ -- _boot
+ä Submodule notdef
+gc -- <module 'gc'>
+ä Submodule notdef
+__file__ -- _boot.py
+ä Submodule notdef
+bdev -- <Partition type=1, subtype=129, address=2097152, size=2097152, label=vfs, encrypted=0>
+Ä1 Module End
+Ä1 Module Start _onewire
+@@@DELETE Start
+object <module 'onewire'> is of type module
+  __name__ -- onewire
+  reset -- <function>
+  readbit -- <function>
+  readbyte -- <function>
+  writebit -- <function>
+  writebyte -- <function>
+  crc8 -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'onewire'> is of type module
+ä Submodule notdef
+__name__ -- onewire
+ä Submodule notdef
+reset -- <function>
+ä Submodule notdef
+readbit -- <function>
+ä Submodule notdef
+readbyte -- <function>
+ä Submodule notdef
+writebit -- <function>
+ä Submodule notdef
+writebyte -- <function>
+ä Submodule notdef
+crc8 -- <function>
+Ä1 Module End
+Ä1 Module Start _thread
+@@@DELETE Start
+object <module '_thread'> is of type module
+  __name__ -- _thread
+  LockType -- <class 'lock'>
+  get_ident -- <function>
+  stack_size -- <function>
+  start_new_thread -- <function>
+  exit -- <function>
+  allocate_lock -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module '_thread'> is of type module
+ä Submodule notdef
+__name__ -- _thread
+ä Submodule def _thread.LockType
+LockType -- <class 'lock'>
+ä Submodule notdef
+get_ident -- <function>
+ä Submodule notdef
+stack_size -- <function>
+ä Submodule notdef
+start_new_thread -- <function>
+ä Submodule notdef
+exit -- <function>
+ä Submodule notdef
+allocate_lock -- <function>
+Ä1 Module End
+@@@DELETE Start
+object <class 'lock'> is of type type
+  acquire -- <function>
+  release -- <function>
+  locked -- <function>
+  __enter__ -- <function>
+  __exit__ -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Start_thread.LockType
+Ä3 line __enter__ -- <function>
+Ä3 line __exit__ -- <function>
+Ä3 line acquire -- <function>
+Ä3 line locked -- <function>
+Ä3 line object <class 'lock'> is of type type
+Ä3 line release -- <function>
+Ä2 Submodule End
+Ä1 Module Start _uasyncio
+@@@DELETE Start
+object <module '_uasyncio'> is of type module
+  __name__ -- _uasyncio
+  TaskQueue -- <class 'TaskQueue'>
+  Task -- <class 'Task'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module '_uasyncio'> is of type module
+ä Submodule notdef
+__name__ -- _uasyncio
+ä Submodule def _uasyncio.TaskQueue
+TaskQueue -- <class 'TaskQueue'>
+ä Submodule def _uasyncio.Task
+Task -- <class 'Task'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'TaskQueue'> is of type type
+  peek -- <function>
+  push -- <function>
+  pop -- <function>
+  remove -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Start_uasyncio.TaskQueue
+Ä3 line object <class 'TaskQueue'> is of type type
+Ä3 line peek -- <function>
+Ä3 line pop -- <function>
+Ä3 line push -- <function>
+Ä3 line remove -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'Task'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Start_uasyncio.Task
+Ä3 line object <class 'Task'> is of type type
+Ä2 Submodule End
+Ä1 Module Start _webrepl
+@@@DELETE Start
+object <module '_webrepl'> is of type module
+  __name__ -- _webrepl
+  _webrepl -- <class '_webrepl'>
+  password -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module '_webrepl'> is of type module
+ä Submodule notdef
+__name__ -- _webrepl
+ä Submodule def _webrepl._webrepl
+_webrepl -- <class '_webrepl'>
+ä Submodule notdef
+password -- <function>
+Ä1 Module End
+@@@DELETE Start
+object <class '_webrepl'> is of type type
+  read -- <function>
+  readinto -- <function>
+  write -- <function>
+  close -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Start_webrepl._webrepl
+Ä3 line close -- <function>
+Ä3 line object <class '_webrepl'> is of type type
+Ä3 line read -- <function>
+Ä3 line readinto -- <function>
+Ä3 line write -- <function>
+Ä2 Submodule End
+Ä1 Module Start apa106
+@@@DELETE Start
+object <module 'apa106' from 'apa106.py'> is of type module
+  APA106 -- <class 'APA106'>
+  NeoPixel -- <class 'NeoPixel'>
+  __name__ -- apa106
+  __file__ -- apa106.py
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'apa106' from 'apa106.py'> is of type module
+ä Submodule def apa106.APA106
+APA106 -- <class 'APA106'>
+ä Submodule def apa106.NeoPixel
+NeoPixel -- <class 'NeoPixel'>
+ä Submodule notdef
+__name__ -- apa106
+ä Submodule notdef
+__file__ -- apa106.py
+Ä1 Module End
+@@@DELETE Start
+object <class 'APA106'> is of type type
+  __module__ -- apa106
+  ORDER -- (0, 1, 2, 3)
+  __qualname__ -- APA106
+None
+@@@DELETE End
+Ä2 Submodule Startapa106.APA106
+Ä3 line ORDER -- (0, 1, 2, 3)
+Ä3 line __module__ -- apa106
+Ä3 line __qualname__ -- APA106
+Ä3 line object <class 'APA106'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'NeoPixel'> is of type type
+  __getitem__ -- <function __getitem__ at 0x3fd8fbc0>
+  write -- <function write at 0x3fd8fc10>
+  __len__ -- <function __len__ at 0x3fd8fbf0>
+  __setitem__ -- <function __setitem__ at 0x3fd8fbb0>
+  fill -- <function fill at 0x3fd8fc00>
+  __init__ -- <function __init__ at 0x3fd8fbd0>
+  ORDER -- (1, 0, 2, 3)
+  __qualname__ -- NeoPixel
+  __module__ -- neopixel
+None
+@@@DELETE End
+Ä2 Submodule Startapa106.NeoPixel
+Ä3 line ORDER -- (1, 0, 2, 3)
+Ä3 line __getitem__ -- <function __getitem__ at 0x3fd8fbc0>
+Ä3 line __init__ -- <function __init__ at 0x3fd8fbd0>
+Ä3 line __len__ -- <function __len__ at 0x3fd8fbf0>
+Ä3 line __module__ -- neopixel
+Ä3 line __qualname__ -- NeoPixel
+Ä3 line __setitem__ -- <function __setitem__ at 0x3fd8fbb0>
+Ä3 line fill -- <function fill at 0x3fd8fc00>
+Ä3 line object <class 'NeoPixel'> is of type type
+Ä3 line write -- <function write at 0x3fd8fc10>
+Ä2 Submodule End
+Ä1 Module Start btree
+@@@DELETE Start
+object <module 'btree'> is of type module
+  __name__ -- btree
+  open -- <function>
+  INCL -- 1
+  DESC -- 2
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'btree'> is of type module
+ä Submodule notdef
+__name__ -- btree
+ä Submodule notdef
+open -- <function>
+ä Submodule notdef
+INCL -- 1
+ä Submodule notdef
+DESC -- 2
+Ä1 Module End
+Ä1 Module Start builtins
+@@@DELETE Start
+object <module 'builtins'> is of type module
+  __name__ -- builtins
+  __build_class__ -- <function>
+  __import__ -- <function>
+  __repl_print__ -- <function>
+  bool -- <class 'bool'>
+  bytes -- <class 'bytes'>
+  bytearray -- <class 'bytearray'>
+  complex -- <class 'complex'>
+  dict -- <class 'dict'>
+  enumerate -- <class 'enumerate'>
+  filter -- <class 'filter'>
+  float -- <class 'float'>
+  frozenset -- <class 'frozenset'>
+  int -- <class 'int'>
+  list -- <class 'list'>
+  map -- <class 'map'>
+  memoryview -- <class 'memoryview'>
+  object -- <class 'object'>
+  property -- <class 'property'>
+  range -- <class 'range'>
+  reversed -- <class 'reversed'>
+  set -- <class 'set'>
+  slice -- <class 'slice'>
+  str -- <class 'str'>
+  super -- <class 'super'>
+  tuple -- <class 'tuple'>
+  type -- <class 'type'>
+  zip -- <class 'zip'>
+  classmethod -- <class 'classmethod'>
+  staticmethod -- <class 'staticmethod'>
+  Ellipsis -- Ellipsis
+  NotImplemented -- NotImplemented
+  abs -- <function>
+  all -- <function>
+  any -- <function>
+  bin -- <function>
+  callable -- <function>
+  compile -- <function>
+  chr -- <function>
+  delattr -- <function>
+  dir -- <function>
+  divmod -- <function>
+  eval -- <function>
+  exec -- <function>
+  execfile -- <function>
+  getattr -- <function>
+  setattr -- <function>
+  globals -- <function>
+  hasattr -- <function>
+  hash -- <function>
+  help -- <function>
+  hex -- <function>
+  id -- <function>
+  input -- <function>
+  isinstance -- <function>
+  issubclass -- <function>
+  iter -- <function>
+  len -- <function>
+  locals -- <function>
+  max -- <function>
+  min -- <function>
+  next -- <function>
+  oct -- <function>
+  open -- <function>
+  ord -- <function>
+  pow -- <function>
+  print -- <function>
+  repr -- <function>
+  round -- <function>
+  sorted -- <function>
+  sum -- <function>
+  BaseException -- <class 'BaseException'>
+  ArithmeticError -- <class 'ArithmeticError'>
+  AssertionError -- <class 'AssertionError'>
+  AttributeError -- <class 'AttributeError'>
+  EOFError -- <class 'EOFError'>
+  Exception -- <class 'Exception'>
+  GeneratorExit -- <class 'GeneratorExit'>
+  ImportError -- <class 'ImportError'>
+  IndentationError -- <class 'IndentationError'>
+  IndexError -- <class 'IndexError'>
+  KeyboardInterrupt -- <class 'KeyboardInterrupt'>
+  KeyError -- <class 'KeyError'>
+  LookupError -- <class 'LookupError'>
+  MemoryError -- <class 'MemoryError'>
+  NameError -- <class 'NameError'>
+  NotImplementedError -- <class 'NotImplementedError'>
+  OSError -- <class 'OSError'>
+  OverflowError -- <class 'OverflowError'>
+  RuntimeError -- <class 'RuntimeError'>
+  StopAsyncIteration -- <class 'StopAsyncIteration'>
+  StopIteration -- <class 'StopIteration'>
+  SyntaxError -- <class 'SyntaxError'>
+  SystemExit -- <class 'SystemExit'>
+  TypeError -- <class 'TypeError'>
+  UnicodeError -- <class 'UnicodeError'>
+  ValueError -- <class 'ValueError'>
+  ViperTypeError -- <class 'ViperTypeError'>
+  ZeroDivisionError -- <class 'ZeroDivisionError'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'builtins'> is of type module
+ä Submodule notdef
+__name__ -- builtins
+ä Submodule notdef
+__build_class__ -- <function>
+ä Submodule notdef
+__import__ -- <function>
+ä Submodule notdef
+__repl_print__ -- <function>
+ä Submodule def builtins.bool
+bool -- <class 'bool'>
+ä Submodule def builtins.bytes
+bytes -- <class 'bytes'>
+ä Submodule def builtins.bytearray
+bytearray -- <class 'bytearray'>
+ä Submodule def builtins.complex
+complex -- <class 'complex'>
+ä Submodule def builtins.dict
+dict -- <class 'dict'>
+ä Submodule def builtins.enumerate
+enumerate -- <class 'enumerate'>
+ä Submodule def builtins.filter
+filter -- <class 'filter'>
+ä Submodule def builtins.float
+float -- <class 'float'>
+ä Submodule def builtins.frozenset
+frozenset -- <class 'frozenset'>
+ä Submodule def builtins.int
+int -- <class 'int'>
+ä Submodule def builtins.list
+list -- <class 'list'>
+ä Submodule def builtins.map
+map -- <class 'map'>
+ä Submodule def builtins.memoryview
+memoryview -- <class 'memoryview'>
+ä Submodule def builtins.object
+object -- <class 'object'>
+ä Submodule def builtins.property
+property -- <class 'property'>
+ä Submodule def builtins.range
+range -- <class 'range'>
+ä Submodule def builtins.reversed
+reversed -- <class 'reversed'>
+ä Submodule def builtins.set
+set -- <class 'set'>
+ä Submodule def builtins.slice
+slice -- <class 'slice'>
+ä Submodule def builtins.str
+str -- <class 'str'>
+ä Submodule def builtins.super
+super -- <class 'super'>
+ä Submodule def builtins.tuple
+tuple -- <class 'tuple'>
+ä Submodule def builtins.type
+type -- <class 'type'>
+ä Submodule def builtins.zip
+zip -- <class 'zip'>
+ä Submodule def builtins.classmethod
+classmethod -- <class 'classmethod'>
+ä Submodule def builtins.staticmethod
+staticmethod -- <class 'staticmethod'>
+ä Submodule notdef
+Ellipsis -- Ellipsis
+ä Submodule notdef
+NotImplemented -- NotImplemented
+ä Submodule notdef
+abs -- <function>
+ä Submodule notdef
+all -- <function>
+ä Submodule notdef
+any -- <function>
+ä Submodule notdef
+bin -- <function>
+ä Submodule notdef
+callable -- <function>
+ä Submodule notdef
+compile -- <function>
+ä Submodule notdef
+chr -- <function>
+ä Submodule notdef
+delattr -- <function>
+ä Submodule notdef
+dir -- <function>
+ä Submodule notdef
+divmod -- <function>
+ä Submodule notdef
+eval -- <function>
+ä Submodule notdef
+exec -- <function>
+ä Submodule notdef
+execfile -- <function>
+ä Submodule notdef
+getattr -- <function>
+ä Submodule notdef
+setattr -- <function>
+ä Submodule notdef
+globals -- <function>
+ä Submodule notdef
+hasattr -- <function>
+ä Submodule notdef
+hash -- <function>
+ä Submodule notdef
+help -- <function>
+ä Submodule notdef
+hex -- <function>
+ä Submodule notdef
+id -- <function>
+ä Submodule notdef
+input -- <function>
+ä Submodule notdef
+isinstance -- <function>
+ä Submodule notdef
+issubclass -- <function>
+ä Submodule notdef
+iter -- <function>
+ä Submodule notdef
+len -- <function>
+ä Submodule notdef
+locals -- <function>
+ä Submodule notdef
+max -- <function>
+ä Submodule notdef
+min -- <function>
+ä Submodule notdef
+next -- <function>
+ä Submodule notdef
+oct -- <function>
+ä Submodule notdef
+open -- <function>
+ä Submodule notdef
+ord -- <function>
+ä Submodule notdef
+pow -- <function>
+ä Submodule notdef
+print -- <function>
+ä Submodule notdef
+repr -- <function>
+ä Submodule notdef
+round -- <function>
+ä Submodule notdef
+sorted -- <function>
+ä Submodule notdef
+sum -- <function>
+ä Submodule def builtins.BaseException
+BaseException -- <class 'BaseException'>
+ä Submodule def builtins.ArithmeticError
+ArithmeticError -- <class 'ArithmeticError'>
+ä Submodule def builtins.AssertionError
+AssertionError -- <class 'AssertionError'>
+ä Submodule def builtins.AttributeError
+AttributeError -- <class 'AttributeError'>
+ä Submodule def builtins.EOFError
+EOFError -- <class 'EOFError'>
+ä Submodule def builtins.Exception
+Exception -- <class 'Exception'>
+ä Submodule def builtins.GeneratorExit
+GeneratorExit -- <class 'GeneratorExit'>
+ä Submodule def builtins.ImportError
+ImportError -- <class 'ImportError'>
+ä Submodule def builtins.IndentationError
+IndentationError -- <class 'IndentationError'>
+ä Submodule def builtins.IndexError
+IndexError -- <class 'IndexError'>
+ä Submodule def builtins.KeyboardInterrupt
+KeyboardInterrupt -- <class 'KeyboardInterrupt'>
+ä Submodule def builtins.KeyError
+KeyError -- <class 'KeyError'>
+ä Submodule def builtins.LookupError
+LookupError -- <class 'LookupError'>
+ä Submodule def builtins.MemoryError
+MemoryError -- <class 'MemoryError'>
+ä Submodule def builtins.NameError
+NameError -- <class 'NameError'>
+ä Submodule def builtins.NotImplementedError
+NotImplementedError -- <class 'NotImplementedError'>
+ä Submodule def builtins.OSError
+OSError -- <class 'OSError'>
+ä Submodule def builtins.OverflowError
+OverflowError -- <class 'OverflowError'>
+ä Submodule def builtins.RuntimeError
+RuntimeError -- <class 'RuntimeError'>
+ä Submodule def builtins.StopAsyncIteration
+StopAsyncIteration -- <class 'StopAsyncIteration'>
+ä Submodule def builtins.StopIteration
+StopIteration -- <class 'StopIteration'>
+ä Submodule def builtins.SyntaxError
+SyntaxError -- <class 'SyntaxError'>
+ä Submodule def builtins.SystemExit
+SystemExit -- <class 'SystemExit'>
+ä Submodule def builtins.TypeError
+TypeError -- <class 'TypeError'>
+ä Submodule def builtins.UnicodeError
+UnicodeError -- <class 'UnicodeError'>
+ä Submodule def builtins.ValueError
+ValueError -- <class 'ValueError'>
+ä Submodule def builtins.ViperTypeError
+ViperTypeError -- <class 'ViperTypeError'>
+ä Submodule def builtins.ZeroDivisionError
+ZeroDivisionError -- <class 'ZeroDivisionError'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'bool'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.bool
+Ä3 line object <class 'bool'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'bytes'> is of type type
+  decode -- <function>
+  find -- <function>
+  rfind -- <function>
+  index -- <function>
+  rindex -- <function>
+  join -- <function>
+  split -- <function>
+  splitlines -- <function>
+  rsplit -- <function>
+  startswith -- <function>
+  endswith -- <function>
+  strip -- <function>
+  lstrip -- <function>
+  rstrip -- <function>
+  format -- <function>
+  replace -- <function>
+  count -- <function>
+  partition -- <function>
+  rpartition -- <function>
+  center -- <function>
+  lower -- <function>
+  upper -- <function>
+  isspace -- <function>
+  isalpha -- <function>
+  isdigit -- <function>
+  isupper -- <function>
+  islower -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.bytes
+Ä3 line center -- <function>
+Ä3 line count -- <function>
+Ä3 line decode -- <function>
+Ä3 line endswith -- <function>
+Ä3 line find -- <function>
+Ä3 line format -- <function>
+Ä3 line index -- <function>
+Ä3 line isalpha -- <function>
+Ä3 line isdigit -- <function>
+Ä3 line islower -- <function>
+Ä3 line isspace -- <function>
+Ä3 line isupper -- <function>
+Ä3 line join -- <function>
+Ä3 line lower -- <function>
+Ä3 line lstrip -- <function>
+Ä3 line object <class 'bytes'> is of type type
+Ä3 line partition -- <function>
+Ä3 line replace -- <function>
+Ä3 line rfind -- <function>
+Ä3 line rindex -- <function>
+Ä3 line rpartition -- <function>
+Ä3 line rsplit -- <function>
+Ä3 line rstrip -- <function>
+Ä3 line split -- <function>
+Ä3 line splitlines -- <function>
+Ä3 line startswith -- <function>
+Ä3 line strip -- <function>
+Ä3 line upper -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'bytearray'> is of type type
+  append -- <function>
+  extend -- <function>
+  decode -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.bytearray
+Ä3 line append -- <function>
+Ä3 line decode -- <function>
+Ä3 line extend -- <function>
+Ä3 line object <class 'bytearray'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'complex'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.complex
+Ä3 line object <class 'complex'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'dict'> is of type type
+  clear -- <function>
+  copy -- <function>
+  fromkeys -- <classmethod>
+  get -- <function>
+  items -- <function>
+  keys -- <function>
+  pop -- <function>
+  popitem -- <function>
+  setdefault -- <function>
+  update -- <function>
+  values -- <function>
+  __getitem__ -- <function>
+  __setitem__ -- <function>
+  __delitem__ -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.dict
+Ä3 line __delitem__ -- <function>
+Ä3 line __getitem__ -- <function>
+Ä3 line __setitem__ -- <function>
+Ä3 line clear -- <function>
+Ä3 line copy -- <function>
+Ä3 line fromkeys -- <classmethod>
+Ä3 line get -- <function>
+Ä3 line items -- <function>
+Ä3 line keys -- <function>
+Ä3 line object <class 'dict'> is of type type
+Ä3 line pop -- <function>
+Ä3 line popitem -- <function>
+Ä3 line setdefault -- <function>
+Ä3 line update -- <function>
+Ä3 line values -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'enumerate'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.enumerate
+Ä3 line object <class 'enumerate'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'filter'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.filter
+Ä3 line object <class 'filter'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'float'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.float
+Ä3 line object <class 'float'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'frozenset'> is of type type
+  copy -- <function>
+  difference -- <function>
+  intersection -- <function>
+  isdisjoint -- <function>
+  issubset -- <function>
+  issuperset -- <function>
+  symmetric_difference -- <function>
+  union -- <function>
+  __contains__ -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.frozenset
+Ä3 line __contains__ -- <function>
+Ä3 line copy -- <function>
+Ä3 line difference -- <function>
+Ä3 line intersection -- <function>
+Ä3 line isdisjoint -- <function>
+Ä3 line issubset -- <function>
+Ä3 line issuperset -- <function>
+Ä3 line object <class 'frozenset'> is of type type
+Ä3 line symmetric_difference -- <function>
+Ä3 line union -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'int'> is of type type
+  from_bytes -- <classmethod>
+  to_bytes -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.int
+Ä3 line from_bytes -- <classmethod>
+Ä3 line object <class 'int'> is of type type
+Ä3 line to_bytes -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'list'> is of type type
+  append -- <function>
+  clear -- <function>
+  copy -- <function>
+  count -- <function>
+  extend -- <function>
+  index -- <function>
+  insert -- <function>
+  pop -- <function>
+  remove -- <function>
+  reverse -- <function>
+  sort -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.list
+Ä3 line append -- <function>
+Ä3 line clear -- <function>
+Ä3 line copy -- <function>
+Ä3 line count -- <function>
+Ä3 line extend -- <function>
+Ä3 line index -- <function>
+Ä3 line insert -- <function>
+Ä3 line object <class 'list'> is of type type
+Ä3 line pop -- <function>
+Ä3 line remove -- <function>
+Ä3 line reverse -- <function>
+Ä3 line sort -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'map'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.map
+Ä3 line object <class 'map'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'memoryview'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.memoryview
+Ä3 line object <class 'memoryview'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'object'> is of type type
+  __init__ -- <function>
+  __new__ -- <staticmethod>
+  __setattr__ -- <function>
+  __delattr__ -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.object
+Ä3 line __delattr__ -- <function>
+Ä3 line __init__ -- <function>
+Ä3 line __new__ -- <staticmethod>
+Ä3 line __setattr__ -- <function>
+Ä3 line object <class 'object'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'property'> is of type type
+  getter -- <function>
+  setter -- <function>
+  deleter -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.property
+Ä3 line deleter -- <function>
+Ä3 line getter -- <function>
+Ä3 line object <class 'property'> is of type type
+Ä3 line setter -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'range'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.range
+Ä3 line object <class 'range'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'reversed'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.reversed
+Ä3 line object <class 'reversed'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'set'> is of type type
+  add -- <function>
+  clear -- <function>
+  copy -- <function>
+  discard -- <function>
+  difference -- <function>
+  difference_update -- <function>
+  intersection -- <function>
+  intersection_update -- <function>
+  isdisjoint -- <function>
+  issubset -- <function>
+  issuperset -- <function>
+  pop -- <function>
+  remove -- <function>
+  symmetric_difference -- <function>
+  symmetric_difference_update -- <function>
+  union -- <function>
+  update -- <function>
+  __contains__ -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.set
+Ä3 line __contains__ -- <function>
+Ä3 line add -- <function>
+Ä3 line clear -- <function>
+Ä3 line copy -- <function>
+Ä3 line difference -- <function>
+Ä3 line difference_update -- <function>
+Ä3 line discard -- <function>
+Ä3 line intersection -- <function>
+Ä3 line intersection_update -- <function>
+Ä3 line isdisjoint -- <function>
+Ä3 line issubset -- <function>
+Ä3 line issuperset -- <function>
+Ä3 line object <class 'set'> is of type type
+Ä3 line pop -- <function>
+Ä3 line remove -- <function>
+Ä3 line symmetric_difference -- <function>
+Ä3 line symmetric_difference_update -- <function>
+Ä3 line union -- <function>
+Ä3 line update -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'slice'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.slice
+Ä3 line object <class 'slice'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'str'> is of type type
+  encode -- <function>
+  find -- <function>
+  rfind -- <function>
+  index -- <function>
+  rindex -- <function>
+  join -- <function>
+  split -- <function>
+  splitlines -- <function>
+  rsplit -- <function>
+  startswith -- <function>
+  endswith -- <function>
+  strip -- <function>
+  lstrip -- <function>
+  rstrip -- <function>
+  format -- <function>
+  replace -- <function>
+  count -- <function>
+  partition -- <function>
+  rpartition -- <function>
+  center -- <function>
+  lower -- <function>
+  upper -- <function>
+  isspace -- <function>
+  isalpha -- <function>
+  isdigit -- <function>
+  isupper -- <function>
+  islower -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.str
+Ä3 line center -- <function>
+Ä3 line count -- <function>
+Ä3 line encode -- <function>
+Ä3 line endswith -- <function>
+Ä3 line find -- <function>
+Ä3 line format -- <function>
+Ä3 line index -- <function>
+Ä3 line isalpha -- <function>
+Ä3 line isdigit -- <function>
+Ä3 line islower -- <function>
+Ä3 line isspace -- <function>
+Ä3 line isupper -- <function>
+Ä3 line join -- <function>
+Ä3 line lower -- <function>
+Ä3 line lstrip -- <function>
+Ä3 line object <class 'str'> is of type type
+Ä3 line partition -- <function>
+Ä3 line replace -- <function>
+Ä3 line rfind -- <function>
+Ä3 line rindex -- <function>
+Ä3 line rpartition -- <function>
+Ä3 line rsplit -- <function>
+Ä3 line rstrip -- <function>
+Ä3 line split -- <function>
+Ä3 line splitlines -- <function>
+Ä3 line startswith -- <function>
+Ä3 line strip -- <function>
+Ä3 line upper -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'super'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.super
+Ä3 line object <class 'super'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'tuple'> is of type type
+  count -- <function>
+  index -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.tuple
+Ä3 line count -- <function>
+Ä3 line index -- <function>
+Ä3 line object <class 'tuple'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'type'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.type
+Ä3 line object <class 'type'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'zip'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.zip
+Ä3 line object <class 'zip'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'classmethod'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.classmethod
+Ä3 line object <class 'classmethod'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'staticmethod'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.staticmethod
+Ä3 line object <class 'staticmethod'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'BaseException'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.BaseException
+Ä3 line object <class 'BaseException'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'ArithmeticError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.ArithmeticError
+Ä3 line object <class 'ArithmeticError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'AssertionError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.AssertionError
+Ä3 line object <class 'AssertionError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'AttributeError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.AttributeError
+Ä3 line object <class 'AttributeError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'EOFError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.EOFError
+Ä3 line object <class 'EOFError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'Exception'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.Exception
+Ä3 line object <class 'Exception'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'GeneratorExit'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.GeneratorExit
+Ä3 line object <class 'GeneratorExit'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'ImportError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.ImportError
+Ä3 line object <class 'ImportError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'IndentationError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.IndentationError
+Ä3 line object <class 'IndentationError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'IndexError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.IndexError
+Ä3 line object <class 'IndexError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'KeyboardInterrupt'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.KeyboardInterrupt
+Ä3 line object <class 'KeyboardInterrupt'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'KeyError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.KeyError
+Ä3 line object <class 'KeyError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'LookupError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.LookupError
+Ä3 line object <class 'LookupError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'MemoryError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.MemoryError
+Ä3 line object <class 'MemoryError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'NameError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.NameError
+Ä3 line object <class 'NameError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'NotImplementedError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.NotImplementedError
+Ä3 line object <class 'NotImplementedError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'OSError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.OSError
+Ä3 line object <class 'OSError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'OverflowError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.OverflowError
+Ä3 line object <class 'OverflowError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'RuntimeError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.RuntimeError
+Ä3 line object <class 'RuntimeError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'StopAsyncIteration'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.StopAsyncIteration
+Ä3 line object <class 'StopAsyncIteration'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'StopIteration'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.StopIteration
+Ä3 line object <class 'StopIteration'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'SyntaxError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.SyntaxError
+Ä3 line object <class 'SyntaxError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'SystemExit'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.SystemExit
+Ä3 line object <class 'SystemExit'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'TypeError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.TypeError
+Ä3 line object <class 'TypeError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'UnicodeError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.UnicodeError
+Ä3 line object <class 'UnicodeError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'ValueError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.ValueError
+Ä3 line object <class 'ValueError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'ViperTypeError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.ViperTypeError
+Ä3 line object <class 'ViperTypeError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'ZeroDivisionError'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startbuiltins.ZeroDivisionError
+Ä3 line object <class 'ZeroDivisionError'> is of type type
+Ä2 Submodule End
+Ä1 Module Start cmath
+@@@DELETE Start
+object <module 'cmath'> is of type module
+  __name__ -- cmath
+  e -- 2.718282
+  pi -- 3.141593
+  phase -- <function>
+  polar -- <function>
+  rect -- <function>
+  exp -- <function>
+  log -- <function>
+  log10 -- <function>
+  sqrt -- <function>
+  cos -- <function>
+  sin -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'cmath'> is of type module
+ä Submodule notdef
+__name__ -- cmath
+ä Submodule notdef
+e -- 2.718282
+ä Submodule notdef
+pi -- 3.141593
+ä Submodule notdef
+phase -- <function>
+ä Submodule notdef
+polar -- <function>
+ä Submodule notdef
+rect -- <function>
+ä Submodule notdef
+exp -- <function>
+ä Submodule notdef
+log -- <function>
+ä Submodule notdef
+log10 -- <function>
+ä Submodule notdef
+sqrt -- <function>
+ä Submodule notdef
+cos -- <function>
+ä Submodule notdef
+sin -- <function>
+Ä1 Module End
+Ä1 Module Start dht
+@@@DELETE Start
+object <module 'dht' from 'dht.py'> is of type module
+  DHTBase -- <class 'DHTBase'>
+  __name__ -- dht
+  __file__ -- dht.py
+  sys -- <module 'sys'>
+  DHT11 -- <class 'DHT11'>
+  dht_readinto -- <function>
+  DHT22 -- <class 'DHT22'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'dht' from 'dht.py'> is of type module
+ä Submodule def dht.DHTBase
+DHTBase -- <class 'DHTBase'>
+ä Submodule notdef
+__name__ -- dht
+ä Submodule notdef
+__file__ -- dht.py
+ä Submodule notdef
+sys -- <module 'sys'>
+ä Submodule def dht.DHT11
+DHT11 -- <class 'DHT11'>
+ä Submodule notdef
+dht_readinto -- <function>
+ä Submodule def dht.DHT22
+DHT22 -- <class 'DHT22'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'DHTBase'> is of type type
+  __module__ -- dht
+  __init__ -- <function __init__ at 0x3fda0bd0>
+  measure -- <function measure at 0x3fda0bc0>
+  __qualname__ -- DHTBase
+None
+@@@DELETE End
+Ä2 Submodule Startdht.DHTBase
+Ä3 line __init__ -- <function __init__ at 0x3fda0bd0>
+Ä3 line __module__ -- dht
+Ä3 line __qualname__ -- DHTBase
+Ä3 line measure -- <function measure at 0x3fda0bc0>
+Ä3 line object <class 'DHTBase'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'DHT11'> is of type type
+  __module__ -- dht
+  humidity -- <function humidity at 0x3fda0c80>
+  temperature -- <function temperature at 0x3fda0c70>
+  __qualname__ -- DHT11
+None
+@@@DELETE End
+Ä2 Submodule Startdht.DHT11
+Ä3 line __module__ -- dht
+Ä3 line __qualname__ -- DHT11
+Ä3 line humidity -- <function humidity at 0x3fda0c80>
+Ä3 line object <class 'DHT11'> is of type type
+Ä3 line temperature -- <function temperature at 0x3fda0c70>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'DHT22'> is of type type
+  __module__ -- dht
+  humidity -- <function humidity at 0x3fda0d30>
+  temperature -- <function temperature at 0x3fda0d20>
+  __qualname__ -- DHT22
+None
+@@@DELETE End
+Ä2 Submodule Startdht.DHT22
+Ä3 line __module__ -- dht
+Ä3 line __qualname__ -- DHT22
+Ä3 line humidity -- <function humidity at 0x3fda0d30>
+Ä3 line object <class 'DHT22'> is of type type
+Ä3 line temperature -- <function temperature at 0x3fda0d20>
+Ä2 Submodule End
+Ä1 Module Start ds18x20
+@@@DELETE Start
+object <module 'ds18x20' from 'ds18x20.py'> is of type module
+  const -- <function>
+  DS18X20 -- <class 'DS18X20'>
+  __name__ -- ds18x20
+  __file__ -- ds18x20.py
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'ds18x20' from 'ds18x20.py'> is of type module
+ä Submodule notdef
+const -- <function>
+ä Submodule def ds18x20.DS18X20
+DS18X20 -- <class 'DS18X20'>
+ä Submodule notdef
+__name__ -- ds18x20
+ä Submodule notdef
+__file__ -- ds18x20.py
+Ä1 Module End
+@@@DELETE Start
+object <class 'DS18X20'> is of type type
+  __init__ -- <function __init__ at 0x3fda2350>
+  convert_temp -- <function convert_temp at 0x3fda2380>
+  scan -- <function scan at 0x3fda2340>
+  __qualname__ -- DS18X20
+  read_scratch -- <function read_scratch at 0x3fda2360>
+  write_scratch -- <function write_scratch at 0x3fda2370>
+  read_temp -- <function read_temp at 0x3fda2390>
+  __module__ -- ds18x20
+None
+@@@DELETE End
+Ä2 Submodule Startds18x20.DS18X20
+Ä3 line __init__ -- <function __init__ at 0x3fda2350>
+Ä3 line __module__ -- ds18x20
+Ä3 line __qualname__ -- DS18X20
+Ä3 line convert_temp -- <function convert_temp at 0x3fda2380>
+Ä3 line object <class 'DS18X20'> is of type type
+Ä3 line read_scratch -- <function read_scratch at 0x3fda2360>
+Ä3 line read_temp -- <function read_temp at 0x3fda2390>
+Ä3 line scan -- <function scan at 0x3fda2340>
+Ä3 line write_scratch -- <function write_scratch at 0x3fda2370>
+Ä2 Submodule End
+Ä1 Module Start esp
+@@@DELETE Start
+object <module 'esp'> is of type module
+  __name__ -- esp
+  osdebug -- <function>
+  flash_read -- <function>
+  flash_write -- <function>
+  flash_erase -- <function>
+  flash_size -- <function>
+  flash_user_start -- <function>
+  gpio_matrix_in -- <function>
+  gpio_matrix_out -- <function>
+  dht_readinto -- <function>
+  LOG_NONE -- 0
+  LOG_ERROR -- 1
+  LOG_WARNING -- 2
+  LOG_INFO -- 3
+  LOG_DEBUG -- 4
+  LOG_VERBOSE -- 5
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'esp'> is of type module
+ä Submodule notdef
+__name__ -- esp
+ä Submodule notdef
+osdebug -- <function>
+ä Submodule notdef
+flash_read -- <function>
+ä Submodule notdef
+flash_write -- <function>
+ä Submodule notdef
+flash_erase -- <function>
+ä Submodule notdef
+flash_size -- <function>
+ä Submodule notdef
+flash_user_start -- <function>
+ä Submodule notdef
+gpio_matrix_in -- <function>
+ä Submodule notdef
+gpio_matrix_out -- <function>
+ä Submodule notdef
+dht_readinto -- <function>
+ä Submodule notdef
+LOG_NONE -- 0
+ä Submodule notdef
+LOG_ERROR -- 1
+ä Submodule notdef
+LOG_WARNING -- 2
+ä Submodule notdef
+LOG_INFO -- 3
+ä Submodule notdef
+LOG_DEBUG -- 4
+ä Submodule notdef
+LOG_VERBOSE -- 5
+Ä1 Module End
+Ä1 Module Start esp32
+@@@DELETE Start
+object <module 'esp32'> is of type module
+  __name__ -- esp32
+  wake_on_touch -- <function>
+  wake_on_ext0 -- <function>
+  wake_on_ext1 -- <function>
+  gpio_deep_sleep_hold -- <function>
+  idf_heap_info -- <function>
+  NVS -- <class 'NVS'>
+  Partition -- <class 'Partition'>
+  RMT -- <class 'RMT'>
+  WAKEUP_ALL_LOW -- False
+  WAKEUP_ANY_HIGH -- True
+  HEAP_DATA -- 4
+  HEAP_EXEC -- 1
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'esp32'> is of type module
+ä Submodule notdef
+__name__ -- esp32
+ä Submodule notdef
+wake_on_touch -- <function>
+ä Submodule notdef
+wake_on_ext0 -- <function>
+ä Submodule notdef
+wake_on_ext1 -- <function>
+ä Submodule notdef
+gpio_deep_sleep_hold -- <function>
+ä Submodule notdef
+idf_heap_info -- <function>
+ä Submodule def esp32.NVS
+NVS -- <class 'NVS'>
+ä Submodule def esp32.Partition
+Partition -- <class 'Partition'>
+ä Submodule def esp32.RMT
+RMT -- <class 'RMT'>
+ä Submodule notdef
+WAKEUP_ALL_LOW -- False
+ä Submodule notdef
+WAKEUP_ANY_HIGH -- True
+ä Submodule notdef
+HEAP_DATA -- 4
+ä Submodule notdef
+HEAP_EXEC -- 1
+Ä1 Module End
+@@@DELETE Start
+object <class 'NVS'> is of type type
+  get_i32 -- <function>
+  set_i32 -- <function>
+  get_blob -- <function>
+  set_blob -- <function>
+  erase_key -- <function>
+  commit -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startesp32.NVS
+Ä3 line commit -- <function>
+Ä3 line erase_key -- <function>
+Ä3 line get_blob -- <function>
+Ä3 line get_i32 -- <function>
+Ä3 line object <class 'NVS'> is of type type
+Ä3 line set_blob -- <function>
+Ä3 line set_i32 -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'Partition'> is of type type
+  find -- <staticmethod>
+  info -- <function>
+  readblocks -- <function>
+  writeblocks -- <function>
+  ioctl -- <function>
+  set_boot -- <function>
+  mark_app_valid_cancel_rollback -- <classmethod>
+  get_next_update -- <function>
+  BOOT -- 0
+  RUNNING -- 1
+  TYPE_APP -- 0
+  TYPE_DATA -- 1
+None
+@@@DELETE End
+Ä2 Submodule Startesp32.Partition
+Ä3 line BOOT -- 0
+Ä3 line RUNNING -- 1
+Ä3 line TYPE_APP -- 0
+Ä3 line TYPE_DATA -- 1
+Ä3 line find -- <staticmethod>
+Ä3 line get_next_update -- <function>
+Ä3 line info -- <function>
+Ä3 line ioctl -- <function>
+Ä3 line mark_app_valid_cancel_rollback -- <classmethod>
+Ä3 line object <class 'Partition'> is of type type
+Ä3 line readblocks -- <function>
+Ä3 line set_boot -- <function>
+Ä3 line writeblocks -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'RMT'> is of type type
+  __del__ -- <function>
+  deinit -- <function>
+  source_freq -- <function>
+  clock_div -- <function>
+  wait_done -- <function>
+  loop -- <function>
+  write_pulses -- <function>
+  bitstream_channel -- <staticmethod>
+None
+@@@DELETE End
+Ä2 Submodule Startesp32.RMT
+Ä3 line __del__ -- <function>
+Ä3 line bitstream_channel -- <staticmethod>
+Ä3 line clock_div -- <function>
+Ä3 line deinit -- <function>
+Ä3 line loop -- <function>
+Ä3 line object <class 'RMT'> is of type type
+Ä3 line source_freq -- <function>
+Ä3 line wait_done -- <function>
+Ä3 line write_pulses -- <function>
+Ä2 Submodule End
+Ä1 Module Start flashbdev
+@@@DELETE Start
+object <module 'flashbdev' from 'flashbdev.py'> is of type module
+  Partition -- <class 'Partition'>
+  bdev -- <Partition type=1, subtype=129, address=2097152, size=2097152, label=vfs, encrypted=0>
+  __name__ -- flashbdev
+  __file__ -- flashbdev.py
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'flashbdev' from 'flashbdev.py'> is of type module
+ä Submodule def flashbdev.Partition
+Partition -- <class 'Partition'>
+ä Submodule notdef
+bdev -- <Partition type=1, subtype=129, address=2097152, size=2097152, label=vfs, encrypted=0>
+ä Submodule notdef
+__name__ -- flashbdev
+ä Submodule notdef
+__file__ -- flashbdev.py
+Ä1 Module End
+@@@DELETE Start
+object <class 'Partition'> is of type type
+  find -- <staticmethod>
+  info -- <function>
+  readblocks -- <function>
+  writeblocks -- <function>
+  ioctl -- <function>
+  set_boot -- <function>
+  mark_app_valid_cancel_rollback -- <classmethod>
+  get_next_update -- <function>
+  BOOT -- 0
+  RUNNING -- 1
+  TYPE_APP -- 0
+  TYPE_DATA -- 1
+None
+@@@DELETE End
+Ä2 Submodule Startflashbdev.Partition
+Ä3 line BOOT -- 0
+Ä3 line RUNNING -- 1
+Ä3 line TYPE_APP -- 0
+Ä3 line TYPE_DATA -- 1
+Ä3 line find -- <staticmethod>
+Ä3 line get_next_update -- <function>
+Ä3 line info -- <function>
+Ä3 line ioctl -- <function>
+Ä3 line mark_app_valid_cancel_rollback -- <classmethod>
+Ä3 line object <class 'Partition'> is of type type
+Ä3 line readblocks -- <function>
+Ä3 line set_boot -- <function>
+Ä3 line writeblocks -- <function>
+Ä2 Submodule End
+Ä1 Module Start framebuf
+@@@DELETE Start
+object <module 'framebuf'> is of type module
+  __name__ -- framebuf
+  FrameBuffer -- <class 'FrameBuffer'>
+  FrameBuffer1 -- <function>
+  MVLSB -- 0
+  MONO_VLSB -- 0
+  RGB565 -- 1
+  GS2_HMSB -- 5
+  GS4_HMSB -- 2
+  GS8 -- 6
+  MONO_HLSB -- 3
+  MONO_HMSB -- 4
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'framebuf'> is of type module
+ä Submodule notdef
+__name__ -- framebuf
+ä Submodule def framebuf.FrameBuffer
+FrameBuffer -- <class 'FrameBuffer'>
+ä Submodule notdef
+FrameBuffer1 -- <function>
+ä Submodule notdef
+MVLSB -- 0
+ä Submodule notdef
+MONO_VLSB -- 0
+ä Submodule notdef
+RGB565 -- 1
+ä Submodule notdef
+GS2_HMSB -- 5
+ä Submodule notdef
+GS4_HMSB -- 2
+ä Submodule notdef
+GS8 -- 6
+ä Submodule notdef
+MONO_HLSB -- 3
+ä Submodule notdef
+MONO_HMSB -- 4
+Ä1 Module End
+@@@DELETE Start
+object <class 'FrameBuffer'> is of type type
+  fill -- <function>
+  fill_rect -- <function>
+  pixel -- <function>
+  hline -- <function>
+  vline -- <function>
+  rect -- <function>
+  line -- <function>
+  blit -- <function>
+  scroll -- <function>
+  text -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startframebuf.FrameBuffer
+Ä3 line blit -- <function>
+Ä3 line fill -- <function>
+Ä3 line fill_rect -- <function>
+Ä3 line hline -- <function>
+Ä3 line line -- <function>
+Ä3 line object <class 'FrameBuffer'> is of type type
+Ä3 line pixel -- <function>
+Ä3 line rect -- <function>
+Ä3 line scroll -- <function>
+Ä3 line text -- <function>
+Ä3 line vline -- <function>
+Ä2 Submodule End
+Ä1 Module Start gc
+@@@DELETE Start
+object <module 'gc'> is of type module
+  __name__ -- gc
+  collect -- <function>
+  disable -- <function>
+  enable -- <function>
+  isenabled -- <function>
+  mem_free -- <function>
+  mem_alloc -- <function>
+  threshold -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'gc'> is of type module
+ä Submodule notdef
+__name__ -- gc
+ä Submodule notdef
+collect -- <function>
+ä Submodule notdef
+disable -- <function>
+ä Submodule notdef
+enable -- <function>
+ä Submodule notdef
+isenabled -- <function>
+ä Submodule notdef
+mem_free -- <function>
+ä Submodule notdef
+mem_alloc -- <function>
+ä Submodule notdef
+threshold -- <function>
+Ä1 Module End
+Ä1 Module Start inisetup
+@@@DELETE Start
+object <module 'inisetup' from 'inisetup.py'> is of type module
+  bdev -- <Partition type=1, subtype=129, address=2097152, size=2097152, label=vfs, encrypted=0>
+  __name__ -- inisetup
+  __file__ -- inisetup.py
+  uos -- <module 'uos'>
+  fs_corrupted -- <function fs_corrupted at 0x3fda8070>
+  setup -- <function setup at 0x3fda8080>
+  check_bootsec -- <function check_bootsec at 0x3fda8090>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'inisetup' from 'inisetup.py'> is of type module
+ä Submodule notdef
+bdev -- <Partition type=1, subtype=129, address=2097152, size=2097152, label=vfs, encrypted=0>
+ä Submodule notdef
+__name__ -- inisetup
+ä Submodule notdef
+__file__ -- inisetup.py
+ä Submodule notdef
+uos -- <module 'uos'>
+ä Submodule notdef
+fs_corrupted -- <function fs_corrupted at 0x3fda8070>
+ä Submodule notdef
+setup -- <function setup at 0x3fda8080>
+ä Submodule notdef
+check_bootsec -- <function check_bootsec at 0x3fda8090>
+Ä1 Module End
+Ä1 Module Start math
+@@@DELETE Start
+object <module 'math'> is of type module
+  __name__ -- math
+  e -- 2.718282
+  pi -- 3.141593
+  tau -- 6.283185
+  inf -- inf
+  nan -- nan
+  sqrt -- <function>
+  pow -- <function>
+  exp -- <function>
+  expm1 -- <function>
+  log -- <function>
+  log2 -- <function>
+  log10 -- <function>
+  cosh -- <function>
+  sinh -- <function>
+  tanh -- <function>
+  acosh -- <function>
+  asinh -- <function>
+  atanh -- <function>
+  cos -- <function>
+  sin -- <function>
+  tan -- <function>
+  acos -- <function>
+  asin -- <function>
+  atan -- <function>
+  atan2 -- <function>
+  ceil -- <function>
+  copysign -- <function>
+  fabs -- <function>
+  floor -- <function>
+  fmod -- <function>
+  frexp -- <function>
+  ldexp -- <function>
+  modf -- <function>
+  isfinite -- <function>
+  isinf -- <function>
+  isnan -- <function>
+  isclose -- <function>
+  trunc -- <function>
+  radians -- <function>
+  degrees -- <function>
+  factorial -- <function>
+  erf -- <function>
+  erfc -- <function>
+  gamma -- <function>
+  lgamma -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'math'> is of type module
+ä Submodule notdef
+__name__ -- math
+ä Submodule notdef
+e -- 2.718282
+ä Submodule notdef
+pi -- 3.141593
+ä Submodule notdef
+tau -- 6.283185
+ä Submodule notdef
+inf -- inf
+ä Submodule notdef
+nan -- nan
+ä Submodule notdef
+sqrt -- <function>
+ä Submodule notdef
+pow -- <function>
+ä Submodule notdef
+exp -- <function>
+ä Submodule notdef
+expm1 -- <function>
+ä Submodule notdef
+log -- <function>
+ä Submodule notdef
+log2 -- <function>
+ä Submodule notdef
+log10 -- <function>
+ä Submodule notdef
+cosh -- <function>
+ä Submodule notdef
+sinh -- <function>
+ä Submodule notdef
+tanh -- <function>
+ä Submodule notdef
+acosh -- <function>
+ä Submodule notdef
+asinh -- <function>
+ä Submodule notdef
+atanh -- <function>
+ä Submodule notdef
+cos -- <function>
+ä Submodule notdef
+sin -- <function>
+ä Submodule notdef
+tan -- <function>
+ä Submodule notdef
+acos -- <function>
+ä Submodule notdef
+asin -- <function>
+ä Submodule notdef
+atan -- <function>
+ä Submodule notdef
+atan2 -- <function>
+ä Submodule notdef
+ceil -- <function>
+ä Submodule notdef
+copysign -- <function>
+ä Submodule notdef
+fabs -- <function>
+ä Submodule notdef
+floor -- <function>
+ä Submodule notdef
+fmod -- <function>
+ä Submodule notdef
+frexp -- <function>
+ä Submodule notdef
+ldexp -- <function>
+ä Submodule notdef
+modf -- <function>
+ä Submodule notdef
+isfinite -- <function>
+ä Submodule notdef
+isinf -- <function>
+ä Submodule notdef
+isnan -- <function>
+ä Submodule notdef
+isclose -- <function>
+ä Submodule notdef
+trunc -- <function>
+ä Submodule notdef
+radians -- <function>
+ä Submodule notdef
+degrees -- <function>
+ä Submodule notdef
+factorial -- <function>
+ä Submodule notdef
+erf -- <function>
+ä Submodule notdef
+erfc -- <function>
+ä Submodule notdef
+gamma -- <function>
+ä Submodule notdef
+lgamma -- <function>
+Ä1 Module End
+Ä1 Module Start micropython
+@@@DELETE Start
+object <module 'micropython'> is of type module
+  __name__ -- micropython
+  const -- <function>
+  opt_level -- <function>
+  mem_info -- <function>
+  qstr_info -- <function>
+  stack_use -- <function>
+  alloc_emergency_exception_buf -- <function>
+  heap_lock -- <function>
+  heap_unlock -- <function>
+  kbd_intr -- <function>
+  schedule -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'micropython'> is of type module
+ä Submodule notdef
+__name__ -- micropython
+ä Submodule notdef
+const -- <function>
+ä Submodule notdef
+opt_level -- <function>
+ä Submodule notdef
+mem_info -- <function>
+ä Submodule notdef
+qstr_info -- <function>
+ä Submodule notdef
+stack_use -- <function>
+ä Submodule notdef
+alloc_emergency_exception_buf -- <function>
+ä Submodule notdef
+heap_lock -- <function>
+ä Submodule notdef
+heap_unlock -- <function>
+ä Submodule notdef
+kbd_intr -- <function>
+ä Submodule notdef
+schedule -- <function>
+Ä1 Module End
+Ä1 Module Start neopixel
+@@@DELETE Start
+object <module 'neopixel' from 'neopixel.py'> is of type module
+  bitstream -- <function>
+  NeoPixel -- <class 'NeoPixel'>
+  __name__ -- neopixel
+  __file__ -- neopixel.py
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'neopixel' from 'neopixel.py'> is of type module
+ä Submodule notdef
+bitstream -- <function>
+ä Submodule def neopixel.NeoPixel
+NeoPixel -- <class 'NeoPixel'>
+ä Submodule notdef
+__name__ -- neopixel
+ä Submodule notdef
+__file__ -- neopixel.py
+Ä1 Module End
+@@@DELETE Start
+object <class 'NeoPixel'> is of type type
+  __getitem__ -- <function __getitem__ at 0x3fd8fbc0>
+  write -- <function write at 0x3fd8fc10>
+  __len__ -- <function __len__ at 0x3fd8fbf0>
+  __setitem__ -- <function __setitem__ at 0x3fd8fbb0>
+  fill -- <function fill at 0x3fd8fc00>
+  __init__ -- <function __init__ at 0x3fd8fbd0>
+  ORDER -- (1, 0, 2, 3)
+  __qualname__ -- NeoPixel
+  __module__ -- neopixel
+None
+@@@DELETE End
+Ä2 Submodule Startneopixel.NeoPixel
+Ä3 line ORDER -- (1, 0, 2, 3)
+Ä3 line __getitem__ -- <function __getitem__ at 0x3fd8fbc0>
+Ä3 line __init__ -- <function __init__ at 0x3fd8fbd0>
+Ä3 line __len__ -- <function __len__ at 0x3fd8fbf0>
+Ä3 line __module__ -- neopixel
+Ä3 line __qualname__ -- NeoPixel
+Ä3 line __setitem__ -- <function __setitem__ at 0x3fd8fbb0>
+Ä3 line fill -- <function fill at 0x3fd8fc00>
+Ä3 line object <class 'NeoPixel'> is of type type
+Ä3 line write -- <function write at 0x3fd8fc10>
+Ä2 Submodule End
+Ä1 Module Start network
+@@@DELETE Start
+object <module 'network'> is of type module
+  __name__ -- network
+  __init__ -- <function>
+  WLAN -- <function>
+  PPP -- <function>
+  phy_mode -- <function>
+  STA_IF -- 0
+  AP_IF -- 1
+  MODE_11B -- 1
+  MODE_11G -- 2
+  MODE_11N -- 4
+  AUTH_OPEN -- 0
+  AUTH_WEP -- 1
+  AUTH_WPA_PSK -- 2
+  AUTH_WPA2_PSK -- 3
+  AUTH_WPA_WPA2_PSK -- 4
+  AUTH_WPA2_ENTERPRISE -- 5
+  AUTH_WPA3_PSK -- 6
+  AUTH_WPA2_WPA3_PSK -- 7
+  AUTH_WAPI_PSK -- 8
+  AUTH_MAX -- 9
+  STAT_IDLE -- 1000
+  STAT_CONNECTING -- 1001
+  STAT_GOT_IP -- 1010
+  STAT_NO_AP_FOUND -- 201
+  STAT_WRONG_PASSWORD -- 202
+  STAT_BEACON_TIMEOUT -- 200
+  STAT_ASSOC_FAIL -- 203
+  STAT_HANDSHAKE_TIMEOUT -- 204
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'network'> is of type module
+ä Submodule notdef
+__name__ -- network
+ä Submodule notdef
+__init__ -- <function>
+ä Submodule notdef
+WLAN -- <function>
+ä Submodule notdef
+PPP -- <function>
+ä Submodule notdef
+phy_mode -- <function>
+ä Submodule notdef
+STA_IF -- 0
+ä Submodule notdef
+AP_IF -- 1
+ä Submodule notdef
+MODE_11B -- 1
+ä Submodule notdef
+MODE_11G -- 2
+ä Submodule notdef
+MODE_11N -- 4
+ä Submodule notdef
+AUTH_OPEN -- 0
+ä Submodule notdef
+AUTH_WEP -- 1
+ä Submodule notdef
+AUTH_WPA_PSK -- 2
+ä Submodule notdef
+AUTH_WPA2_PSK -- 3
+ä Submodule notdef
+AUTH_WPA_WPA2_PSK -- 4
+ä Submodule notdef
+AUTH_WPA2_ENTERPRISE -- 5
+ä Submodule notdef
+AUTH_WPA3_PSK -- 6
+ä Submodule notdef
+AUTH_WPA2_WPA3_PSK -- 7
+ä Submodule notdef
+AUTH_WAPI_PSK -- 8
+ä Submodule notdef
+AUTH_MAX -- 9
+ä Submodule notdef
+STAT_IDLE -- 1000
+ä Submodule notdef
+STAT_CONNECTING -- 1001
+ä Submodule notdef
+STAT_GOT_IP -- 1010
+ä Submodule notdef
+STAT_NO_AP_FOUND -- 201
+ä Submodule notdef
+STAT_WRONG_PASSWORD -- 202
+ä Submodule notdef
+STAT_BEACON_TIMEOUT -- 200
+ä Submodule notdef
+STAT_ASSOC_FAIL -- 203
+ä Submodule notdef
+STAT_HANDSHAKE_TIMEOUT -- 204
+Ä1 Module End
+Ä1 Module Start ntptime
+@@@DELETE Start
+object <module 'ntptime' from 'ntptime.py'> is of type module
+  socket -- <module 'usocket'>
+  NTP_DELTA -- 3155673600
+  struct -- <module 'ustruct'>
+  __name__ -- ntptime
+  __file__ -- ntptime.py
+  host -- pool.ntp.org
+  time -- <function time at 0x3fda8050>
+  settime -- <function settime at 0x3fdacd70>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'ntptime' from 'ntptime.py'> is of type module
+ä Submodule notdef
+socket -- <module 'usocket'>
+ä Submodule notdef
+NTP_DELTA -- 3155673600
+ä Submodule notdef
+struct -- <module 'ustruct'>
+ä Submodule notdef
+__name__ -- ntptime
+ä Submodule notdef
+__file__ -- ntptime.py
+ä Submodule notdef
+host -- pool.ntp.org
+ä Submodule notdef
+time -- <function time at 0x3fda8050>
+ä Submodule notdef
+settime -- <function settime at 0x3fdacd70>
+Ä1 Module End
+Ä1 Module Start onewire
+@@@DELETE Start
+object <module 'onewire' from 'onewire.py'> is of type module
+  __name__ -- onewire
+  _ow -- <module 'onewire'>
+  OneWireError -- <class 'OneWireError'>
+  __file__ -- onewire.py
+  OneWire -- <class 'OneWire'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'onewire' from 'onewire.py'> is of type module
+ä Submodule notdef
+__name__ -- onewire
+ä Submodule notdef
+_ow -- <module 'onewire'>
+ä Submodule def onewire.OneWireError
+OneWireError -- <class 'OneWireError'>
+ä Submodule notdef
+__file__ -- onewire.py
+ä Submodule def onewire.OneWire
+OneWire -- <class 'OneWire'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'OneWireError'> is of type type
+  __qualname__ -- OneWireError
+  __module__ -- onewire
+None
+@@@DELETE End
+Ä2 Submodule Startonewire.OneWireError
+Ä3 line __module__ -- onewire
+Ä3 line __qualname__ -- OneWireError
+Ä3 line object <class 'OneWireError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'OneWire'> is of type type
+  select_rom -- <function select_rom at 0x3fdad6f0>
+  scan -- <function scan at 0x3fdad700>
+  readbit -- <function readbit at 0x3fdad670>
+  writebyte -- <function writebyte at 0x3fdad6d0>
+  SEARCH_ROM -- 240
+  __qualname__ -- OneWire
+  reset -- <function reset at 0x3fdad6b0>
+  writebit -- <function writebit at 0x3fdad6a0>
+  readbyte -- <function readbyte at 0x3fdad680>
+  __init__ -- <function __init__ at 0x3fdad650>
+  _search_rom -- <function _search_rom at 0x3fdad710>
+  readinto -- <function readinto at 0x3fdad690>
+  MATCH_ROM -- 85
+  crc8 -- <function crc8 at 0x3fdad720>
+  __module__ -- onewire
+  write -- <function write at 0x3fdad6e0>
+  SKIP_ROM -- 204
+None
+@@@DELETE End
+Ä2 Submodule Startonewire.OneWire
+Ä3 line MATCH_ROM -- 85
+Ä3 line SEARCH_ROM -- 240
+Ä3 line SKIP_ROM -- 204
+Ä3 line __init__ -- <function __init__ at 0x3fdad650>
+Ä3 line __module__ -- onewire
+Ä3 line __qualname__ -- OneWire
+Ä3 line _search_rom -- <function _search_rom at 0x3fdad710>
+Ä3 line crc8 -- <function crc8 at 0x3fdad720>
+Ä3 line object <class 'OneWire'> is of type type
+Ä3 line readbit -- <function readbit at 0x3fdad670>
+Ä3 line readbyte -- <function readbyte at 0x3fdad680>
+Ä3 line readinto -- <function readinto at 0x3fdad690>
+Ä3 line reset -- <function reset at 0x3fdad6b0>
+Ä3 line scan -- <function scan at 0x3fdad700>
+Ä3 line select_rom -- <function select_rom at 0x3fdad6f0>
+Ä3 line write -- <function write at 0x3fdad6e0>
+Ä3 line writebit -- <function writebit at 0x3fdad6a0>
+Ä3 line writebyte -- <function writebyte at 0x3fdad6d0>
+Ä2 Submodule End
+Ä1 Module Start s2mini
+@@@DELETE Start
+object <module 's2mini' from 's2mini.py'> is of type module
+  led -- Pin(15)
+  button -- Pin(0)
+  __file__ -- s2mini.py
+  I2C_SCL -- 35
+  Pin -- <class 'Pin'>
+  const -- <function>
+  BUTTON -- 0
+  SPI_MOSI -- 11
+  DAC2 -- 18
+  DAC1 -- 17
+  __name__ -- s2mini
+  SPI_MISO -- 9
+  I2C_SDA -- 33
+  SPI_CLK -- 7
+  LED -- 15
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 's2mini' from 's2mini.py'> is of type module
+ä Submodule notdef
+led -- Pin(15)
+ä Submodule notdef
+button -- Pin(0)
+ä Submodule notdef
+__file__ -- s2mini.py
+ä Submodule notdef
+I2C_SCL -- 35
+ä Submodule def s2mini.Pin
+Pin -- <class 'Pin'>
+ä Submodule notdef
+const -- <function>
+ä Submodule notdef
+BUTTON -- 0
+ä Submodule notdef
+SPI_MOSI -- 11
+ä Submodule notdef
+DAC2 -- 18
+ä Submodule notdef
+DAC1 -- 17
+ä Submodule notdef
+__name__ -- s2mini
+ä Submodule notdef
+SPI_MISO -- 9
+ä Submodule notdef
+I2C_SDA -- 33
+ä Submodule notdef
+SPI_CLK -- 7
+ä Submodule notdef
+LED -- 15
+Ä1 Module End
+@@@DELETE Start
+object <class 'Pin'> is of type type
+  init -- <function>
+  value -- <function>
+  off -- <function>
+  on -- <function>
+  irq -- <function>
+  IN -- 1
+  OUT -- 3
+  OPEN_DRAIN -- 7
+  PULL_UP -- 2
+  PULL_DOWN -- 1
+  IRQ_RISING -- 1
+  IRQ_FALLING -- 2
+  WAKE_LOW -- 4
+  WAKE_HIGH -- 5
+  DRIVE_0 -- 0
+  DRIVE_1 -- 1
+  DRIVE_2 -- 2
+  DRIVE_3 -- 3
+None
+@@@DELETE End
+Ä2 Submodule Starts2mini.Pin
+Ä3 line DRIVE_0 -- 0
+Ä3 line DRIVE_1 -- 1
+Ä3 line DRIVE_2 -- 2
+Ä3 line DRIVE_3 -- 3
+Ä3 line IN -- 1
+Ä3 line IRQ_FALLING -- 2
+Ä3 line IRQ_RISING -- 1
+Ä3 line OPEN_DRAIN -- 7
+Ä3 line OUT -- 3
+Ä3 line PULL_DOWN -- 1
+Ä3 line PULL_UP -- 2
+Ä3 line WAKE_HIGH -- 5
+Ä3 line WAKE_LOW -- 4
+Ä3 line init -- <function>
+Ä3 line irq -- <function>
+Ä3 line object <class 'Pin'> is of type type
+Ä3 line off -- <function>
+Ä3 line on -- <function>
+Ä3 line value -- <function>
+Ä2 Submodule End
+Ä1 Module Start uarray
+@@@DELETE Start
+object <module 'uarray'> is of type module
+  __name__ -- uarray
+  array -- <class 'array'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'uarray'> is of type module
+ä Submodule notdef
+__name__ -- uarray
+ä Submodule def uarray.array
+array -- <class 'array'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'array'> is of type type
+  append -- <function>
+  extend -- <function>
+  decode -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuarray.array
+Ä3 line append -- <function>
+Ä3 line decode -- <function>
+Ä3 line extend -- <function>
+Ä3 line object <class 'array'> is of type type
+Ä2 Submodule End
+Ä1 Module Start uasyncio/core
+@@@DELETE Start
+object <module 'uasyncio/core' from 'uasyncio/core.py'> is of type module
+  sys -- <module 'sys'>
+  Task -- <class 'Task'>
+  new_event_loop -- <function new_event_loop at 0x3fdb10c0>
+  _promote_to_task -- <function _promote_to_task at 0x3fdb1040>
+  __name__ -- uasyncio/core
+  run -- <function run at 0x3fdb0f20>
+  current_task -- <function current_task at 0x3fdb10b0>
+  _task_queue -- <TaskQueue>
+  _io_queue -- <IOQueue object at 3fdb10e0>
+  sleep_ms -- <function sleep_ms at 0x3fdb0e10>
+  sleep -- <function sleep at 0x3fdb0e50>
+  ticks_add -- <function>
+  _exc_context -- {'future': None, 'message': "Task exception wasn't retrieved", 'exception': None}
+  ticks_diff -- <function>
+  TaskQueue -- <class 'TaskQueue'>
+  SingletonGenerator -- <class 'SingletonGenerator'>
+  TimeoutError -- <class 'TimeoutError'>
+  __file__ -- uasyncio/core.py
+  _stopper -- <generator>
+  Loop -- <class 'Loop'>
+  IOQueue -- <class 'IOQueue'>
+  select -- <module 'uselect'>
+  _stop_task -- None
+  CancelledError -- <class 'CancelledError'>
+  get_event_loop -- <function get_event_loop at 0x3fdb1230>
+  run_until_complete -- <function run_until_complete at 0x3fdb0f00>
+  ticks -- <function>
+  create_task -- <function create_task at 0x3fdb10a0>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'uasyncio/core' from 'uasyncio/core.py'> is of type module
+ä Submodule notdef
+sys -- <module 'sys'>
+ä Submodule def uasyncio/core.Task
+Task -- <class 'Task'>
+ä Submodule notdef
+new_event_loop -- <function new_event_loop at 0x3fdb10c0>
+ä Submodule notdef
+_promote_to_task -- <function _promote_to_task at 0x3fdb1040>
+ä Submodule notdef
+__name__ -- uasyncio/core
+ä Submodule notdef
+run -- <function run at 0x3fdb0f20>
+ä Submodule notdef
+current_task -- <function current_task at 0x3fdb10b0>
+ä Submodule notdef
+_task_queue -- <TaskQueue>
+ä Submodule notdef
+_io_queue -- <IOQueue object at 3fdb10e0>
+ä Submodule notdef
+sleep_ms -- <function sleep_ms at 0x3fdb0e10>
+ä Submodule notdef
+sleep -- <function sleep at 0x3fdb0e50>
+ä Submodule notdef
+ticks_add -- <function>
+ä Submodule notdef
+_exc_context -- {'future': None, 'message': "Task exception wasn't retrieved", 'exception': None}
+ä Submodule notdef
+ticks_diff -- <function>
+ä Submodule def uasyncio/core.TaskQueue
+TaskQueue -- <class 'TaskQueue'>
+ä Submodule def uasyncio/core.SingletonGenerator
+SingletonGenerator -- <class 'SingletonGenerator'>
+ä Submodule def uasyncio/core.TimeoutError
+TimeoutError -- <class 'TimeoutError'>
+ä Submodule notdef
+__file__ -- uasyncio/core.py
+ä Submodule notdef
+_stopper -- <generator>
+ä Submodule def uasyncio/core.Loop
+Loop -- <class 'Loop'>
+ä Submodule def uasyncio/core.IOQueue
+IOQueue -- <class 'IOQueue'>
+ä Submodule notdef
+select -- <module 'uselect'>
+ä Submodule notdef
+_stop_task -- None
+ä Submodule def uasyncio/core.CancelledError
+CancelledError -- <class 'CancelledError'>
+ä Submodule notdef
+get_event_loop -- <function get_event_loop at 0x3fdb1230>
+ä Submodule notdef
+run_until_complete -- <function run_until_complete at 0x3fdb0f00>
+ä Submodule notdef
+ticks -- <function>
+ä Submodule notdef
+create_task -- <function create_task at 0x3fdb10a0>
+Ä1 Module End
+@@@DELETE Start
+object <class 'Task'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startuasyncio/core.Task
+Ä3 line object <class 'Task'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'TaskQueue'> is of type type
+  peek -- <function>
+  push -- <function>
+  pop -- <function>
+  remove -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuasyncio/core.TaskQueue
+Ä3 line object <class 'TaskQueue'> is of type type
+Ä3 line peek -- <function>
+Ä3 line pop -- <function>
+Ä3 line push -- <function>
+Ä3 line remove -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'SingletonGenerator'> is of type type
+  __iter__ -- <function __iter__ at 0x3fdb0e30>
+  __qualname__ -- SingletonGenerator
+  __next__ -- <function __next__ at 0x3fdb0e70>
+  __module__ -- uasyncio/core
+  __init__ -- <function __init__ at 0x3fdb0e40>
+None
+@@@DELETE End
+Ä2 Submodule Startuasyncio/core.SingletonGenerator
+Ä3 line __init__ -- <function __init__ at 0x3fdb0e40>
+Ä3 line __iter__ -- <function __iter__ at 0x3fdb0e30>
+Ä3 line __module__ -- uasyncio/core
+Ä3 line __next__ -- <function __next__ at 0x3fdb0e70>
+Ä3 line __qualname__ -- SingletonGenerator
+Ä3 line object <class 'SingletonGenerator'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'TimeoutError'> is of type type
+  __qualname__ -- TimeoutError
+  __module__ -- uasyncio/core
+None
+@@@DELETE End
+Ä2 Submodule Startuasyncio/core.TimeoutError
+Ä3 line __module__ -- uasyncio/core
+Ä3 line __qualname__ -- TimeoutError
+Ä3 line object <class 'TimeoutError'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'Loop'> is of type type
+  _exc_handler -- None
+  stop -- <function stop at 0x3fdb1180>
+  __qualname__ -- Loop
+  __module__ -- uasyncio/core
+  get_exception_handler -- <function get_exception_handler at 0x3fdb11b0>
+  run_forever -- <function run_forever at 0x3fdb0f70>
+  default_exception_handler -- <function default_exception_handler at 0x3fdb11c0>
+  create_task -- <function create_task at 0x3fdb0f60>
+  set_exception_handler -- <function set_exception_handler at 0x3fdb11a0>
+  close -- <function close at 0x3fdb1190>
+  call_exception_handler -- <function call_exception_handler at 0x3fdb11d0>
+  run_until_complete -- <function run_until_complete at 0x3fdb1170>
+None
+@@@DELETE End
+Ä2 Submodule Startuasyncio/core.Loop
+Ä3 line __module__ -- uasyncio/core
+Ä3 line __qualname__ -- Loop
+Ä3 line _exc_handler -- None
+Ä3 line call_exception_handler -- <function call_exception_handler at 0x3fdb11d0>
+Ä3 line close -- <function close at 0x3fdb1190>
+Ä3 line create_task -- <function create_task at 0x3fdb0f60>
+Ä3 line default_exception_handler -- <function default_exception_handler at 0x3fdb11c0>
+Ä3 line get_exception_handler -- <function get_exception_handler at 0x3fdb11b0>
+Ä3 line object <class 'Loop'> is of type type
+Ä3 line run_forever -- <function run_forever at 0x3fdb0f70>
+Ä3 line run_until_complete -- <function run_until_complete at 0x3fdb1170>
+Ä3 line set_exception_handler -- <function set_exception_handler at 0x3fdb11a0>
+Ä3 line stop -- <function stop at 0x3fdb1180>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'IOQueue'> is of type type
+  _dequeue -- <function _dequeue at 0x3fdb0fd0>
+  queue_read -- <function queue_read at 0x3fdb0fb0>
+  wait_io_event -- <function wait_io_event at 0x3fdb0ff0>
+  __module__ -- uasyncio/core
+  __init__ -- <function __init__ at 0x3fdb0fa0>
+  _enqueue -- <function _enqueue at 0x3fdb0f90>
+  __qualname__ -- IOQueue
+  remove -- <function remove at 0x3fdb0fe0>
+  queue_write -- <function queue_write at 0x3fdb0fc0>
+None
+@@@DELETE End
+Ä2 Submodule Startuasyncio/core.IOQueue
+Ä3 line __init__ -- <function __init__ at 0x3fdb0fa0>
+Ä3 line __module__ -- uasyncio/core
+Ä3 line __qualname__ -- IOQueue
+Ä3 line _dequeue -- <function _dequeue at 0x3fdb0fd0>
+Ä3 line _enqueue -- <function _enqueue at 0x3fdb0f90>
+Ä3 line object <class 'IOQueue'> is of type type
+Ä3 line queue_read -- <function queue_read at 0x3fdb0fb0>
+Ä3 line queue_write -- <function queue_write at 0x3fdb0fc0>
+Ä3 line remove -- <function remove at 0x3fdb0fe0>
+Ä3 line wait_io_event -- <function wait_io_event at 0x3fdb0ff0>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'CancelledError'> is of type type
+  __qualname__ -- CancelledError
+  __module__ -- uasyncio/core
+None
+@@@DELETE End
+Ä2 Submodule Startuasyncio/core.CancelledError
+Ä3 line __module__ -- uasyncio/core
+Ä3 line __qualname__ -- CancelledError
+Ä3 line object <class 'CancelledError'> is of type type
+Ä2 Submodule End
+Ä1 Module Start uasyncio/event
+@@@DELETE Start
+Fehler beim Laden von uasyncio/event
+Ä1 Module Start uasyncio/funcs
+@@@DELETE Start
+Fehler beim Laden von uasyncio/funcs
+Ä1 Module Start uasyncio/lock
+@@@DELETE Start
+Fehler beim Laden von uasyncio/lock
+Ä1 Module Start uasyncio/stream
+@@@DELETE Start
+Fehler beim Laden von uasyncio/stream
+Ä1 Module Start ubinascii
+@@@DELETE Start
+object <module 'ubinascii'> is of type module
+  __name__ -- ubinascii
+  hexlify -- <function>
+  unhexlify -- <function>
+  a2b_base64 -- <function>
+  b2a_base64 -- <function>
+  crc32 -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'ubinascii'> is of type module
+ä Submodule notdef
+__name__ -- ubinascii
+ä Submodule notdef
+hexlify -- <function>
+ä Submodule notdef
+unhexlify -- <function>
+ä Submodule notdef
+a2b_base64 -- <function>
+ä Submodule notdef
+b2a_base64 -- <function>
+ä Submodule notdef
+crc32 -- <function>
+Ä1 Module End
+Ä1 Module Start ucollections
+@@@DELETE Start
+object <module 'ucollections'> is of type module
+  __name__ -- ucollections
+  deque -- <class 'deque'>
+  namedtuple -- <function>
+  OrderedDict -- <class 'OrderedDict'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'ucollections'> is of type module
+ä Submodule notdef
+__name__ -- ucollections
+ä Submodule def ucollections.deque
+deque -- <class 'deque'>
+ä Submodule notdef
+namedtuple -- <function>
+ä Submodule def ucollections.OrderedDict
+OrderedDict -- <class 'OrderedDict'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'deque'> is of type type
+  append -- <function>
+  popleft -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startucollections.deque
+Ä3 line append -- <function>
+Ä3 line object <class 'deque'> is of type type
+Ä3 line popleft -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'OrderedDict'> is of type type
+  clear -- <function>
+  copy -- <function>
+  fromkeys -- <classmethod>
+  get -- <function>
+  items -- <function>
+  keys -- <function>
+  pop -- <function>
+  popitem -- <function>
+  setdefault -- <function>
+  update -- <function>
+  values -- <function>
+  __getitem__ -- <function>
+  __setitem__ -- <function>
+  __delitem__ -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startucollections.OrderedDict
+Ä3 line __delitem__ -- <function>
+Ä3 line __getitem__ -- <function>
+Ä3 line __setitem__ -- <function>
+Ä3 line clear -- <function>
+Ä3 line copy -- <function>
+Ä3 line fromkeys -- <classmethod>
+Ä3 line get -- <function>
+Ä3 line items -- <function>
+Ä3 line keys -- <function>
+Ä3 line object <class 'OrderedDict'> is of type type
+Ä3 line pop -- <function>
+Ä3 line popitem -- <function>
+Ä3 line setdefault -- <function>
+Ä3 line update -- <function>
+Ä3 line values -- <function>
+Ä2 Submodule End
+Ä1 Module Start ucryptolib
+@@@DELETE Start
+object <module 'ucryptolib'> is of type module
+  __name__ -- ucryptolib
+  aes -- <class 'aes'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'ucryptolib'> is of type module
+ä Submodule notdef
+__name__ -- ucryptolib
+ä Submodule def ucryptolib.aes
+aes -- <class 'aes'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'aes'> is of type type
+  encrypt -- <function>
+  decrypt -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startucryptolib.aes
+Ä3 line decrypt -- <function>
+Ä3 line encrypt -- <function>
+Ä3 line object <class 'aes'> is of type type
+Ä2 Submodule End
+Ä1 Module Start uctypes
+@@@DELETE Start
+object <module 'uctypes'> is of type module
+  __name__ -- uctypes
+  struct -- <class 'struct'>
+  sizeof -- <function>
+  addressof -- <function>
+  bytes_at -- <function>
+  bytearray_at -- <function>
+  NATIVE -- 2
+  LITTLE_ENDIAN -- 0
+  BIG_ENDIAN -- 1
+  VOID -- 0
+  UINT8 -- 0
+  INT8 -- 134217728
+  UINT16 -- 268435456
+  INT16 -- 402653184
+  UINT32 -- 536870912
+  INT32 -- 671088640
+  UINT64 -- 805306368
+  INT64 -- 939524096
+  BFUINT8 -- -1073741824
+  BFINT8 -- -939524096
+  BFUINT16 -- -805306368
+  BFINT16 -- -671088640
+  BFUINT32 -- -536870912
+  BFINT32 -- -402653184
+  BF_POS -- 17
+  BF_LEN -- 22
+  FLOAT32 -- -268435456
+  FLOAT64 -- -134217728
+  SHORT -- 402653184
+  USHORT -- 268435456
+  INT -- 671088640
+  UINT -- 536870912
+  LONG -- 671088640
+  ULONG -- 536870912
+  LONGLONG -- 939524096
+  ULONGLONG -- 805306368
+  PTR -- 536870912
+  ARRAY -- -1073741824
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'uctypes'> is of type module
+ä Submodule notdef
+__name__ -- uctypes
+ä Submodule def uctypes.struct
+struct -- <class 'struct'>
+ä Submodule notdef
+sizeof -- <function>
+ä Submodule notdef
+addressof -- <function>
+ä Submodule notdef
+bytes_at -- <function>
+ä Submodule notdef
+bytearray_at -- <function>
+ä Submodule notdef
+NATIVE -- 2
+ä Submodule notdef
+LITTLE_ENDIAN -- 0
+ä Submodule notdef
+BIG_ENDIAN -- 1
+ä Submodule notdef
+VOID -- 0
+ä Submodule notdef
+UINT8 -- 0
+ä Submodule notdef
+INT8 -- 134217728
+ä Submodule notdef
+UINT16 -- 268435456
+ä Submodule notdef
+INT16 -- 402653184
+ä Submodule notdef
+UINT32 -- 536870912
+ä Submodule notdef
+INT32 -- 671088640
+ä Submodule notdef
+UINT64 -- 805306368
+ä Submodule notdef
+INT64 -- 939524096
+ä Submodule notdef
+BFUINT8 -- -1073741824
+ä Submodule notdef
+BFINT8 -- -939524096
+ä Submodule notdef
+BFUINT16 -- -805306368
+ä Submodule notdef
+BFINT16 -- -671088640
+ä Submodule notdef
+BFUINT32 -- -536870912
+ä Submodule notdef
+BFINT32 -- -402653184
+ä Submodule notdef
+BF_POS -- 17
+ä Submodule notdef
+BF_LEN -- 22
+ä Submodule notdef
+FLOAT32 -- -268435456
+ä Submodule notdef
+FLOAT64 -- -134217728
+ä Submodule notdef
+SHORT -- 402653184
+ä Submodule notdef
+USHORT -- 268435456
+ä Submodule notdef
+INT -- 671088640
+ä Submodule notdef
+UINT -- 536870912
+ä Submodule notdef
+LONG -- 671088640
+ä Submodule notdef
+ULONG -- 536870912
+ä Submodule notdef
+LONGLONG -- 939524096
+ä Submodule notdef
+ULONGLONG -- 805306368
+ä Submodule notdef
+PTR -- 536870912
+ä Submodule notdef
+ARRAY -- -1073741824
+Ä1 Module End
+@@@DELETE Start
+object <class 'struct'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startuctypes.struct
+Ä3 line object <class 'struct'> is of type type
+Ä2 Submodule End
+Ä1 Module Start uerrno
+@@@DELETE Start
+object <module 'uerrno'> is of type module
+  __name__ -- uerrno
+  errorcode -- {1: 'EPERM', 2: 'ENOENT', 5: 'EIO', 9: 'EBADF', 11: 'EAGAIN', 12: 'ENOMEM', 13: 'EACCES', 17: 'EEXIST', 19: 'ENODEV', 21: 'EISDIR', 22: 'EINVAL', 95: 'EOPNOTSUPP', 112: 'EADDRINUSE', 113: 'ECONNABORTED', 104: 'ECONNRESET', 105: 'ENOBUFS', 128: 'ENOTCONN', 116: 'ETIMEDOUT', 111: 'ECONNREFUSED', 118: 'EHOSTUNREACH', 120: 'EALREADY', 119: 'EINPROGRESS'}
+  EPERM -- 1
+  ENOENT -- 2
+  EIO -- 5
+  EBADF -- 9
+  EAGAIN -- 11
+  ENOMEM -- 12
+  EACCES -- 13
+  EEXIST -- 17
+  ENODEV -- 19
+  EISDIR -- 21
+  EINVAL -- 22
+  EOPNOTSUPP -- 95
+  EADDRINUSE -- 112
+  ECONNABORTED -- 113
+  ECONNRESET -- 104
+  ENOBUFS -- 105
+  ENOTCONN -- 128
+  ETIMEDOUT -- 116
+  ECONNREFUSED -- 111
+  EHOSTUNREACH -- 118
+  EALREADY -- 120
+  EINPROGRESS -- 119
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'uerrno'> is of type module
+ä Submodule notdef
+__name__ -- uerrno
+ä Submodule notdef
+errorcode -- {1: 'EPERM', 2: 'ENOENT', 5: 'EIO', 9: 'EBADF', 11: 'EAGAIN', 12: 'ENOMEM', 13: 'EACCES', 17: 'EEXIST', 19: 'ENODEV', 21: 'EISDIR', 22: 'EINVAL', 95: 'EOPNOTSUPP', 112: 'EADDRINUSE', 113: 'ECONNABORTED', 104: 'ECONNRESET', 105: 'ENOBUFS', 128: 'ENOTCONN', 116: 'ETIMEDOUT', 111: 'ECONNREFUSED', 118: 'EHOSTUNREACH', 120: 'EALREADY', 119: 'EINPROGRESS'}
+ä Submodule notdef
+EPERM -- 1
+ä Submodule notdef
+ENOENT -- 2
+ä Submodule notdef
+EIO -- 5
+ä Submodule notdef
+EBADF -- 9
+ä Submodule notdef
+EAGAIN -- 11
+ä Submodule notdef
+ENOMEM -- 12
+ä Submodule notdef
+EACCES -- 13
+ä Submodule notdef
+EEXIST -- 17
+ä Submodule notdef
+ENODEV -- 19
+ä Submodule notdef
+EISDIR -- 21
+ä Submodule notdef
+EINVAL -- 22
+ä Submodule notdef
+EOPNOTSUPP -- 95
+ä Submodule notdef
+EADDRINUSE -- 112
+ä Submodule notdef
+ECONNABORTED -- 113
+ä Submodule notdef
+ECONNRESET -- 104
+ä Submodule notdef
+ENOBUFS -- 105
+ä Submodule notdef
+ENOTCONN -- 128
+ä Submodule notdef
+ETIMEDOUT -- 116
+ä Submodule notdef
+ECONNREFUSED -- 111
+ä Submodule notdef
+EHOSTUNREACH -- 118
+ä Submodule notdef
+EALREADY -- 120
+ä Submodule notdef
+EINPROGRESS -- 119
+Ä1 Module End
+Ä1 Module Start uhashlib
+@@@DELETE Start
+object <module 'uhashlib'> is of type module
+  __name__ -- uhashlib
+  sha256 -- <class 'sha256'>
+  sha1 -- <class 'sha1'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'uhashlib'> is of type module
+ä Submodule notdef
+__name__ -- uhashlib
+ä Submodule def uhashlib.sha256
+sha256 -- <class 'sha256'>
+ä Submodule def uhashlib.sha1
+sha1 -- <class 'sha1'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'sha256'> is of type type
+  update -- <function>
+  digest -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuhashlib.sha256
+Ä3 line digest -- <function>
+Ä3 line object <class 'sha256'> is of type type
+Ä3 line update -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'sha1'> is of type type
+  update -- <function>
+  digest -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuhashlib.sha1
+Ä3 line digest -- <function>
+Ä3 line object <class 'sha1'> is of type type
+Ä3 line update -- <function>
+Ä2 Submodule End
+Ä1 Module Start uheapq
+@@@DELETE Start
+object <module 'uheapq'> is of type module
+  __name__ -- uheapq
+  heappush -- <function>
+  heappop -- <function>
+  heapify -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'uheapq'> is of type module
+ä Submodule notdef
+__name__ -- uheapq
+ä Submodule notdef
+heappush -- <function>
+ä Submodule notdef
+heappop -- <function>
+ä Submodule notdef
+heapify -- <function>
+Ä1 Module End
+Ä1 Module Start uio
+@@@DELETE Start
+object <module 'uio'> is of type module
+  __name__ -- uio
+  open -- <function>
+  IOBase -- <class 'IOBase'>
+  FileIO -- <class 'FileIO'>
+  TextIOWrapper -- <class 'TextIOWrapper'>
+  StringIO -- <class 'StringIO'>
+  BytesIO -- <class 'BytesIO'>
+  BufferedWriter -- <class 'BufferedWriter'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'uio'> is of type module
+ä Submodule notdef
+__name__ -- uio
+ä Submodule notdef
+open -- <function>
+ä Submodule def uio.IOBase
+IOBase -- <class 'IOBase'>
+ä Submodule def uio.FileIO
+FileIO -- <class 'FileIO'>
+ä Submodule def uio.TextIOWrapper
+TextIOWrapper -- <class 'TextIOWrapper'>
+ä Submodule def uio.StringIO
+StringIO -- <class 'StringIO'>
+ä Submodule def uio.BytesIO
+BytesIO -- <class 'BytesIO'>
+ä Submodule def uio.BufferedWriter
+BufferedWriter -- <class 'BufferedWriter'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'IOBase'> is of type type
+None
+@@@DELETE End
+Ä2 Submodule Startuio.IOBase
+Ä3 line object <class 'IOBase'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'FileIO'> is of type type
+  read -- <function>
+  readinto -- <function>
+  readline -- <function>
+  readlines -- <function>
+  write -- <function>
+  flush -- <function>
+  close -- <function>
+  seek -- <function>
+  tell -- <function>
+  __del__ -- <function>
+  __enter__ -- <function>
+  __exit__ -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuio.FileIO
+Ä3 line __del__ -- <function>
+Ä3 line __enter__ -- <function>
+Ä3 line __exit__ -- <function>
+Ä3 line close -- <function>
+Ä3 line flush -- <function>
+Ä3 line object <class 'FileIO'> is of type type
+Ä3 line read -- <function>
+Ä3 line readinto -- <function>
+Ä3 line readline -- <function>
+Ä3 line readlines -- <function>
+Ä3 line seek -- <function>
+Ä3 line tell -- <function>
+Ä3 line write -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'TextIOWrapper'> is of type type
+  read -- <function>
+  readinto -- <function>
+  readline -- <function>
+  readlines -- <function>
+  write -- <function>
+  flush -- <function>
+  close -- <function>
+  seek -- <function>
+  tell -- <function>
+  __del__ -- <function>
+  __enter__ -- <function>
+  __exit__ -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuio.TextIOWrapper
+Ä3 line __del__ -- <function>
+Ä3 line __enter__ -- <function>
+Ä3 line __exit__ -- <function>
+Ä3 line close -- <function>
+Ä3 line flush -- <function>
+Ä3 line object <class 'TextIOWrapper'> is of type type
+Ä3 line read -- <function>
+Ä3 line readinto -- <function>
+Ä3 line readline -- <function>
+Ä3 line readlines -- <function>
+Ä3 line seek -- <function>
+Ä3 line tell -- <function>
+Ä3 line write -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'StringIO'> is of type type
+  read -- <function>
+  readinto -- <function>
+  readline -- <function>
+  write -- <function>
+  seek -- <function>
+  tell -- <function>
+  flush -- <function>
+  close -- <function>
+  getvalue -- <function>
+  __enter__ -- <function>
+  __exit__ -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuio.StringIO
+Ä3 line __enter__ -- <function>
+Ä3 line __exit__ -- <function>
+Ä3 line close -- <function>
+Ä3 line flush -- <function>
+Ä3 line getvalue -- <function>
+Ä3 line object <class 'StringIO'> is of type type
+Ä3 line read -- <function>
+Ä3 line readinto -- <function>
+Ä3 line readline -- <function>
+Ä3 line seek -- <function>
+Ä3 line tell -- <function>
+Ä3 line write -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'BytesIO'> is of type type
+  read -- <function>
+  readinto -- <function>
+  readline -- <function>
+  write -- <function>
+  seek -- <function>
+  tell -- <function>
+  flush -- <function>
+  close -- <function>
+  getvalue -- <function>
+  __enter__ -- <function>
+  __exit__ -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuio.BytesIO
+Ä3 line __enter__ -- <function>
+Ä3 line __exit__ -- <function>
+Ä3 line close -- <function>
+Ä3 line flush -- <function>
+Ä3 line getvalue -- <function>
+Ä3 line object <class 'BytesIO'> is of type type
+Ä3 line read -- <function>
+Ä3 line readinto -- <function>
+Ä3 line readline -- <function>
+Ä3 line seek -- <function>
+Ä3 line tell -- <function>
+Ä3 line write -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'BufferedWriter'> is of type type
+  write -- <function>
+  flush -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuio.BufferedWriter
+Ä3 line flush -- <function>
+Ä3 line object <class 'BufferedWriter'> is of type type
+Ä3 line write -- <function>
+Ä2 Submodule End
+Ä1 Module Start ujson
+@@@DELETE Start
+object <module 'ujson'> is of type module
+  __name__ -- ujson
+  dump -- <function>
+  dumps -- <function>
+  load -- <function>
+  loads -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'ujson'> is of type module
+ä Submodule notdef
+__name__ -- ujson
+ä Submodule notdef
+dump -- <function>
+ä Submodule notdef
+dumps -- <function>
+ä Submodule notdef
+load -- <function>
+ä Submodule notdef
+loads -- <function>
+Ä1 Module End
+Ä1 Module Start umachine
+@@@DELETE Start
+object <module 'umachine'> is of type module
+  __name__ -- umachine
+  mem8 -- <8-bit memory>
+  mem16 -- <16-bit memory>
+  mem32 -- <32-bit memory>
+  freq -- <function>
+  reset -- <function>
+  soft_reset -- <function>
+  unique_id -- <function>
+  sleep -- <function>
+  lightsleep -- <function>
+  deepsleep -- <function>
+  idle -- <function>
+  disable_irq -- <function>
+  enable_irq -- <function>
+  bitstream -- <function>
+  time_pulse_us -- <function>
+  Timer -- <class 'Timer'>
+  WDT -- <class 'WDT'>
+  SLEEP -- 2
+  DEEPSLEEP -- 4
+  Pin -- <class 'Pin'>
+  Signal -- <class 'Signal'>
+  ADC -- <class 'ADC'>
+  ADCBlock -- <class 'ADCBlock'>
+  DAC -- <class 'DAC'>
+  I2C -- <class 'I2C'>
+  SoftI2C -- <class 'SoftI2C'>
+  I2S -- <class 'I2S'>
+  PWM -- <class 'PWM'>
+  RTC -- <class 'RTC'>
+  SPI -- <class 'SPI'>
+  SoftSPI -- <class 'SoftSPI'>
+  UART -- <class 'UART'>
+  reset_cause -- <function>
+  HARD_RESET -- 2
+  PWRON_RESET -- 1
+  WDT_RESET -- 3
+  DEEPSLEEP_RESET -- 4
+  SOFT_RESET -- 5
+  wake_reason -- <function>
+  PIN_WAKE -- 2
+  EXT0_WAKE -- 2
+  EXT1_WAKE -- 3
+  TIMER_WAKE -- 4
+  TOUCHPAD_WAKE -- 5
+  ULP_WAKE -- 6
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'umachine'> is of type module
+ä Submodule notdef
+__name__ -- umachine
+ä Submodule notdef
+mem8 -- <8-bit memory>
+ä Submodule notdef
+mem16 -- <16-bit memory>
+ä Submodule notdef
+mem32 -- <32-bit memory>
+ä Submodule notdef
+freq -- <function>
+ä Submodule notdef
+reset -- <function>
+ä Submodule notdef
+soft_reset -- <function>
+ä Submodule notdef
+unique_id -- <function>
+ä Submodule notdef
+sleep -- <function>
+ä Submodule notdef
+lightsleep -- <function>
+ä Submodule notdef
+deepsleep -- <function>
+ä Submodule notdef
+idle -- <function>
+ä Submodule notdef
+disable_irq -- <function>
+ä Submodule notdef
+enable_irq -- <function>
+ä Submodule notdef
+bitstream -- <function>
+ä Submodule notdef
+time_pulse_us -- <function>
+ä Submodule def umachine.Timer
+Timer -- <class 'Timer'>
+ä Submodule def umachine.WDT
+WDT -- <class 'WDT'>
+ä Submodule notdef
+SLEEP -- 2
+ä Submodule notdef
+DEEPSLEEP -- 4
+ä Submodule def umachine.Pin
+Pin -- <class 'Pin'>
+ä Submodule def umachine.Signal
+Signal -- <class 'Signal'>
+ä Submodule def umachine.ADC
+ADC -- <class 'ADC'>
+ä Submodule def umachine.ADCBlock
+ADCBlock -- <class 'ADCBlock'>
+ä Submodule def umachine.DAC
+DAC -- <class 'DAC'>
+ä Submodule def umachine.I2C
+I2C -- <class 'I2C'>
+ä Submodule def umachine.SoftI2C
+SoftI2C -- <class 'SoftI2C'>
+ä Submodule def umachine.I2S
+I2S -- <class 'I2S'>
+ä Submodule def umachine.PWM
+PWM -- <class 'PWM'>
+ä Submodule def umachine.RTC
+RTC -- <class 'RTC'>
+ä Submodule def umachine.SPI
+SPI -- <class 'SPI'>
+ä Submodule def umachine.SoftSPI
+SoftSPI -- <class 'SoftSPI'>
+ä Submodule def umachine.UART
+UART -- <class 'UART'>
+ä Submodule notdef
+reset_cause -- <function>
+ä Submodule notdef
+HARD_RESET -- 2
+ä Submodule notdef
+PWRON_RESET -- 1
+ä Submodule notdef
+WDT_RESET -- 3
+ä Submodule notdef
+DEEPSLEEP_RESET -- 4
+ä Submodule notdef
+SOFT_RESET -- 5
+ä Submodule notdef
+wake_reason -- <function>
+ä Submodule notdef
+PIN_WAKE -- 2
+ä Submodule notdef
+EXT0_WAKE -- 2
+ä Submodule notdef
+EXT1_WAKE -- 3
+ä Submodule notdef
+TIMER_WAKE -- 4
+ä Submodule notdef
+TOUCHPAD_WAKE -- 5
+ä Submodule notdef
+ULP_WAKE -- 6
+Ä1 Module End
+@@@DELETE Start
+object <class 'Timer'> is of type type
+  __del__ -- <function>
+  deinit -- <function>
+  init -- <function>
+  value -- <function>
+  ONE_SHOT -- 0
+  PERIODIC -- 1
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.Timer
+Ä3 line ONE_SHOT -- 0
+Ä3 line PERIODIC -- 1
+Ä3 line __del__ -- <function>
+Ä3 line deinit -- <function>
+Ä3 line init -- <function>
+Ä3 line object <class 'Timer'> is of type type
+Ä3 line value -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'WDT'> is of type type
+  feed -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.WDT
+Ä3 line feed -- <function>
+Ä3 line object <class 'WDT'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'Pin'> is of type type
+  init -- <function>
+  value -- <function>
+  off -- <function>
+  on -- <function>
+  irq -- <function>
+  IN -- 1
+  OUT -- 3
+  OPEN_DRAIN -- 7
+  PULL_UP -- 2
+  PULL_DOWN -- 1
+  IRQ_RISING -- 1
+  IRQ_FALLING -- 2
+  WAKE_LOW -- 4
+  WAKE_HIGH -- 5
+  DRIVE_0 -- 0
+  DRIVE_1 -- 1
+  DRIVE_2 -- 2
+  DRIVE_3 -- 3
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.Pin
+Ä3 line DRIVE_0 -- 0
+Ä3 line DRIVE_1 -- 1
+Ä3 line DRIVE_2 -- 2
+Ä3 line DRIVE_3 -- 3
+Ä3 line IN -- 1
+Ä3 line IRQ_FALLING -- 2
+Ä3 line IRQ_RISING -- 1
+Ä3 line OPEN_DRAIN -- 7
+Ä3 line OUT -- 3
+Ä3 line PULL_DOWN -- 1
+Ä3 line PULL_UP -- 2
+Ä3 line WAKE_HIGH -- 5
+Ä3 line WAKE_LOW -- 4
+Ä3 line init -- <function>
+Ä3 line irq -- <function>
+Ä3 line object <class 'Pin'> is of type type
+Ä3 line off -- <function>
+Ä3 line on -- <function>
+Ä3 line value -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'Signal'> is of type type
+  value -- <function>
+  on -- <function>
+  off -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.Signal
+Ä3 line object <class 'Signal'> is of type type
+Ä3 line off -- <function>
+Ä3 line on -- <function>
+Ä3 line value -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'ADC'> is of type type
+  init -- <function>
+  block -- <function>
+  read -- <function>
+  read_u16 -- <function>
+  read_uv -- <function>
+  atten -- <function>
+  width -- <function>
+  ATTN_0DB -- 0
+  ATTN_2_5DB -- 1
+  ATTN_6DB -- 2
+  ATTN_11DB -- 3
+  WIDTH_13BIT -- 13
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.ADC
+Ä3 line ATTN_0DB -- 0
+Ä3 line ATTN_11DB -- 3
+Ä3 line ATTN_2_5DB -- 1
+Ä3 line ATTN_6DB -- 2
+Ä3 line WIDTH_13BIT -- 13
+Ä3 line atten -- <function>
+Ä3 line block -- <function>
+Ä3 line init -- <function>
+Ä3 line object <class 'ADC'> is of type type
+Ä3 line read -- <function>
+Ä3 line read_u16 -- <function>
+Ä3 line read_uv -- <function>
+Ä3 line width -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'ADCBlock'> is of type type
+  init -- <function>
+  connect -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.ADCBlock
+Ä3 line connect -- <function>
+Ä3 line init -- <function>
+Ä3 line object <class 'ADCBlock'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'DAC'> is of type type
+  write -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.DAC
+Ä3 line object <class 'DAC'> is of type type
+Ä3 line write -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'I2C'> is of type type
+  init -- <function>
+  scan -- <function>
+  start -- <function>
+  stop -- <function>
+  readinto -- <function>
+  write -- <function>
+  readfrom -- <function>
+  readfrom_into -- <function>
+  writeto -- <function>
+  writevto -- <function>
+  readfrom_mem -- <function>
+  readfrom_mem_into -- <function>
+  writeto_mem -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.I2C
+Ä3 line init -- <function>
+Ä3 line object <class 'I2C'> is of type type
+Ä3 line readfrom -- <function>
+Ä3 line readfrom_into -- <function>
+Ä3 line readfrom_mem -- <function>
+Ä3 line readfrom_mem_into -- <function>
+Ä3 line readinto -- <function>
+Ä3 line scan -- <function>
+Ä3 line start -- <function>
+Ä3 line stop -- <function>
+Ä3 line write -- <function>
+Ä3 line writeto -- <function>
+Ä3 line writeto_mem -- <function>
+Ä3 line writevto -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'SoftI2C'> is of type type
+  init -- <function>
+  scan -- <function>
+  start -- <function>
+  stop -- <function>
+  readinto -- <function>
+  write -- <function>
+  readfrom -- <function>
+  readfrom_into -- <function>
+  writeto -- <function>
+  writevto -- <function>
+  readfrom_mem -- <function>
+  readfrom_mem_into -- <function>
+  writeto_mem -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.SoftI2C
+Ä3 line init -- <function>
+Ä3 line object <class 'SoftI2C'> is of type type
+Ä3 line readfrom -- <function>
+Ä3 line readfrom_into -- <function>
+Ä3 line readfrom_mem -- <function>
+Ä3 line readfrom_mem_into -- <function>
+Ä3 line readinto -- <function>
+Ä3 line scan -- <function>
+Ä3 line start -- <function>
+Ä3 line stop -- <function>
+Ä3 line write -- <function>
+Ä3 line writeto -- <function>
+Ä3 line writeto_mem -- <function>
+Ä3 line writevto -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'I2S'> is of type type
+  init -- <function>
+  readinto -- <function>
+  write -- <function>
+  deinit -- <function>
+  irq -- <function>
+  shift -- <staticmethod>
+  RX -- 9
+  TX -- 5
+  STEREO -- 1
+  MONO -- 0
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.I2S
+Ä3 line MONO -- 0
+Ä3 line RX -- 9
+Ä3 line STEREO -- 1
+Ä3 line TX -- 5
+Ä3 line deinit -- <function>
+Ä3 line init -- <function>
+Ä3 line irq -- <function>
+Ä3 line object <class 'I2S'> is of type type
+Ä3 line readinto -- <function>
+Ä3 line shift -- <staticmethod>
+Ä3 line write -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'PWM'> is of type type
+  init -- <function>
+  deinit -- <function>
+  freq -- <function>
+  duty -- <function>
+  duty_u16 -- <function>
+  duty_ns -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.PWM
+Ä3 line deinit -- <function>
+Ä3 line duty -- <function>
+Ä3 line duty_ns -- <function>
+Ä3 line duty_u16 -- <function>
+Ä3 line freq -- <function>
+Ä3 line init -- <function>
+Ä3 line object <class 'PWM'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'RTC'> is of type type
+  init -- <function>
+  datetime -- <function>
+  memory -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.RTC
+Ä3 line datetime -- <function>
+Ä3 line init -- <function>
+Ä3 line memory -- <function>
+Ä3 line object <class 'RTC'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'SPI'> is of type type
+  init -- <function>
+  deinit -- <function>
+  read -- <function>
+  readinto -- <function>
+  write -- <function>
+  write_readinto -- <function>
+  MSB -- 0
+  LSB -- 1
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.SPI
+Ä3 line LSB -- 1
+Ä3 line MSB -- 0
+Ä3 line deinit -- <function>
+Ä3 line init -- <function>
+Ä3 line object <class 'SPI'> is of type type
+Ä3 line read -- <function>
+Ä3 line readinto -- <function>
+Ä3 line write -- <function>
+Ä3 line write_readinto -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'SoftSPI'> is of type type
+  init -- <function>
+  deinit -- <function>
+  read -- <function>
+  readinto -- <function>
+  write -- <function>
+  write_readinto -- <function>
+  MSB -- 0
+  LSB -- 1
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.SoftSPI
+Ä3 line LSB -- 1
+Ä3 line MSB -- 0
+Ä3 line deinit -- <function>
+Ä3 line init -- <function>
+Ä3 line object <class 'SoftSPI'> is of type type
+Ä3 line read -- <function>
+Ä3 line readinto -- <function>
+Ä3 line write -- <function>
+Ä3 line write_readinto -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'UART'> is of type type
+  init -- <function>
+  deinit -- <function>
+  any -- <function>
+  read -- <function>
+  readline -- <function>
+  readinto -- <function>
+  write -- <function>
+  sendbreak -- <function>
+  INV_TX -- 32
+  INV_RX -- 4
+  INV_RTS -- 64
+  INV_CTS -- 8
+  RTS -- 1
+  CTS -- 2
+None
+@@@DELETE End
+Ä2 Submodule Startumachine.UART
+Ä3 line CTS -- 2
+Ä3 line INV_CTS -- 8
+Ä3 line INV_RTS -- 64
+Ä3 line INV_RX -- 4
+Ä3 line INV_TX -- 32
+Ä3 line RTS -- 1
+Ä3 line any -- <function>
+Ä3 line deinit -- <function>
+Ä3 line init -- <function>
+Ä3 line object <class 'UART'> is of type type
+Ä3 line read -- <function>
+Ä3 line readinto -- <function>
+Ä3 line readline -- <function>
+Ä3 line sendbreak -- <function>
+Ä3 line write -- <function>
+Ä2 Submodule End
+Ä1 Module Start uos
+@@@DELETE Start
+object <module 'uos'> is of type module
+  __name__ -- uos
+  uname -- <function>
+  urandom -- <function>
+  chdir -- <function>
+  getcwd -- <function>
+  listdir -- <function>
+  mkdir -- <function>
+  remove -- <function>
+  rename -- <function>
+  rmdir -- <function>
+  stat -- <function>
+  statvfs -- <function>
+  unlink -- <function>
+  dupterm -- <function>
+  dupterm_notify -- <function>
+  ilistdir -- <function>
+  mount -- <function>
+  umount -- <function>
+  VfsFat -- <class 'VfsFat'>
+  VfsLfs2 -- <class 'VfsLfs2'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'uos'> is of type module
+ä Submodule notdef
+__name__ -- uos
+ä Submodule notdef
+uname -- <function>
+ä Submodule notdef
+urandom -- <function>
+ä Submodule notdef
+chdir -- <function>
+ä Submodule notdef
+getcwd -- <function>
+ä Submodule notdef
+listdir -- <function>
+ä Submodule notdef
+mkdir -- <function>
+ä Submodule notdef
+remove -- <function>
+ä Submodule notdef
+rename -- <function>
+ä Submodule notdef
+rmdir -- <function>
+ä Submodule notdef
+stat -- <function>
+ä Submodule notdef
+statvfs -- <function>
+ä Submodule notdef
+unlink -- <function>
+ä Submodule notdef
+dupterm -- <function>
+ä Submodule notdef
+dupterm_notify -- <function>
+ä Submodule notdef
+ilistdir -- <function>
+ä Submodule notdef
+mount -- <function>
+ä Submodule notdef
+umount -- <function>
+ä Submodule def uos.VfsFat
+VfsFat -- <class 'VfsFat'>
+ä Submodule def uos.VfsLfs2
+VfsLfs2 -- <class 'VfsLfs2'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'VfsFat'> is of type type
+  mkfs -- <staticmethod>
+  open -- <function>
+  ilistdir -- <function>
+  mkdir -- <function>
+  rmdir -- <function>
+  chdir -- <function>
+  getcwd -- <function>
+  remove -- <function>
+  rename -- <function>
+  stat -- <function>
+  statvfs -- <function>
+  mount -- <function>
+  umount -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuos.VfsFat
+Ä3 line chdir -- <function>
+Ä3 line getcwd -- <function>
+Ä3 line ilistdir -- <function>
+Ä3 line mkdir -- <function>
+Ä3 line mkfs -- <staticmethod>
+Ä3 line mount -- <function>
+Ä3 line object <class 'VfsFat'> is of type type
+Ä3 line open -- <function>
+Ä3 line remove -- <function>
+Ä3 line rename -- <function>
+Ä3 line rmdir -- <function>
+Ä3 line stat -- <function>
+Ä3 line statvfs -- <function>
+Ä3 line umount -- <function>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'VfsLfs2'> is of type type
+  mkfs -- <staticmethod>
+  open -- <function>
+  ilistdir -- <function>
+  mkdir -- <function>
+  rmdir -- <function>
+  chdir -- <function>
+  getcwd -- <function>
+  remove -- <function>
+  rename -- <function>
+  stat -- <function>
+  statvfs -- <function>
+  mount -- <function>
+  umount -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuos.VfsLfs2
+Ä3 line chdir -- <function>
+Ä3 line getcwd -- <function>
+Ä3 line ilistdir -- <function>
+Ä3 line mkdir -- <function>
+Ä3 line mkfs -- <staticmethod>
+Ä3 line mount -- <function>
+Ä3 line object <class 'VfsLfs2'> is of type type
+Ä3 line open -- <function>
+Ä3 line remove -- <function>
+Ä3 line rename -- <function>
+Ä3 line rmdir -- <function>
+Ä3 line stat -- <function>
+Ä3 line statvfs -- <function>
+Ä3 line umount -- <function>
+Ä2 Submodule End
+Ä1 Module Start upip
+@@@DELETE Start
+object <module 'upip' from 'upip.py'> is of type module
+  main -- <function main at 0x3fd8c330>
+  url_open -- <function url_open at 0x3fd8bfd0>
+  fatal -- <function fatal at 0x3fd8c000>
+  ussl -- <module 'ussl'>
+  usocket -- <module 'usocket'>
+  _makedirs -- <function _makedirs at 0x3fd8c0f0>
+  save_file -- <function save_file at 0x3fd8bfa0>
+  NotFoundError -- <class 'NotFoundError'>
+  os -- <module 'uos'>
+  expandhome -- <function expandhome at 0x3fd8bfc0>
+  __file__ -- upip.py
+  cleanup_files -- []
+  uzlib -- <module 'uzlib'>
+  tarfile -- <module 'upip_utarfile' from 'upip_utarfile.py'>
+  install -- <function install at 0x3fd8c250>
+  install_path -- None
+  index_urls -- ['https://micropython.org/pi', 'https://pypi.org/pypi']
+  sys -- <module 'sys'>
+  __name__ -- upip
+  install_pkg -- <function install_pkg at 0x3fd8c020>
+  get_pkg_metadata -- <function get_pkg_metadata at 0x3fd8bfe0>
+  cleanup -- <function cleanup at 0x3fd8c310>
+  gc -- <module 'gc'>
+
+  help -- <function help at 0x3fd8c320>
+  gzdict_sz -- 31
+  op_split -- <function op_split at 0x3fd8c030>
+  debug -- False
+  errno -- <module 'uerrno'>
+  install_tar -- <function install_tar at 0x3fd8bfb0>
+  json -- <module 'ujson'>
+  warn_ussl -- True
+  get_install_path -- <function get_install_path at 0x3fd8c270>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'upip' from 'upip.py'> is of type module
+ä Submodule notdef
+main -- <function main at 0x3fd8c330>
+ä Submodule notdef
+url_open -- <function url_open at 0x3fd8bfd0>
+ä Submodule notdef
+fatal -- <function fatal at 0x3fd8c000>
+ä Submodule notdef
+ussl -- <module 'ussl'>
+ä Submodule notdef
+usocket -- <module 'usocket'>
+ä Submodule notdef
+_makedirs -- <function _makedirs at 0x3fd8c0f0>
+ä Submodule notdef
+save_file -- <function save_file at 0x3fd8bfa0>
+ä Submodule def upip.NotFoundError
+NotFoundError -- <class 'NotFoundError'>
+ä Submodule notdef
+os -- <module 'uos'>
+ä Submodule notdef
+expandhome -- <function expandhome at 0x3fd8bfc0>
+ä Submodule notdef
+__file__ -- upip.py
+ä Submodule notdef
+cleanup_files -- []
+ä Submodule notdef
+uzlib -- <module 'uzlib'>
+ä Submodule notdef
+tarfile -- <module 'upip_utarfile' from 'upip_utarfile.py'>
+ä Submodule notdef
+install -- <function install at 0x3fd8c250>
+ä Submodule notdef
+install_path -- None
+ä Submodule notdef
+index_urls -- ['https://micropython.org/pi', 'https://pypi.org/pypi']
+ä Submodule notdef
+sys -- <module 'sys'>
+ä Submodule notdef
+__name__ -- upip
+ä Submodule notdef
+install_pkg -- <function install_pkg at 0x3fd8c020>
+ä Submodule notdef
+get_pkg_metadata -- <function get_pkg_metadata at 0x3fd8bfe0>
+ä Submodule notdef
+cleanup -- <function cleanup at 0x3fd8c310>
+ä Submodule notdef
+gc -- <module 'gc'>
+ä Submodule notdef
+
+ä Submodule notdef
+help -- <function help at 0x3fd8c320>
+ä Submodule notdef
+gzdict_sz -- 31
+ä Submodule notdef
+op_split -- <function op_split at 0x3fd8c030>
+ä Submodule notdef
+debug -- False
+ä Submodule notdef
+errno -- <module 'uerrno'>
+ä Submodule notdef
+install_tar -- <function install_tar at 0x3fd8bfb0>
+ä Submodule notdef
+json -- <module 'ujson'>
+ä Submodule notdef
+warn_ussl -- True
+ä Submodule notdef
+get_install_path -- <function get_install_path at 0x3fd8c270>
+Ä1 Module End
+@@@DELETE Start
+object <class 'NotFoundError'> is of type type
+  __qualname__ -- NotFoundError
+  __module__ -- upip
+None
+@@@DELETE End
+Ä2 Submodule Startupip.NotFoundError
+Ä3 line __module__ -- upip
+Ä3 line __qualname__ -- NotFoundError
+Ä3 line object <class 'NotFoundError'> is of type type
+Ä2 Submodule End
+Ä1 Module Start upip_utarfile
+@@@DELETE Start
+object <module 'upip_utarfile' from 'upip_utarfile.py'> is of type module
+  FileSection -- <class 'FileSection'>
+  TarInfo -- <class 'TarInfo'>
+  __name__ -- upip_utarfile
+  TarFile -- <class 'TarFile'>
+  DIRTYPE -- dir
+  TAR_HEADER -- {'name': (-1073741824, 100), 'size': (-1073741700, 11)}
+  uctypes -- <module 'uctypes'>
+  __file__ -- upip_utarfile.py
+  roundup -- <function roundup at 0x3fdb0c60>
+  REGTYPE -- file
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'upip_utarfile' from 'upip_utarfile.py'> is of type module
+ä Submodule def upip_utarfile.FileSection
+FileSection -- <class 'FileSection'>
+ä Submodule def upip_utarfile.TarInfo
+TarInfo -- <class 'TarInfo'>
+ä Submodule notdef
+__name__ -- upip_utarfile
+ä Submodule def upip_utarfile.TarFile
+TarFile -- <class 'TarFile'>
+ä Submodule notdef
+DIRTYPE -- dir
+ä Submodule notdef
+TAR_HEADER -- {'name': (-1073741824, 100), 'size': (-1073741700, 11)}
+ä Submodule notdef
+uctypes -- <module 'uctypes'>
+ä Submodule notdef
+__file__ -- upip_utarfile.py
+ä Submodule notdef
+roundup -- <function roundup at 0x3fdb0c60>
+ä Submodule notdef
+REGTYPE -- file
+Ä1 Module End
+@@@DELETE Start
+object <class 'FileSection'> is of type type
+  __qualname__ -- FileSection
+  readinto -- <function readinto at 0x3fdc8070>
+  skip -- <function skip at 0x3fdc8030>
+  __module__ -- upip_utarfile
+  read -- <function read at 0x3fdc8050>
+  __init__ -- <function __init__ at 0x3fdc7fe0>
+None
+@@@DELETE End
+Ä2 Submodule Startupip_utarfile.FileSection
+Ä3 line __init__ -- <function __init__ at 0x3fdc7fe0>
+Ä3 line __module__ -- upip_utarfile
+Ä3 line __qualname__ -- FileSection
+Ä3 line object <class 'FileSection'> is of type type
+Ä3 line read -- <function read at 0x3fdc8050>
+Ä3 line readinto -- <function readinto at 0x3fdc8070>
+Ä3 line skip -- <function skip at 0x3fdc8030>
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'TarInfo'> is of type type
+  __module__ -- upip_utarfile
+  __str__ -- <function __str__ at 0x3fdc8110>
+  __qualname__ -- TarInfo
+None
+@@@DELETE End
+Ä2 Submodule Startupip_utarfile.TarInfo
+Ä3 line __module__ -- upip_utarfile
+Ä3 line __qualname__ -- TarInfo
+Ä3 line __str__ -- <function __str__ at 0x3fdc8110>
+Ä3 line object <class 'TarInfo'> is of type type
+Ä2 Submodule End
+@@@DELETE Start
+object <class 'TarFile'> is of type type
+  __module__ -- upip_utarfile
+  __init__ -- <function __init__ at 0x3fdc81d0>
+  __next__ -- <function __next__ at 0x3fdc81f0>
+  __qualname__ -- TarFile
+  next -- <function next at 0x3fdc8010>
+  extractfile -- <function extractfile at 0x3fdc8200>
+  __iter__ -- <function __iter__ at 0x3fdc8100>
+None
+@@@DELETE End
+Ä2 Submodule Startupip_utarfile.TarFile
+Ä3 line __init__ -- <function __init__ at 0x3fdc81d0>
+Ä3 line __iter__ -- <function __iter__ at 0x3fdc8100>
+Ä3 line __module__ -- upip_utarfile
+Ä3 line __next__ -- <function __next__ at 0x3fdc81f0>
+Ä3 line __qualname__ -- TarFile
+Ä3 line extractfile -- <function extractfile at 0x3fdc8200>
+Ä3 line next -- <function next at 0x3fdc8010>
+Ä3 line object <class 'TarFile'> is of type type
+Ä2 Submodule End
+Ä1 Module Start uplatform
+@@@DELETE Start
+object <module 'uplatform'> is of type module
+  __name__ -- uplatform
+  platform -- <function>
+  python_compiler -- <function>
+  libc_ver -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'uplatform'> is of type module
+ä Submodule notdef
+__name__ -- uplatform
+ä Submodule notdef
+platform -- <function>
+ä Submodule notdef
+python_compiler -- <function>
+ä Submodule notdef
+libc_ver -- <function>
+Ä1 Module End
+Ä1 Module Start urandom
+@@@DELETE Start
+object <module 'urandom'> is of type module
+  __name__ -- urandom
+  __init__ -- <function>
+  getrandbits -- <function>
+  seed -- <function>
+  randrange -- <function>
+  randint -- <function>
+  choice -- <function>
+  random -- <function>
+  uniform -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'urandom'> is of type module
+ä Submodule notdef
+__name__ -- urandom
+ä Submodule notdef
+__init__ -- <function>
+ä Submodule notdef
+getrandbits -- <function>
+ä Submodule notdef
+seed -- <function>
+ä Submodule notdef
+randrange -- <function>
+ä Submodule notdef
+randint -- <function>
+ä Submodule notdef
+choice -- <function>
+ä Submodule notdef
+random -- <function>
+ä Submodule notdef
+uniform -- <function>
+Ä1 Module End
+Ä1 Module Start ure
+@@@DELETE Start
+object <module 'ure'> is of type module
+  __name__ -- ure
+  compile -- <function>
+  match -- <function>
+  search -- <function>
+  sub -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'ure'> is of type module
+ä Submodule notdef
+__name__ -- ure
+ä Submodule notdef
+compile -- <function>
+ä Submodule notdef
+match -- <function>
+ä Submodule notdef
+search -- <function>
+ä Submodule notdef
+sub -- <function>
+Ä1 Module End
+Ä1 Module Start uselect
+@@@DELETE Start
+object <module 'uselect'> is of type module
+  __name__ -- uselect
+  select -- <function>
+  poll -- <function>
+  POLLIN -- 1
+  POLLOUT -- 4
+  POLLERR -- 8
+  POLLHUP -- 16
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'uselect'> is of type module
+ä Submodule notdef
+__name__ -- uselect
+ä Submodule notdef
+select -- <function>
+ä Submodule notdef
+poll -- <function>
+ä Submodule notdef
+POLLIN -- 1
+ä Submodule notdef
+POLLOUT -- 4
+ä Submodule notdef
+POLLERR -- 8
+ä Submodule notdef
+POLLHUP -- 16
+Ä1 Module End
+Ä1 Module Start usocket
+@@@DELETE Start
+object <module 'usocket'> is of type module
+  __name__ -- usocket
+  __init__ -- <function>
+  socket -- <class 'socket'>
+  getaddrinfo -- <function>
+  AF_INET -- 2
+  AF_INET6 -- 10
+  SOCK_STREAM -- 1
+  SOCK_DGRAM -- 2
+  SOCK_RAW -- 3
+  IPPROTO_TCP -- 6
+  IPPROTO_UDP -- 17
+  IPPROTO_IP -- 0
+  SOL_SOCKET -- 4095
+  SO_REUSEADDR -- 4
+  IP_ADD_MEMBERSHIP -- 3
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'usocket'> is of type module
+ä Submodule notdef
+__name__ -- usocket
+ä Submodule notdef
+__init__ -- <function>
+ä Submodule def usocket.socket
+socket -- <class 'socket'>
+ä Submodule notdef
+getaddrinfo -- <function>
+ä Submodule notdef
+AF_INET -- 2
+ä Submodule notdef
+AF_INET6 -- 10
+ä Submodule notdef
+SOCK_STREAM -- 1
+ä Submodule notdef
+SOCK_DGRAM -- 2
+ä Submodule notdef
+SOCK_RAW -- 3
+ä Submodule notdef
+IPPROTO_TCP -- 6
+ä Submodule notdef
+IPPROTO_UDP -- 17
+ä Submodule notdef
+IPPROTO_IP -- 0
+ä Submodule notdef
+SOL_SOCKET -- 4095
+ä Submodule notdef
+SO_REUSEADDR -- 4
+ä Submodule notdef
+IP_ADD_MEMBERSHIP -- 3
+Ä1 Module End
+@@@DELETE Start
+object <class 'socket'> is of type type
+  __del__ -- <function>
+  close -- <function>
+  bind -- <function>
+  listen -- <function>
+  accept -- <function>
+  connect -- <function>
+  send -- <function>
+  sendall -- <function>
+  sendto -- <function>
+  recv -- <function>
+  recvfrom -- <function>
+  setsockopt -- <function>
+  settimeout -- <function>
+  setblocking -- <function>
+  makefile -- <function>
+  fileno -- <function>
+  read -- <function>
+  readinto -- <function>
+  readline -- <function>
+  write -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startusocket.socket
+Ä3 line __del__ -- <function>
+Ä3 line accept -- <function>
+Ä3 line bind -- <function>
+Ä3 line close -- <function>
+Ä3 line connect -- <function>
+Ä3 line fileno -- <function>
+Ä3 line listen -- <function>
+Ä3 line makefile -- <function>
+Ä3 line object <class 'socket'> is of type type
+Ä3 line read -- <function>
+Ä3 line readinto -- <function>
+Ä3 line readline -- <function>
+Ä3 line recv -- <function>
+Ä3 line recvfrom -- <function>
+Ä3 line send -- <function>
+Ä3 line sendall -- <function>
+Ä3 line sendto -- <function>
+Ä3 line setblocking -- <function>
+Ä3 line setsockopt -- <function>
+Ä3 line settimeout -- <function>
+Ä3 line write -- <function>
+Ä2 Submodule End
+Ä1 Module Start ussl
+@@@DELETE Start
+object <module 'ussl'> is of type module
+  __name__ -- ussl
+  wrap_socket -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'ussl'> is of type module
+ä Submodule notdef
+__name__ -- ussl
+ä Submodule notdef
+wrap_socket -- <function>
+Ä1 Module End
+Ä1 Module Start ustruct
+@@@DELETE Start
+object <module 'ustruct'> is of type module
+  __name__ -- ustruct
+  calcsize -- <function>
+  pack -- <function>
+  pack_into -- <function>
+  unpack -- <function>
+  unpack_from -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'ustruct'> is of type module
+ä Submodule notdef
+__name__ -- ustruct
+ä Submodule notdef
+calcsize -- <function>
+ä Submodule notdef
+pack -- <function>
+ä Submodule notdef
+pack_into -- <function>
+ä Submodule notdef
+unpack -- <function>
+ä Submodule notdef
+unpack_from -- <function>
+Ä1 Module End
+Ä1 Module Start usys
+Ö1 no Help
+Ä1 Module End
+Ä1 Module Start utime
+@@@DELETE Start
+object <module 'utime'> is of type module
+  __name__ -- utime
+  gmtime -- <function>
+  localtime -- <function>
+  mktime -- <function>
+  time -- <function>
+  sleep -- <function>
+  sleep_ms -- <function>
+  sleep_us -- <function>
+  ticks_ms -- <function>
+  ticks_us -- <function>
+  ticks_cpu -- <function>
+  ticks_add -- <function>
+  ticks_diff -- <function>
+  time_ns -- <function>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'utime'> is of type module
+ä Submodule notdef
+__name__ -- utime
+ä Submodule notdef
+gmtime -- <function>
+ä Submodule notdef
+localtime -- <function>
+ä Submodule notdef
+mktime -- <function>
+ä Submodule notdef
+time -- <function>
+ä Submodule notdef
+sleep -- <function>
+ä Submodule notdef
+sleep_ms -- <function>
+ä Submodule notdef
+sleep_us -- <function>
+ä Submodule notdef
+ticks_ms -- <function>
+ä Submodule notdef
+ticks_us -- <function>
+ä Submodule notdef
+ticks_cpu -- <function>
+ä Submodule notdef
+ticks_add -- <function>
+ä Submodule notdef
+ticks_diff -- <function>
+ä Submodule notdef
+time_ns -- <function>
+Ä1 Module End
+Ä1 Module Start utimeq
+@@@DELETE Start
+object <module 'utimeq'> is of type module
+  __name__ -- utimeq
+  utimeq -- <class 'utimeq'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'utimeq'> is of type module
+ä Submodule notdef
+__name__ -- utimeq
+ä Submodule def utimeq.utimeq
+utimeq -- <class 'utimeq'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'utimeq'> is of type type
+  push -- <function>
+  pop -- <function>
+  peektime -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startutimeq.utimeq
+Ä3 line object <class 'utimeq'> is of type type
+Ä3 line peektime -- <function>
+Ä3 line pop -- <function>
+Ä3 line push -- <function>
+Ä2 Submodule End
+Ä1 Module Start uwebsocket
+@@@DELETE Start
+object <module 'uwebsocket'> is of type module
+  __name__ -- uwebsocket
+  websocket -- <class 'websocket'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'uwebsocket'> is of type module
+ä Submodule notdef
+__name__ -- uwebsocket
+ä Submodule def uwebsocket.websocket
+websocket -- <class 'websocket'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'websocket'> is of type type
+  read -- <function>
+  readinto -- <function>
+  readline -- <function>
+  write -- <function>
+  ioctl -- <function>
+  close -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuwebsocket.websocket
+Ä3 line close -- <function>
+Ä3 line ioctl -- <function>
+Ä3 line object <class 'websocket'> is of type type
+Ä3 line read -- <function>
+Ä3 line readinto -- <function>
+Ä3 line readline -- <function>
+Ä3 line write -- <function>
+Ä2 Submodule End
+Ä1 Module Start uzlib
+@@@DELETE Start
+object <module 'uzlib'> is of type module
+  __name__ -- uzlib
+  decompress -- <function>
+  DecompIO -- <class 'DecompIO'>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'uzlib'> is of type module
+ä Submodule notdef
+__name__ -- uzlib
+ä Submodule notdef
+decompress -- <function>
+ä Submodule def uzlib.DecompIO
+DecompIO -- <class 'DecompIO'>
+Ä1 Module End
+@@@DELETE Start
+object <class 'DecompIO'> is of type type
+  read -- <function>
+  readinto -- <function>
+  readline -- <function>
+None
+@@@DELETE End
+Ä2 Submodule Startuzlib.DecompIO
+Ä3 line object <class 'DecompIO'> is of type type
+Ä3 line read -- <function>
+Ä3 line readinto -- <function>
+Ä3 line readline -- <function>
+Ä2 Submodule End
+Ä1 Module Start webrepl
+Ö1 no Help
+Ä1 Module End
+Ä1 Module Start webrepl_setup
+Ö1 no Help
+Ä1 Module End
+Ä1 Module Start websocket_helper
+@@@DELETE Start
+object <module 'websocket_helper' from 'websocket_helper.py'> is of type module
+  hashlib -- <module 'uhashlib'>
+  binascii -- <module 'ubinascii'>
+  __name__ -- websocket_helper
+  __file__ -- websocket_helper.py
+  sys -- <module 'sys'>
+  DEBUG -- 0
+  server_handshake -- <function server_handshake at 0x3fd98c10>
+  client_handshake -- <function client_handshake at 0x3fd98c20>
+None
+@@@DELETE End
+ä Submodule notdef
+object <module 'websocket_helper' from 'websocket_helper.py'> is of type module
+ä Submodule notdef
+hashlib -- <module 'uhashlib'>
+ä Submodule notdef
+binascii -- <module 'ubinascii'>
+ä Submodule notdef
+__name__ -- websocket_helper
+ä Submodule notdef
+__file__ -- websocket_helper.py
+ä Submodule notdef
+sys -- <module 'sys'>
+ä Submodule notdef
+DEBUG -- 0
+ä Submodule notdef
+server_handshake -- <function server_handshake at 0x3fd98c10>
+ä Submodule notdef
+client_handshake -- <function client_handshake at 0x3fd98c20>
+Ä1 Module End
+>>> 

@@ -1,0 +1,48 @@
+_boot
+_onewire
+_thread.LockType
+_uasyncio
+_uasyncio.Task
+_uasyncio.TaskQueue
+_webrepl
+_webrepl._webrepl
+builtins.BaseException
+builtins.GeneratorExit
+builtins.StopAsyncIteration
+builtins.ViperTypeError
+dht.DHTBase
+esp32.NVS, https://docs.micropython.org/en/v1.19/library/esp32.html?highlight=NVS
+esp32.NVS, https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html
+esp32.NVS, https://www.youtube.com/watch?v=CX5-dAmOxRc
+esp32.NVS, https://insigh.io/blog/over-the-air-switch-from-esp-idf-to-micropython/
+esp32.Partition, https://docs.micropython.org/en/latest/library/esp32.html?highlight=Partition
+flashbdev, https://docs.micropython.org/en/v1.19/reference/filesystem.html?highlight=flashbdev
+flashbdev.Partition, https://docs.micropython.org/en/v1.19/reference/filesystem.html?highlight=Partition
+ntptime, https://bhave.sh/micropython-ntp/
+ntptime, https://www.engineersgarage.com/micropython-esp8266-esp32-rtc-utc-local-time/
+onewire.OneWireError
+s2mini, https://micropython.org/download/LOLIN_S2_MINI/
+ucollections.OrderedDict, https://docs.micropython.org/en/latest/library/collections.html?highlight=OrderedDict
+ucollections.deque, https://docs.micropython.org/en/latest/library/collections.html?highlight=deque
+ucryptolib.aes, https://hwwong168.wordpress.com/2019/09/25/esp32-micropython-implementation-of-cryptographic/
+ucryptolib.aes, https://docs.micropython.org/en/latest/library/cryptolib.html?highlight=aes
+uhashlib.sha1
+uhashlib.sha256
+uio.BufferedWriter
+uio.IOBase
+umachine.DAC
+uos.VfsFat
+uos.VfsLfs2
+upip
+upip.NotFoundError
+upip_utarfile
+upip_utarfile.FileSection
+upip_utarfile.TarFile
+upip_utarfile.TarInfo
+uplatform
+utimeq
+utimeq.utimeq
+uwebsocket
+uwebsocket.websocket
+uzlib.DecompIO
+websocket_helper
