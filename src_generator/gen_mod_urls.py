@@ -130,37 +130,33 @@ def find_url(compmodname):
     return False, None, None
 
 
-def extract_module(outfile, line, moduledb):
+def extract_module(outfile, line):
     mod_name = line[len(consts.MARK_MODULE_START):].strip() # hinter dem Marker ist der Module Name
     outfile.write(mod_name + "\n")
     moduledb.add(mod_name)
 
 
-def extract_submodule(outfile, line, moduledb):
+def extract_submodule(outfile, line):
     comp_mod_name = line[len(consts.MARK_SUBMODULE_START):].strip() # alles hinter dem Marker übernehmen
     outfile.write(comp_mod_name + "\n")
     moduledb.add(comp_mod_name)
 
 
 def main():
-    urldb = UrlDb()
-    moduledb = set() # Set
-    board_name = gen_board_names(sys.argv)
-    files = FileNames(board_name)
 
 # Module Liste Raw generieren
-    with open(files.roh, "r", encoding="utf-8") as input_file, open(files.modlist, "w", encoding="utf-8") as outmod  :
+    with open(filenames.roh, "r", encoding="utf-8") as input_file, open(filenames.modlist, "w", encoding="utf-8") as outmod  :
         for line in input_file:
             if line.startswith(consts.MARK_MODULE_START) :
-                extract_module( outmod, line, moduledb)
+                extract_module( outmod, line)
                 continue
             if line.startswith(consts.MARK_SUBMODULE_START) :
-                extract_submodule(outmod, line, moduledb)
+                extract_submodule(outmod, line)
                 continue
 
     # Aufgrund der Module Liste wird für jedes Modul eine gültige URL ermittelt
     # Module ohne gültige URL werden in die Unknown Modul Datei geschrieben
-    with open(files.unknowmods, "w", encoding="utf-8") as outunknown:
+    with open(filenames.unknowmods, "w", encoding="utf-8") as outunknown:
         for mod in sorted(moduledb):
             found, typ, url = find_url(mod)
             if found:
@@ -169,7 +165,7 @@ def main():
                 outunknown.write(mod + "\n")
 
     # Jedes Modul mit entsprechender URL wird in die Datei Found URLs geschrieben
-    with open(files.foundurls, "w", encoding="utf-8") as outfound:
+    with open(filenames.foundurls, "w", encoding="utf-8") as outfound:
         for mod, types in urldb.db.items():
             for typ in types:
                 urls = urldb.get_urls(mod, typ)
@@ -179,6 +175,12 @@ def main():
 
 
 if __name__ == "__main__":
+    board_name = gen_board_names(sys.argv)
+    filenames = FileNames(board_name)
+    urldb = UrlDb()
+    urldb.load_urldb(filenames)
+    moduledb = set() # Set
+
     main()
 
 

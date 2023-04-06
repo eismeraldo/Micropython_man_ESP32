@@ -22,20 +22,23 @@ class FileNames :
         CSS_FILE_NAME = "styles.scss"
         LEGEND_FILE_NAME = "overview_legend.md"
 
-
-        self.roh = constr_filename(data_path, 1, prefix_roh, board_name, ext_txt)
-        self.modlist = constr_filename(data_path, 2, prefix_mod_list_raw, board_name, ext_txt)
-        self.foundurls = constr_filename(data_path, 3, prefix_found_urls, board_name, ext_txt)
-        self.unknowmods = constr_filename(data_path, 4, prefix_unknown_mods, board_name, ext_txt)
-        self.manurls = constr_filename(data_path, 5, prefix_man_urls, board_name, ext_txt)
-        self.finalref = constr_filename(data_path, "", prefix_final, board_name, ext_md)
+        self.roh = self.constr_filename(data_path, 1, prefix_roh, board_name, ext_txt)
+        self.modlist = self.constr_filename(data_path, 2, prefix_mod_list_raw, board_name, ext_txt)
+        self.foundurls = self.constr_filename(data_path, 3, prefix_found_urls, board_name, ext_txt)
+        self.unknowmods = self.constr_filename(data_path, 4, prefix_unknown_mods, board_name, ext_txt)
+        self.manurls = self.constr_filename(data_path, 5, prefix_man_urls, board_name, ext_txt)
+        self.finalref = self.constr_filename(data_path, "", prefix_final, board_name, ext_md)
 
         data_path = root_folder / "src_finalize/"
         self.scss = data_path / CSS_FILE_NAME
         self.legend = data_path / LEGEND_FILE_NAME
 
-        
 
+    def constr_filename(self, dpath, fnbr, fprefix, board, fext):
+        nbr = ""
+        if fnbr not in (0, ""):
+            nbr = f'{fnbr:02d}' + "_"
+        return dpath / (nbr + fprefix + "_" + board + fext)
 
 
 class UrlDb :
@@ -135,13 +138,5 @@ def gen_board_names(args):
         board_name = "S2-Mini"
     return board_name
 
-
-def constr_filename(dpath, fnbr, fprefix, board, fext, test=False):
-    nbr = ""
-    if fnbr != 0 and fnbr !="":
-        nbr = f'{fnbr:02d}' + "_"
-    if test is True:
-        nbr = "test_" + nbr
-    return dpath / (nbr + fprefix + "_" + board + fext)
 
 
