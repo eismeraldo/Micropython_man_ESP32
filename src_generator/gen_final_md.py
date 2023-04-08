@@ -1,19 +1,16 @@
 #==============================================================================================
-# Die zu finalsierenden und die resultierenden Filenames sind:
-#     - help_roh_DOIT.txt
-#     - help_roh_S2-Mini.txt
+# Die resultierenden Filenames sind:
 #     - mp_referenz_final_DOIT.md
 #     - mp_referenz_final_S2-Mini.md
 #
-# Als Input File wird das zuvor abgespeichert File 'hilfe_roh.txt' eingelesen und alle
+# Als Input File wird das zuvor abgespeichert File '01_help_roh_DOIT.txt' oder '01_help_roh_S2-Mini.txt' eingelesen und alle
 # Zeilen zwischen "@@@DELETE START" und "@@@DELETE END" inklusive entfernt.
-# Das Resultat befindet sich anschliessend im File 'hilfe_finish.txt'.
-# Dieses File muss dann entsprechend umbenannt (csv oder md) werden.
+# Das Resultat befindet sich anschliessend im md File
 #
 # Programmaufruf in der DOS Shell:
-#   - python finalizer.py           # default = d für doit
-#   - python finalizer.py d         # DOIT
-#   - python finalizer.py s2        # S2 Mini
+#   - python gen_final_md.py           # default = d für DOIT
+#   - python gen_final_md.py d         # DOIT
+#   - python gen_final_md.py s2        # S2 Mini
 #
 #==============================================================================================
 
@@ -53,11 +50,11 @@ def write_sorted_table(infile, outfile):
 
     # Markdown-Tabelle erstellen
     table = "|"
-    for i in range(num_columns):
+    for _ in range(num_columns):
         table += " | "
     table += "\n"
     table += "|"
-    for i in range(num_columns):
+    for _ in range(num_columns):
         table += " --- |"
     table += "\n"
 
@@ -98,7 +95,9 @@ def import_legend(outfile):
             if ind == 1:
                 outfile.write("| [ein Link](#Overview) | " + line +" |\n")
                 continue
-            outfile.write(f'| <form ><button ><mark style="background: {consts.BACKGROUND_COLOR[str(ind)]};"><b>{consts.SHORT_NAMES[str(ind)]}</b></mark></button></form> | ' + line + "\n")
+            uinfo = consts.find_urlinfo_by_link_typ(str(ind))
+            outfile.write(f'| <form ><button ><mark style="background: {uinfo.bg_color};">'
+                          f'<b>{uinfo.short_name}</b></mark></button></form> | ' + line + "\n")
 
 
 def overview(infile, outfile):
@@ -122,30 +121,33 @@ def overview(infile, outfile):
 
 
 def gen_normal_button(typ, url):
-    backcolor = consts.BACKGROUND_COLOR[typ]
-    name = consts.SHORT_NAMES[typ]
+    uinfo = consts.find_urlinfo_by_link_typ(typ)
 
-    btn = f'<form action="{url}"  target="_blank">'
-    btn += f'<button type="submit"><mark style="background: {backcolor};"><b>{name}</b></mark></button></form>'
+    btn = f'<form action="{url}"  target="_blank">' \
+    f'<button type="submit"><mark style="background: {uinfo.bg_color};">' \
+    f'<b>{uinfo.short_name}</b></mark></button></form>'
     return btn
 
 
 def gen_highlight_button(typ, url, value, serachstr):
-    backcolor = consts.BACKGROUND_COLOR[typ]
-    name = consts.SHORT_NAMES[typ]
+    uinfo = consts.find_urlinfo_by_link_typ(typ)
 
-    btn = f'<form action="{url}" method="get" target="_blank">'
-    btn += f'<button type="submit"><mark style="background: {backcolor};"><b>{name}</b></mark></button>'
-    btn += f'<input  type="hidden" name="{value}" value="{serachstr}" /> </form>'
+    btn = f'<form action="{url}" method="get" target="_blank">' \
+    f'<button type="submit"><mark style="background: {uinfo.bg_color};"><b>{uinfo.short_name}</b></mark></button>' \
+    f'<input  type="hidden" name="{value}" value="{serachstr}" /> </form>'
     return btn
+
+def find_out_type(url):
+    info = consts.find_urlinfo_by_url(url)
+    return info.link_typ
 
 
 def write_buttons(outfile, modname) :
     outfile.write("\n")
     url_dict = {}
-    for typ in urldb.get_types(modname):
-        for url in urldb.get_urls(modname,typ):
-            url_dict[url] = typ
+
+    for url in urldb.get_urls(modname):
+        url_dict[url] = find_out_type(url)
 
     if len(url_dict) == 0:
         return
@@ -158,7 +160,7 @@ def write_buttons(outfile, modname) :
         outfile.write("| --- ")
     outfile.write("|\n")
 
-    for url, typ in url_dict.items():
+    for url, typ in sorted(url_dict.items()):
         quests = url.find("?")
         if quests == -1:
             outfile.write(f'| {gen_normal_button(typ, url)} ')
@@ -235,7 +237,6 @@ def main():
 
     with open(filenames.roh, "r", encoding="utf-8") as infile, open(filenames.finalref, "w", encoding="utf-8") as outfile:
         for line in infile:
-            # if ">>> " not in line:
             if line.startswith(consts.MARK_BLOCK_TO_SKIP_START):
                 skip_block(infile)
                 continue
@@ -248,7 +249,6 @@ def main():
             if line.startswith(consts.MARK_SUBMODULE_START) :
                 write_submodule(infile, outfile, line)
                 continue
-            # outfile.write(line)
 
 if __name__ == "__main__":
     board_name = gen_board_names(sys.argv)

@@ -9,6 +9,7 @@ _webrepl._webrepl
 builtins.BaseException
 builtins.GeneratorExit
 builtins.StopAsyncIteration
+builtins.str, https://www.w3schools.com/python/python_strings_methods.asp
 builtins.ViperTypeError
 dht.DHTBase
 esp32.NVS, https://docs.micropython.org/en/v1.19/library/esp32.html?highlight=NVS

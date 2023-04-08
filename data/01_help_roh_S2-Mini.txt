@@ -283,12 +283,12 @@ None
 Ä2 Submodule End
 @@@DELETE Start
 object <class 'NeoPixel'> is of type type
-  __getitem__ -- <function __getitem__ at 0x3fd8fbc0>
-  write -- <function write at 0x3fd8fc10>
-  __len__ -- <function __len__ at 0x3fd8fbf0>
-  __setitem__ -- <function __setitem__ at 0x3fd8fbb0>
-  fill -- <function fill at 0x3fd8fc00>
-  __init__ -- <function __init__ at 0x3fd8fbd0>
+  __getitem__ -- <function __getitem__ at 0x3fd8ffc0>
+  write -- <function write at 0x3fd90010>
+  __len__ -- <function __len__ at 0x3fd8fff0>
+  __setitem__ -- <function __setitem__ at 0x3fd8ffb0>
+  fill -- <function fill at 0x3fd90000>
+  __init__ -- <function __init__ at 0x3fd8ffd0>
   ORDER -- (1, 0, 2, 3)
   __qualname__ -- NeoPixel
   __module__ -- neopixel
@@ -296,15 +296,15 @@ None
 @@@DELETE End
 Ä2 Submodule Startapa106.NeoPixel
 Ä3 line ORDER -- (1, 0, 2, 3)
-Ä3 line __getitem__ -- <function __getitem__ at 0x3fd8fbc0>
-Ä3 line __init__ -- <function __init__ at 0x3fd8fbd0>
-Ä3 line __len__ -- <function __len__ at 0x3fd8fbf0>
+Ä3 line __getitem__ -- <function __getitem__ at 0x3fd8ffc0>
+Ä3 line __init__ -- <function __init__ at 0x3fd8ffd0>
+Ä3 line __len__ -- <function __len__ at 0x3fd8fff0>
 Ä3 line __module__ -- neopixel
 Ä3 line __qualname__ -- NeoPixel
-Ä3 line __setitem__ -- <function __setitem__ at 0x3fd8fbb0>
-Ä3 line fill -- <function fill at 0x3fd8fc00>
+Ä3 line __setitem__ -- <function __setitem__ at 0x3fd8ffb0>
+Ä3 line fill -- <function fill at 0x3fd90000>
 Ä3 line object <class 'NeoPixel'> is of type type
-Ä3 line write -- <function write at 0x3fd8fc10>
+Ä3 line write -- <function write at 0x3fd90010>
 Ä2 Submodule End
 Ä1 Module Start btree
 @@@DELETE Start
@@ -1325,47 +1325,47 @@ DHT22 -- <class 'DHT22'>
 @@@DELETE Start
 object <class 'DHTBase'> is of type type
   __module__ -- dht
-  __init__ -- <function __init__ at 0x3fda0bd0>
-  measure -- <function measure at 0x3fda0bc0>
+  __init__ -- <function __init__ at 0x3fda0fd0>
+  measure -- <function measure at 0x3fda0fc0>
   __qualname__ -- DHTBase
 None
 @@@DELETE End
 Ä2 Submodule Startdht.DHTBase
-Ä3 line __init__ -- <function __init__ at 0x3fda0bd0>
+Ä3 line __init__ -- <function __init__ at 0x3fda0fd0>
 Ä3 line __module__ -- dht
 Ä3 line __qualname__ -- DHTBase
-Ä3 line measure -- <function measure at 0x3fda0bc0>
+Ä3 line measure -- <function measure at 0x3fda0fc0>
 Ä3 line object <class 'DHTBase'> is of type type
 Ä2 Submodule End
 @@@DELETE Start
 object <class 'DHT11'> is of type type
   __module__ -- dht
-  humidity -- <function humidity at 0x3fda0c80>
-  temperature -- <function temperature at 0x3fda0c70>
+  humidity -- <function humidity at 0x3fda1080>
+  temperature -- <function temperature at 0x3fda1070>
   __qualname__ -- DHT11
 None
 @@@DELETE End
 Ä2 Submodule Startdht.DHT11
 Ä3 line __module__ -- dht
 Ä3 line __qualname__ -- DHT11
-Ä3 line humidity -- <function humidity at 0x3fda0c80>
+Ä3 line humidity -- <function humidity at 0x3fda1080>
 Ä3 line object <class 'DHT11'> is of type type
-Ä3 line temperature -- <function temperature at 0x3fda0c70>
+Ä3 line temperature -- <function temperature at 0x3fda1070>
 Ä2 Submodule End
 @@@DELETE Start
 object <class 'DHT22'> is of type type
   __module__ -- dht
-  humidity -- <function humidity at 0x3fda0d30>
-  temperature -- <function temperature at 0x3fda0d20>
+  humidity -- <function humidity at 0x3fda1130>
+  temperature -- <function temperature at 0x3fda1120>
   __qualname__ -- DHT22
 None
 @@@DELETE End
 Ä2 Submodule Startdht.DHT22
 Ä3 line __module__ -- dht
 Ä3 line __qualname__ -- DHT22
-Ä3 line humidity -- <function humidity at 0x3fda0d30>
+Ä3 line humidity -- <function humidity at 0x3fda1130>
 Ä3 line object <class 'DHT22'> is of type type
-Ä3 line temperature -- <function temperature at 0x3fda0d20>
+Ä3 line temperature -- <function temperature at 0x3fda1120>
 Ä2 Submodule End
 Ä1 Module Start ds18x20
 @@@DELETE Start
@@ -1389,26 +1389,26 @@ __file__ -- ds18x20.py
 Ä1 Module End
 @@@DELETE Start
 object <class 'DS18X20'> is of type type
-  __init__ -- <function __init__ at 0x3fda2350>
-  convert_temp -- <function convert_temp at 0x3fda2380>
-  scan -- <function scan at 0x3fda2340>
+  __init__ -- <function __init__ at 0x3fda2750>
+  convert_temp -- <function convert_temp at 0x3fda2780>
+  scan -- <function scan at 0x3fda2740>
   __qualname__ -- DS18X20
-  read_scratch -- <function read_scratch at 0x3fda2360>
-  write_scratch -- <function write_scratch at 0x3fda2370>
-  read_temp -- <function read_temp at 0x3fda2390>
+  read_scratch -- <function read_scratch at 0x3fda2760>
+  write_scratch -- <function write_scratch at 0x3fda2770>
+  read_temp -- <function read_temp at 0x3fda2790>
   __module__ -- ds18x20
 None
 @@@DELETE End
 Ä2 Submodule Startds18x20.DS18X20
-Ä3 line __init__ -- <function __init__ at 0x3fda2350>
+Ä3 line __init__ -- <function __init__ at 0x3fda2750>
 Ä3 line __module__ -- ds18x20
 Ä3 line __qualname__ -- DS18X20
-Ä3 line convert_temp -- <function convert_temp at 0x3fda2380>
+Ä3 line convert_temp -- <function convert_temp at 0x3fda2780>
 Ä3 line object <class 'DS18X20'> is of type type
-Ä3 line read_scratch -- <function read_scratch at 0x3fda2360>
-Ä3 line read_temp -- <function read_temp at 0x3fda2390>
-Ä3 line scan -- <function scan at 0x3fda2340>
-Ä3 line write_scratch -- <function write_scratch at 0x3fda2370>
+Ä3 line read_scratch -- <function read_scratch at 0x3fda2760>
+Ä3 line read_temp -- <function read_temp at 0x3fda2790>
+Ä3 line scan -- <function scan at 0x3fda2740>
+Ä3 line write_scratch -- <function write_scratch at 0x3fda2770>
 Ä2 Submodule End
 Ä1 Module Start esp
 @@@DELETE Start
@@ -1744,9 +1744,9 @@ object <module 'inisetup' from 'inisetup.py'> is of type module
   __name__ -- inisetup
   __file__ -- inisetup.py
   uos -- <module 'uos'>
-  fs_corrupted -- <function fs_corrupted at 0x3fda8070>
-  setup -- <function setup at 0x3fda8080>
-  check_bootsec -- <function check_bootsec at 0x3fda8090>
+  fs_corrupted -- <function fs_corrupted at 0x3fda8470>
+  setup -- <function setup at 0x3fda8480>
+  check_bootsec -- <function check_bootsec at 0x3fda8490>
 None
 @@@DELETE End
 ä Submodule notdef
@@ -1760,11 +1760,11 @@ __file__ -- inisetup.py
 ä Submodule notdef
 uos -- <module 'uos'>
 ä Submodule notdef
-fs_corrupted -- <function fs_corrupted at 0x3fda8070>
+fs_corrupted -- <function fs_corrupted at 0x3fda8470>
 ä Submodule notdef
-setup -- <function setup at 0x3fda8080>
+setup -- <function setup at 0x3fda8480>
 ä Submodule notdef
-check_bootsec -- <function check_bootsec at 0x3fda8090>
+check_bootsec -- <function check_bootsec at 0x3fda8490>
 Ä1 Module End
 Ä1 Module Start math
 @@@DELETE Start
@@ -1975,12 +1975,12 @@ __file__ -- neopixel.py
 Ä1 Module End
 @@@DELETE Start
 object <class 'NeoPixel'> is of type type
-  __getitem__ -- <function __getitem__ at 0x3fd8fbc0>
-  write -- <function write at 0x3fd8fc10>
-  __len__ -- <function __len__ at 0x3fd8fbf0>
-  __setitem__ -- <function __setitem__ at 0x3fd8fbb0>
-  fill -- <function fill at 0x3fd8fc00>
-  __init__ -- <function __init__ at 0x3fd8fbd0>
+  __getitem__ -- <function __getitem__ at 0x3fd8ffc0>
+  write -- <function write at 0x3fd90010>
+  __len__ -- <function __len__ at 0x3fd8fff0>
+  __setitem__ -- <function __setitem__ at 0x3fd8ffb0>
+  fill -- <function fill at 0x3fd90000>
+  __init__ -- <function __init__ at 0x3fd8ffd0>
   ORDER -- (1, 0, 2, 3)
   __qualname__ -- NeoPixel
   __module__ -- neopixel
@@ -1988,15 +1988,15 @@ None
 @@@DELETE End
 Ä2 Submodule Startneopixel.NeoPixel
 Ä3 line ORDER -- (1, 0, 2, 3)
-Ä3 line __getitem__ -- <function __getitem__ at 0x3fd8fbc0>
-Ä3 line __init__ -- <function __init__ at 0x3fd8fbd0>
-Ä3 line __len__ -- <function __len__ at 0x3fd8fbf0>
+Ä3 line __getitem__ -- <function __getitem__ at 0x3fd8ffc0>
+Ä3 line __init__ -- <function __init__ at 0x3fd8ffd0>
+Ä3 line __len__ -- <function __len__ at 0x3fd8fff0>
 Ä3 line __module__ -- neopixel
 Ä3 line __qualname__ -- NeoPixel
-Ä3 line __setitem__ -- <function __setitem__ at 0x3fd8fbb0>
-Ä3 line fill -- <function fill at 0x3fd8fc00>
+Ä3 line __setitem__ -- <function __setitem__ at 0x3fd8ffb0>
+Ä3 line fill -- <function fill at 0x3fd90000>
 Ä3 line object <class 'NeoPixel'> is of type type
-Ä3 line write -- <function write at 0x3fd8fc10>
+Ä3 line write -- <function write at 0x3fd90010>
 Ä2 Submodule End
 Ä1 Module Start network
 @@@DELETE Start
@@ -2099,8 +2099,8 @@ object <module 'ntptime' from 'ntptime.py'> is of type module
   __name__ -- ntptime
   __file__ -- ntptime.py
   host -- pool.ntp.org
-  time -- <function time at 0x3fda8050>
-  settime -- <function settime at 0x3fdacd70>
+  time -- <function time at 0x3fda8450>
+  settime -- <function settime at 0x3fdad170>
 None
 @@@DELETE End
 ä Submodule notdef
@@ -2118,9 +2118,9 @@ __file__ -- ntptime.py
 ä Submodule notdef
 host -- pool.ntp.org
 ä Submodule notdef
-time -- <function time at 0x3fda8050>
+time -- <function time at 0x3fda8450>
 ä Submodule notdef
-settime -- <function settime at 0x3fdacd70>
+settime -- <function settime at 0x3fdad170>
 Ä1 Module End
 Ä1 Module Start onewire
 @@@DELETE Start
@@ -2158,22 +2158,22 @@ None
 Ä2 Submodule End
 @@@DELETE Start
 object <class 'OneWire'> is of type type
-  select_rom -- <function select_rom at 0x3fdad6f0>
-  scan -- <function scan at 0x3fdad700>
-  readbit -- <function readbit at 0x3fdad670>
-  writebyte -- <function writebyte at 0x3fdad6d0>
+  select_rom -- <function select_rom at 0x3fdadaf0>
+  scan -- <function scan at 0x3fdadb00>
+  readbit -- <function readbit at 0x3fdada70>
+  writebyte -- <function writebyte at 0x3fdadad0>
   SEARCH_ROM -- 240
   __qualname__ -- OneWire
-  reset -- <function reset at 0x3fdad6b0>
-  writebit -- <function writebit at 0x3fdad6a0>
-  readbyte -- <function readbyte at 0x3fdad680>
-  __init__ -- <function __init__ at 0x3fdad650>
-  _search_rom -- <function _search_rom at 0x3fdad710>
-  readinto -- <function readinto at 0x3fdad690>
+  reset -- <function reset at 0x3fdadab0>
+  writebit -- <function writebit at 0x3fdadaa0>
+  readbyte -- <function readbyte at 0x3fdada80>
+  __init__ -- <function __init__ at 0x3fdada50>
+  _search_rom -- <function _search_rom at 0x3fdadb10>
+  readinto -- <function readinto at 0x3fdada90>
   MATCH_ROM -- 85
-  crc8 -- <function crc8 at 0x3fdad720>
+  crc8 -- <function crc8 at 0x3fdadb20>
   __module__ -- onewire
-  write -- <function write at 0x3fdad6e0>
+  write -- <function write at 0x3fdadae0>
   SKIP_ROM -- 204
 None
 @@@DELETE End
@@ -2181,21 +2181,21 @@ None
 Ä3 line MATCH_ROM -- 85
 Ä3 line SEARCH_ROM -- 240
 Ä3 line SKIP_ROM -- 204
-Ä3 line __init__ -- <function __init__ at 0x3fdad650>
+Ä3 line __init__ -- <function __init__ at 0x3fdada50>
 Ä3 line __module__ -- onewire
 Ä3 line __qualname__ -- OneWire
-Ä3 line _search_rom -- <function _search_rom at 0x3fdad710>
-Ä3 line crc8 -- <function crc8 at 0x3fdad720>
+Ä3 line _search_rom -- <function _search_rom at 0x3fdadb10>
+Ä3 line crc8 -- <function crc8 at 0x3fdadb20>
 Ä3 line object <class 'OneWire'> is of type type
-Ä3 line readbit -- <function readbit at 0x3fdad670>
-Ä3 line readbyte -- <function readbyte at 0x3fdad680>
-Ä3 line readinto -- <function readinto at 0x3fdad690>
-Ä3 line reset -- <function reset at 0x3fdad6b0>
-Ä3 line scan -- <function scan at 0x3fdad700>
-Ä3 line select_rom -- <function select_rom at 0x3fdad6f0>
-Ä3 line write -- <function write at 0x3fdad6e0>
-Ä3 line writebit -- <function writebit at 0x3fdad6a0>
-Ä3 line writebyte -- <function writebyte at 0x3fdad6d0>
+Ä3 line readbit -- <function readbit at 0x3fdada70>
+Ä3 line readbyte -- <function readbyte at 0x3fdada80>
+Ä3 line readinto -- <function readinto at 0x3fdada90>
+Ä3 line reset -- <function reset at 0x3fdadab0>
+Ä3 line scan -- <function scan at 0x3fdadb00>
+Ä3 line select_rom -- <function select_rom at 0x3fdadaf0>
+Ä3 line write -- <function write at 0x3fdadae0>
+Ä3 line writebit -- <function writebit at 0x3fdadaa0>
+Ä3 line writebyte -- <function writebyte at 0x3fdadad0>
 Ä2 Submodule End
 Ä1 Module Start s2mini
 @@@DELETE Start
@@ -2325,15 +2325,15 @@ None
 object <module 'uasyncio/core' from 'uasyncio/core.py'> is of type module
   sys -- <module 'sys'>
   Task -- <class 'Task'>
-  new_event_loop -- <function new_event_loop at 0x3fdb10c0>
-  _promote_to_task -- <function _promote_to_task at 0x3fdb1040>
+  new_event_loop -- <function new_event_loop at 0x3fdb14c0>
+  _promote_to_task -- <function _promote_to_task at 0x3fdb1440>
   __name__ -- uasyncio/core
-  run -- <function run at 0x3fdb0f20>
-  current_task -- <function current_task at 0x3fdb10b0>
+  run -- <function run at 0x3fdb1320>
+  current_task -- <function current_task at 0x3fdb14b0>
   _task_queue -- <TaskQueue>
-  _io_queue -- <IOQueue object at 3fdb10e0>
-  sleep_ms -- <function sleep_ms at 0x3fdb0e10>
-  sleep -- <function sleep at 0x3fdb0e50>
+  _io_queue -- <IOQueue object at 3fdb14e0>
+  sleep_ms -- <function sleep_ms at 0x3fdb1210>
+  sleep -- <function sleep at 0x3fdb1250>
   ticks_add -- <function>
   _exc_context -- {'future': None, 'message': "Task exception wasn't retrieved", 'exception': None}
   ticks_diff -- <function>
@@ -2347,10 +2347,10 @@ object <module 'uasyncio/core' from 'uasyncio/core.py'> is of type module
   select -- <module 'uselect'>
   _stop_task -- None
   CancelledError -- <class 'CancelledError'>
-  get_event_loop -- <function get_event_loop at 0x3fdb1230>
-  run_until_complete -- <function run_until_complete at 0x3fdb0f00>
+  get_event_loop -- <function get_event_loop at 0x3fdb1630>
+  run_until_complete -- <function run_until_complete at 0x3fdb1300>
   ticks -- <function>
-  create_task -- <function create_task at 0x3fdb10a0>
+  create_task -- <function create_task at 0x3fdb14a0>
 None
 @@@DELETE End
 ä Submodule notdef
@@ -2360,23 +2360,23 @@ sys -- <module 'sys'>
 ä Submodule def uasyncio/core.Task
 Task -- <class 'Task'>
 ä Submodule notdef
-new_event_loop -- <function new_event_loop at 0x3fdb10c0>
+new_event_loop -- <function new_event_loop at 0x3fdb14c0>
 ä Submodule notdef
-_promote_to_task -- <function _promote_to_task at 0x3fdb1040>
+_promote_to_task -- <function _promote_to_task at 0x3fdb1440>
 ä Submodule notdef
 __name__ -- uasyncio/core
 ä Submodule notdef
-run -- <function run at 0x3fdb0f20>
+run -- <function run at 0x3fdb1320>
 ä Submodule notdef
-current_task -- <function current_task at 0x3fdb10b0>
+current_task -- <function current_task at 0x3fdb14b0>
 ä Submodule notdef
 _task_queue -- <TaskQueue>
 ä Submodule notdef
-_io_queue -- <IOQueue object at 3fdb10e0>
+_io_queue -- <IOQueue object at 3fdb14e0>
 ä Submodule notdef
-sleep_ms -- <function sleep_ms at 0x3fdb0e10>
+sleep_ms -- <function sleep_ms at 0x3fdb1210>
 ä Submodule notdef
-sleep -- <function sleep at 0x3fdb0e50>
+sleep -- <function sleep at 0x3fdb1250>
 ä Submodule notdef
 ticks_add -- <function>
 ä Submodule notdef
@@ -2404,13 +2404,13 @@ _stop_task -- None
 ä Submodule def uasyncio/core.CancelledError
 CancelledError -- <class 'CancelledError'>
 ä Submodule notdef
-get_event_loop -- <function get_event_loop at 0x3fdb1230>
+get_event_loop -- <function get_event_loop at 0x3fdb1630>
 ä Submodule notdef
-run_until_complete -- <function run_until_complete at 0x3fdb0f00>
+run_until_complete -- <function run_until_complete at 0x3fdb1300>
 ä Submodule notdef
 ticks -- <function>
 ä Submodule notdef
-create_task -- <function create_task at 0x3fdb10a0>
+create_task -- <function create_task at 0x3fdb14a0>
 Ä1 Module End
 @@@DELETE Start
 object <class 'Task'> is of type type
@@ -2436,18 +2436,18 @@ None
 Ä2 Submodule End
 @@@DELETE Start
 object <class 'SingletonGenerator'> is of type type
-  __iter__ -- <function __iter__ at 0x3fdb0e30>
+  __iter__ -- <function __iter__ at 0x3fdb1230>
   __qualname__ -- SingletonGenerator
-  __next__ -- <function __next__ at 0x3fdb0e70>
+  __next__ -- <function __next__ at 0x3fdb1270>
   __module__ -- uasyncio/core
-  __init__ -- <function __init__ at 0x3fdb0e40>
+  __init__ -- <function __init__ at 0x3fdb1240>
 None
 @@@DELETE End
 Ä2 Submodule Startuasyncio/core.SingletonGenerator
-Ä3 line __init__ -- <function __init__ at 0x3fdb0e40>
-Ä3 line __iter__ -- <function __iter__ at 0x3fdb0e30>
+Ä3 line __init__ -- <function __init__ at 0x3fdb1240>
+Ä3 line __iter__ -- <function __iter__ at 0x3fdb1230>
 Ä3 line __module__ -- uasyncio/core
-Ä3 line __next__ -- <function __next__ at 0x3fdb0e70>
+Ä3 line __next__ -- <function __next__ at 0x3fdb1270>
 Ä3 line __qualname__ -- SingletonGenerator
 Ä3 line object <class 'SingletonGenerator'> is of type type
 Ä2 Submodule End
@@ -2465,58 +2465,58 @@ None
 @@@DELETE Start
 object <class 'Loop'> is of type type
   _exc_handler -- None
-  stop -- <function stop at 0x3fdb1180>
+  stop -- <function stop at 0x3fdb1580>
   __qualname__ -- Loop
   __module__ -- uasyncio/core
-  get_exception_handler -- <function get_exception_handler at 0x3fdb11b0>
-  run_forever -- <function run_forever at 0x3fdb0f70>
-  default_exception_handler -- <function default_exception_handler at 0x3fdb11c0>
-  create_task -- <function create_task at 0x3fdb0f60>
-  set_exception_handler -- <function set_exception_handler at 0x3fdb11a0>
-  close -- <function close at 0x3fdb1190>
-  call_exception_handler -- <function call_exception_handler at 0x3fdb11d0>
-  run_until_complete -- <function run_until_complete at 0x3fdb1170>
+  get_exception_handler -- <function get_exception_handler at 0x3fdb15b0>
+  run_forever -- <function run_forever at 0x3fdb1370>
+  default_exception_handler -- <function default_exception_handler at 0x3fdb15c0>
+  create_task -- <function create_task at 0x3fdb1360>
+  set_exception_handler -- <function set_exception_handler at 0x3fdb15a0>
+  close -- <function close at 0x3fdb1590>
+  call_exception_handler -- <function call_exception_handler at 0x3fdb15d0>
+  run_until_complete -- <function run_until_complete at 0x3fdb1570>
 None
 @@@DELETE End
 Ä2 Submodule Startuasyncio/core.Loop
 Ä3 line __module__ -- uasyncio/core
 Ä3 line __qualname__ -- Loop
 Ä3 line _exc_handler -- None
-Ä3 line call_exception_handler -- <function call_exception_handler at 0x3fdb11d0>
-Ä3 line close -- <function close at 0x3fdb1190>
-Ä3 line create_task -- <function create_task at 0x3fdb0f60>
-Ä3 line default_exception_handler -- <function default_exception_handler at 0x3fdb11c0>
-Ä3 line get_exception_handler -- <function get_exception_handler at 0x3fdb11b0>
+Ä3 line call_exception_handler -- <function call_exception_handler at 0x3fdb15d0>
+Ä3 line close -- <function close at 0x3fdb1590>
+Ä3 line create_task -- <function create_task at 0x3fdb1360>
+Ä3 line default_exception_handler -- <function default_exception_handler at 0x3fdb15c0>
+Ä3 line get_exception_handler -- <function get_exception_handler at 0x3fdb15b0>
 Ä3 line object <class 'Loop'> is of type type
-Ä3 line run_forever -- <function run_forever at 0x3fdb0f70>
-Ä3 line run_until_complete -- <function run_until_complete at 0x3fdb1170>
-Ä3 line set_exception_handler -- <function set_exception_handler at 0x3fdb11a0>
-Ä3 line stop -- <function stop at 0x3fdb1180>
+Ä3 line run_forever -- <function run_forever at 0x3fdb1370>
+Ä3 line run_until_complete -- <function run_until_complete at 0x3fdb1570>
+Ä3 line set_exception_handler -- <function set_exception_handler at 0x3fdb15a0>
+Ä3 line stop -- <function stop at 0x3fdb1580>
 Ä2 Submodule End
 @@@DELETE Start
 object <class 'IOQueue'> is of type type
-  _dequeue -- <function _dequeue at 0x3fdb0fd0>
-  queue_read -- <function queue_read at 0x3fdb0fb0>
-  wait_io_event -- <function wait_io_event at 0x3fdb0ff0>
+  _dequeue -- <function _dequeue at 0x3fdb13d0>
+  queue_read -- <function queue_read at 0x3fdb13b0>
+  wait_io_event -- <function wait_io_event at 0x3fdb13f0>
   __module__ -- uasyncio/core
-  __init__ -- <function __init__ at 0x3fdb0fa0>
-  _enqueue -- <function _enqueue at 0x3fdb0f90>
+  __init__ -- <function __init__ at 0x3fdb13a0>
+  _enqueue -- <function _enqueue at 0x3fdb1390>
   __qualname__ -- IOQueue
-  remove -- <function remove at 0x3fdb0fe0>
-  queue_write -- <function queue_write at 0x3fdb0fc0>
+  remove -- <function remove at 0x3fdb13e0>
+  queue_write -- <function queue_write at 0x3fdb13c0>
 None
 @@@DELETE End
 Ä2 Submodule Startuasyncio/core.IOQueue
-Ä3 line __init__ -- <function __init__ at 0x3fdb0fa0>
+Ä3 line __init__ -- <function __init__ at 0x3fdb13a0>
 Ä3 line __module__ -- uasyncio/core
 Ä3 line __qualname__ -- IOQueue
-Ä3 line _dequeue -- <function _dequeue at 0x3fdb0fd0>
-Ä3 line _enqueue -- <function _enqueue at 0x3fdb0f90>
+Ä3 line _dequeue -- <function _dequeue at 0x3fdb13d0>
+Ä3 line _enqueue -- <function _enqueue at 0x3fdb1390>
 Ä3 line object <class 'IOQueue'> is of type type
-Ä3 line queue_read -- <function queue_read at 0x3fdb0fb0>
-Ä3 line queue_write -- <function queue_write at 0x3fdb0fc0>
-Ä3 line remove -- <function remove at 0x3fdb0fe0>
-Ä3 line wait_io_event -- <function wait_io_event at 0x3fdb0ff0>
+Ä3 line queue_read -- <function queue_read at 0x3fdb13b0>
+Ä3 line queue_write -- <function queue_write at 0x3fdb13c0>
+Ä3 line remove -- <function remove at 0x3fdb13e0>
+Ä3 line wait_io_event -- <function wait_io_event at 0x3fdb13f0>
 Ä2 Submodule End
 @@@DELETE Start
 object <class 'CancelledError'> is of type type
@@ -3869,7 +3869,7 @@ object <module 'upip_utarfile' from 'upip_utarfile.py'> is of type module
   TAR_HEADER -- {'name': (-1073741824, 100), 'size': (-1073741700, 11)}
   uctypes -- <module 'uctypes'>
   __file__ -- upip_utarfile.py
-  roundup -- <function roundup at 0x3fdb0c60>
+  roundup -- <function roundup at 0x3fdb1060>
   REGTYPE -- file
 None
 @@@DELETE End
@@ -3892,61 +3892,61 @@ uctypes -- <module 'uctypes'>
 ä Submodule notdef
 __file__ -- upip_utarfile.py
 ä Submodule notdef
-roundup -- <function roundup at 0x3fdb0c60>
+roundup -- <function roundup at 0x3fdb1060>
 ä Submodule notdef
 REGTYPE -- file
 Ä1 Module End
 @@@DELETE Start
 object <class 'FileSection'> is of type type
   __qualname__ -- FileSection
-  readinto -- <function readinto at 0x3fdc8070>
-  skip -- <function skip at 0x3fdc8030>
+  readinto -- <function readinto at 0x3fdc8470>
+  skip -- <function skip at 0x3fdc8430>
   __module__ -- upip_utarfile
-  read -- <function read at 0x3fdc8050>
-  __init__ -- <function __init__ at 0x3fdc7fe0>
+  read -- <function read at 0x3fdc8450>
+  __init__ -- <function __init__ at 0x3fdc83e0>
 None
 @@@DELETE End
 Ä2 Submodule Startupip_utarfile.FileSection
-Ä3 line __init__ -- <function __init__ at 0x3fdc7fe0>
+Ä3 line __init__ -- <function __init__ at 0x3fdc83e0>
 Ä3 line __module__ -- upip_utarfile
 Ä3 line __qualname__ -- FileSection
 Ä3 line object <class 'FileSection'> is of type type
-Ä3 line read -- <function read at 0x3fdc8050>
-Ä3 line readinto -- <function readinto at 0x3fdc8070>
-Ä3 line skip -- <function skip at 0x3fdc8030>
+Ä3 line read -- <function read at 0x3fdc8450>
+Ä3 line readinto -- <function readinto at 0x3fdc8470>
+Ä3 line skip -- <function skip at 0x3fdc8430>
 Ä2 Submodule End
 @@@DELETE Start
 object <class 'TarInfo'> is of type type
   __module__ -- upip_utarfile
-  __str__ -- <function __str__ at 0x3fdc8110>
+  __str__ -- <function __str__ at 0x3fdc8510>
   __qualname__ -- TarInfo
 None
 @@@DELETE End
 Ä2 Submodule Startupip_utarfile.TarInfo
 Ä3 line __module__ -- upip_utarfile
 Ä3 line __qualname__ -- TarInfo
-Ä3 line __str__ -- <function __str__ at 0x3fdc8110>
+Ä3 line __str__ -- <function __str__ at 0x3fdc8510>
 Ä3 line object <class 'TarInfo'> is of type type
 Ä2 Submodule End
 @@@DELETE Start
 object <class 'TarFile'> is of type type
   __module__ -- upip_utarfile
-  __init__ -- <function __init__ at 0x3fdc81d0>
-  __next__ -- <function __next__ at 0x3fdc81f0>
+  __init__ -- <function __init__ at 0x3fdc85d0>
+  __next__ -- <function __next__ at 0x3fdc85f0>
   __qualname__ -- TarFile
-  next -- <function next at 0x3fdc8010>
-  extractfile -- <function extractfile at 0x3fdc8200>
-  __iter__ -- <function __iter__ at 0x3fdc8100>
+  next -- <function next at 0x3fdc8410>
+  extractfile -- <function extractfile at 0x3fdc8600>
+  __iter__ -- <function __iter__ at 0x3fdc8500>
 None
 @@@DELETE End
 Ä2 Submodule Startupip_utarfile.TarFile
-Ä3 line __init__ -- <function __init__ at 0x3fdc81d0>
-Ä3 line __iter__ -- <function __iter__ at 0x3fdc8100>
+Ä3 line __init__ -- <function __init__ at 0x3fdc85d0>
+Ä3 line __iter__ -- <function __iter__ at 0x3fdc8500>
 Ä3 line __module__ -- upip_utarfile
-Ä3 line __next__ -- <function __next__ at 0x3fdc81f0>
+Ä3 line __next__ -- <function __next__ at 0x3fdc85f0>
 Ä3 line __qualname__ -- TarFile
-Ä3 line extractfile -- <function extractfile at 0x3fdc8200>
-Ä3 line next -- <function next at 0x3fdc8010>
+Ä3 line extractfile -- <function extractfile at 0x3fdc8600>
+Ä3 line next -- <function next at 0x3fdc8410>
 Ä3 line object <class 'TarFile'> is of type type
 Ä2 Submodule End
 Ä1 Module Start uplatform
@@ -4354,8 +4354,8 @@ object <module 'websocket_helper' from 'websocket_helper.py'> is of type module
   __file__ -- websocket_helper.py
   sys -- <module 'sys'>
   DEBUG -- 0
-  server_handshake -- <function server_handshake at 0x3fd98c10>
-  client_handshake -- <function client_handshake at 0x3fd98c20>
+  server_handshake -- <function server_handshake at 0x3fd98df0>
+  client_handshake -- <function client_handshake at 0x3fd98e00>
 None
 @@@DELETE End
 ä Submodule notdef
@@ -4373,8 +4373,8 @@ sys -- <module 'sys'>
 ä Submodule notdef
 DEBUG -- 0
 ä Submodule notdef
-server_handshake -- <function server_handshake at 0x3fd98c10>
+server_handshake -- <function server_handshake at 0x3fd98df0>
 ä Submodule notdef
-client_handshake -- <function client_handshake at 0x3fd98c20>
+client_handshake -- <function client_handshake at 0x3fd98e00>
 Ä1 Module End
 >>> 

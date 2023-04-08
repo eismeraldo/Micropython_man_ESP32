@@ -22,11 +22,11 @@ B --> |Copy mauell| D[(01_help_roh_xx.txt)]
     K --> O[[4. gen_final_md.py ]] --> R[(mp_referenz_xx.md)]
 ```
 
-### 1. Skript mit Thonny ausführen
+### 1. Skript mit Thonny ausführen (nur erstes Mal pro Board)
 
 Sobald Thonny mit einem Micropython fähigen Board verbunden ist, kann das Skript `esp32_to_txt.py` ausgeführt werden. Der Output wird in das File `01_help_roh_xx.txt` kopiert. Dieses File stellt nun die Basis für den weiteren Ablauf dar.
 
-### 2. Hilfe URL pro Modul ermitteln
+### 2. Hilfe URL pro Modul ermitteln (nur erstes Mal pro Board)
 
 Das Programm `gen_mod_urls.py` ist ein Python 3 Skript. Als Input dient die zuvor erstellte Datei `01_help_roh_xx.txt`. Aus ihr werden die Modules extrahiert und für jedes Modul wird versucht, eine Hilfe Seite zu finden. Es werden dabei drei Dateien erstellt:
 
@@ -65,37 +65,37 @@ Die Generierung des eigentlichen Ziels, nämlich der Datei `mp_referenz_xx.md`, 
 # Beispiel Ausschnitte aus der Hiledatei
 
 
-![ ](./images/Image01.png)
+![ ](./images/Image_01.png)
 
 Die Legende zu den Link und Buttons und deren Bedeutung
 
 
-![ ](./images/Image02.png)
+![ ](./images/Image_02.png)
 
 Übersicht aller Module, welche Micropython kennt. Jeder Link verweisst auf das entsprechende Modul im Dokument.
 
 
-![ ](./images/Image03.png)
+![ ](./images/Image_03.png)
 
 Link auf die Micropython Homepage und das entsprechende Modul, hier als Beispiel `btree`.
 
-![ ](./images/Image04.png)
+![ ](./images/Image_04.png)
 
 Das Submodule `complex` vom Modul `builtins`. Mit dem Link `builtins` wird auf das Modul zurückgesprungen und mit dem Link `Overview` zur Übersicht.
 Der Button zeigt, dass auf die Homepage von Micropython gesprungen wird jedoch das Submodul nicht als Haupttitel vorhanden ist. Vielmehr werden alle Vorkommen des Submodules in der Seite markiert.
 
 
-![ ](./images/Image05.png)
+![ ](./images/Image_05.png)
 
 Der Button verweist auf die Micropython Spezialseite des ESP32 und die Vorkommen des Submodules werden markiert
 
 
-![ ](./images/Image06.png)
+![ ](./images/Image_06.png)
 
 Hier ist ein Beispiel von mehrern Buttons, d.h. es sind in der Datei `05_manual_fixed_urls_xx.txt` mehrere Links für diese Submodul von Hand eingetragen worden.
 
 
-![ ](./images/Image07.png)
+![ ](./images/Image_07.png)
 
 Mit diesem Link wird auf eine exterene Seite verwiesen, wobei das Submodul nicht als Haupttitel vorhanden ist, vielmehr werden alle Vorkommen des Submodules in der Seite markiert.
 

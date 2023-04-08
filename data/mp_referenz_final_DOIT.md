@@ -17,19 +17,19 @@
     }
   </style>
 </head>
-Generated: 05.04.2023 21:22:11
+Generated: 08.04.2023 10:55:04
 
 
 ## Legende: Links and Buttons
 |     |     |
 | --- | --- |
 | [ein Link](#Overview) | Gleicher Tab. Link innerhalb dieses Dokumentes | |
-| <form ><button ><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> | Neuer Tab. Die offizielle Micropython Referenz des entsprechenden Modules wird geöffnet
-| <form ><button ><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button></form> | Neuer Tab. Die offizielle Micropython Referenz wird geöffnet und das entsprechende Module highlighted
-| <form ><button ><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button></form> | Neuer Tab. Die ESP32 Micropython Referenz wird geöffnet und das entsprechende Module highlighted
-| <form ><button ><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button></form> | Neuer Tab. Intersessante Seite in Bezug zum entsprechenden Micropython Modul wird geöffnet
+| <form ><button ><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> | Neuer Tab. Die offizielle Micropython Referenz des entsprechenden Modules wird geöffnet
+| <form ><button ><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button></form> | Neuer Tab. Die offizielle Micropython Referenz wird geöffnet und das entsprechende Module highlighted
+| <form ><button ><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button></form> | Neuer Tab. Die ESP32 Micropython Referenz wird geöffnet und das entsprechende Module highlighted
+| <form ><button ><mark style="background: SkyBlue;"><b>Extern</b></mark></button></form> | Neuer Tab. Intersessante Seite in Bezug zum entsprechenden Micropython Modul wird geöffnet
 | <form ><button ><mark style="background: Yellow;"><b>Extern highlight</b></mark></button></form> | Neuer Tab. Intersessante Seite wird geöffnet und das entsprechende Module highlighted
-| <form ><button ><mark style="background: Crimson;"><b>YouTube</b></mark></button></form> | Neuer Tab. YouTube Clip, welche das Thema behandelt
+| <form ><button ><mark style="background: Red;"><b>YouTube</b></mark></button></form> | Neuer Tab. YouTube Clip, welche das Thema behandelt
 ## Overview of all modules <span id="Overview"><span>
 | |  |  |  |  |  | 
 | --- | --- | --- | --- | --- | --- |
@@ -70,7 +70,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/_thread.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/_thread.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module '_thread'> is of type module`
   * `__name__ -- _thread`
@@ -143,7 +143,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="apa106" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="apa106" /> </form> |
 
   * `object <module 'apa106' from 'apa106.py'> is of type module`
   * [`APA106 -- <class 'APA106'>`](#apa106.APA106)
@@ -156,7 +156,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="APA106" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="APA106" /> </form> |
 
   * `ORDER -- (0, 1, 2, 3)`
   * `__module__ -- apa106`
@@ -170,7 +170,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="NeoPixel" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="NeoPixel" /> </form> |
 
   * `ORDER -- (1, 0, 2, 3)`
   * `__getitem__ -- <function __getitem__ at 0x3ffe8e10>`
@@ -190,7 +190,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/btree.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/btree.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'btree'> is of type module`
   * `__name__ -- btree`
@@ -203,7 +203,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'builtins'> is of type module`
   * `__name__ -- builtins`
@@ -311,7 +311,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="bool" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="bool" /> </form> |
 
   * `object <class 'bool'> is of type type`
 
@@ -322,7 +322,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="bytes" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="bytes" /> </form> |
 
   * `center -- <function>`
   * `count -- <function>`
@@ -360,7 +360,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="bytearray" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="bytearray" /> </form> |
 
   * `append -- <function>`
   * `decode -- <function>`
@@ -374,7 +374,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="complex" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="complex" /> </form> |
 
   * `object <class 'complex'> is of type type`
 
@@ -385,7 +385,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="dict" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="dict" /> </form> |
 
   * `__delitem__ -- <function>`
   * `__getitem__ -- <function>`
@@ -410,7 +410,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="enumerate" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="enumerate" /> </form> |
 
   * `object <class 'enumerate'> is of type type`
 
@@ -421,7 +421,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="filter" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="filter" /> </form> |
 
   * `object <class 'filter'> is of type type`
 
@@ -432,7 +432,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="float" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="float" /> </form> |
 
   * `object <class 'float'> is of type type`
 
@@ -443,7 +443,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="frozenset" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="frozenset" /> </form> |
 
   * `__contains__ -- <function>`
   * `copy -- <function>`
@@ -463,7 +463,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="int" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="int" /> </form> |
 
   * `from_bytes -- <classmethod>`
   * `object <class 'int'> is of type type`
@@ -476,7 +476,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="list" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="list" /> </form> |
 
   * `append -- <function>`
   * `clear -- <function>`
@@ -498,7 +498,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="map" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="map" /> </form> |
 
   * `object <class 'map'> is of type type`
 
@@ -509,7 +509,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="memoryview" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="memoryview" /> </form> |
 
   * `object <class 'memoryview'> is of type type`
 
@@ -520,7 +520,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="object" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="object" /> </form> |
 
   * `__delattr__ -- <function>`
   * `__init__ -- <function>`
@@ -535,7 +535,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="property" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="property" /> </form> |
 
   * `deleter -- <function>`
   * `getter -- <function>`
@@ -549,7 +549,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="range" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="range" /> </form> |
 
   * `object <class 'range'> is of type type`
 
@@ -560,7 +560,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="reversed" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="reversed" /> </form> |
 
   * `object <class 'reversed'> is of type type`
 
@@ -571,7 +571,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="set" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="set" /> </form> |
 
   * `__contains__ -- <function>`
   * `add -- <function>`
@@ -600,7 +600,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="slice" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="slice" /> </form> |
 
   * `object <class 'slice'> is of type type`
 
@@ -609,9 +609,9 @@ Generated: 05.04.2023 21:22:11
 [--> Overview](#Overview)
 ## builtins --> str <span id="builtins.str"></span>
 
-|    |
-| --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="str" /> </form> |
+|    |    |
+| --- | --- |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="str" /> </form> | <form action="https://www.w3schools.com/python/python_strings_methods.asp"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>Extern</b></mark></button></form> |
 
   * `center -- <function>`
   * `count -- <function>`
@@ -649,7 +649,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="super" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="super" /> </form> |
 
   * `object <class 'super'> is of type type`
 
@@ -660,7 +660,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="tuple" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="tuple" /> </form> |
 
   * `count -- <function>`
   * `index -- <function>`
@@ -673,7 +673,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="type" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="type" /> </form> |
 
   * `object <class 'type'> is of type type`
 
@@ -684,7 +684,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="zip" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="zip" /> </form> |
 
   * `object <class 'zip'> is of type type`
 
@@ -695,7 +695,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="classmethod" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="classmethod" /> </form> |
 
   * `object <class 'classmethod'> is of type type`
 
@@ -706,7 +706,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="staticmethod" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="staticmethod" /> </form> |
 
   * `object <class 'staticmethod'> is of type type`
 
@@ -735,7 +735,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="AssertionError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="AssertionError" /> </form> |
 
   * `object <class 'AssertionError'> is of type type`
 
@@ -746,7 +746,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="AttributeError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="AttributeError" /> </form> |
 
   * `object <class 'AttributeError'> is of type type`
 
@@ -768,7 +768,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="Exception" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="Exception" /> </form> |
 
   * `object <class 'Exception'> is of type type`
 
@@ -786,7 +786,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="ImportError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="ImportError" /> </form> |
 
   * `object <class 'ImportError'> is of type type`
 
@@ -808,7 +808,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="IndexError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="IndexError" /> </form> |
 
   * `object <class 'IndexError'> is of type type`
 
@@ -819,7 +819,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="KeyboardInterrupt" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="KeyboardInterrupt" /> </form> |
 
   * `object <class 'KeyboardInterrupt'> is of type type`
 
@@ -830,7 +830,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="KeyError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="KeyError" /> </form> |
 
   * `object <class 'KeyError'> is of type type`
 
@@ -852,7 +852,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="MemoryError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="MemoryError" /> </form> |
 
   * `object <class 'MemoryError'> is of type type`
 
@@ -863,7 +863,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="NameError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="NameError" /> </form> |
 
   * `object <class 'NameError'> is of type type`
 
@@ -874,7 +874,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="NotImplementedError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="NotImplementedError" /> </form> |
 
   * `object <class 'NotImplementedError'> is of type type`
 
@@ -885,7 +885,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="OSError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="OSError" /> </form> |
 
   * `object <class 'OSError'> is of type type`
 
@@ -907,7 +907,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="RuntimeError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="RuntimeError" /> </form> |
 
   * `object <class 'RuntimeError'> is of type type`
 
@@ -925,7 +925,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="StopIteration" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="StopIteration" /> </form> |
 
   * `object <class 'StopIteration'> is of type type`
 
@@ -936,7 +936,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="SyntaxError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="SyntaxError" /> </form> |
 
   * `object <class 'SyntaxError'> is of type type`
 
@@ -947,7 +947,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="SystemExit" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="SystemExit" /> </form> |
 
   * `object <class 'SystemExit'> is of type type`
 
@@ -958,7 +958,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="TypeError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="TypeError" /> </form> |
 
   * `object <class 'TypeError'> is of type type`
 
@@ -980,7 +980,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="ValueError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="ValueError" /> </form> |
 
   * `object <class 'ValueError'> is of type type`
 
@@ -998,7 +998,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="ZeroDivisionError" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/builtins.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="ZeroDivisionError" /> </form> |
 
   * `object <class 'ZeroDivisionError'> is of type type`
 
@@ -1009,7 +1009,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/cmath.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/cmath.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'cmath'> is of type module`
   * `__name__ -- cmath`
@@ -1030,7 +1030,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="dht" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="dht" /> </form> |
 
   * `object <module 'dht' from 'dht.py'> is of type module`
   * [`DHTBase -- <class 'DHTBase'>`](#dht.DHTBase)
@@ -1057,7 +1057,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="DHT11" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="DHT11" /> </form> |
 
   * `__module__ -- dht`
   * `__qualname__ -- DHT11`
@@ -1072,7 +1072,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="DHT22" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="DHT22" /> </form> |
 
   * `__module__ -- dht`
   * `__qualname__ -- DHT22`
@@ -1087,7 +1087,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="ds18x20" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="ds18x20" /> </form> |
 
   * `object <module 'ds18x20' from 'ds18x20.py'> is of type module`
   * `const -- <function>`
@@ -1100,7 +1100,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="DS18X20" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="DS18X20" /> </form> |
 
   * `__init__ -- <function __init__ at 0x3fffb5a0>`
   * `__module__ -- ds18x20`
@@ -1119,7 +1119,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/esp.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/esp.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'esp'> is of type module`
   * `__name__ -- esp`
@@ -1144,7 +1144,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/esp32.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/esp32.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'esp32'> is of type module`
   * `__name__ -- esp32`
@@ -1169,7 +1169,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |    |    |    |
 | --- | --- | --- | --- |
-| <form action="https://docs.micropython.org/en/v1.19/library/esp32.html" method="get" target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button><input  type="hidden" name="highlight" value="NVS" /> </form> | <form action="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html"  target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button></form> | <form action="https://insigh.io/blog/over-the-air-switch-from-esp-idf-to-micropython/"  target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button></form> | <form action="https://www.youtube.com/watch" method="get" target="_blank"><button type="submit"><mark style="background: Crimson;"><b>YouTube</b></mark></button><input  type="hidden" name="v" value="CX5-dAmOxRc" /> </form> |
+| <form action="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>Extern</b></mark></button></form> | <form action="https://docs.micropython.org/en/v1.19/library/esp32.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="NVS" /> </form> | <form action="https://insigh.io/blog/over-the-air-switch-from-esp-idf-to-micropython/"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>Extern</b></mark></button></form> | <form action="https://www.youtube.com/watch" method="get" target="_blank"><button type="submit"><mark style="background: Red;"><b>YouTube</b></mark></button><input  type="hidden" name="v" value="CX5-dAmOxRc" /> </form> |
 
   * `commit -- <function>`
   * `erase_key -- <function>`
@@ -1186,7 +1186,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/esp32.html" method="get" target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button><input  type="hidden" name="highlight" value="Partition" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/esp32.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="Partition" /> </form> |
 
   * `BOOT -- 0`
   * `RUNNING -- 1`
@@ -1209,7 +1209,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="RMT" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="RMT" /> </form> |
 
   * `__del__ -- <function>`
   * `bitstream_channel -- <staticmethod>`
@@ -1228,7 +1228,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="ULP" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="ULP" /> </form> |
 
   * `RESERVE_MEM -- 512`
   * `load_binary -- <function>`
@@ -1243,7 +1243,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/v1.19/reference/filesystem.html" method="get" target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button><input  type="hidden" name="highlight" value="flashbdev" /> </form> |
+| <form action="https://docs.micropython.org/en/v1.19/reference/filesystem.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>Extern highlight</b></mark></button><input  type="hidden" name="highlight" value="flashbdev" /> </form> |
 
   * `object <module 'flashbdev' from 'flashbdev.py'> is of type module`
   * [`Partition -- <class 'Partition'>`](#flashbdev.Partition)
@@ -1256,7 +1256,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/v1.19/reference/filesystem.html" method="get" target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button><input  type="hidden" name="highlight" value="Partition" /> </form> |
+| <form action="https://docs.micropython.org/en/v1.19/reference/filesystem.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>Extern highlight</b></mark></button><input  type="hidden" name="highlight" value="Partition" /> </form> |
 
   * `BOOT -- 0`
   * `RUNNING -- 1`
@@ -1279,7 +1279,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/framebuf.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/framebuf.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'framebuf'> is of type module`
   * `__name__ -- framebuf`
@@ -1299,7 +1299,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |    |    |
 | --- | --- | --- |
-| <form action="https://docs.micropython.org/en/latest/library/framebuf.html"  target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button></form> | <form action="https://blog.miguelgrinberg.com/post/micropython-and-the-internet-of-things-part-vi-working-with-a-screen"  target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button></form> | <form action="https://www.youtube.com/watch" method="get" target="_blank"><button type="submit"><mark style="background: Crimson;"><b>YouTube</b></mark></button><input  type="hidden" name="v" value="uuFm-mp2S64" /> </form> |
+| <form action="https://blog.miguelgrinberg.com/post/micropython-and-the-internet-of-things-part-vi-working-with-a-screen"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>Extern</b></mark></button></form> | <form action="https://docs.micropython.org/en/latest/library/framebuf.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> | <form action="https://www.youtube.com/watch" method="get" target="_blank"><button type="submit"><mark style="background: Red;"><b>YouTube</b></mark></button><input  type="hidden" name="v" value="uuFm-mp2S64" /> </form> |
 
   * `blit -- <function>`
   * `fill -- <function>`
@@ -1320,7 +1320,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/gc.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/gc.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'gc'> is of type module`
   * `__name__ -- gc`
@@ -1337,7 +1337,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://github.com/micropython/micropython-esp32/blob/esp32/ports/esp32/modules/inisetup.py"  target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button></form> |
+| <form action="https://github.com/micropython/micropython-esp32/blob/esp32/ports/esp32/modules/inisetup.py"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>Extern</b></mark></button></form> |
 
   * `object <module 'inisetup' from 'inisetup.py'> is of type module`
   * `bdev -- <Partition type=1, subtype=129, address=2097152, size=2097152, label=vfs, encrypted=0>`
@@ -1353,7 +1353,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/math.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/math.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'math'> is of type module`
   * `__name__ -- math`
@@ -1408,7 +1408,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/micropython.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/micropython.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'micropython'> is of type module`
   * `__name__ -- micropython`
@@ -1428,7 +1428,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/neopixel.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/neopixel.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'neopixel' from 'neopixel.py'> is of type module`
   * `bitstream -- <function>`
@@ -1441,7 +1441,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="NeoPixel" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="NeoPixel" /> </form> |
 
   * `ORDER -- (1, 0, 2, 3)`
   * `__getitem__ -- <function __getitem__ at 0x3ffe8e10>`
@@ -1461,7 +1461,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/network.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/network.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'network'> is of type module`
   * `__name__ -- network`
@@ -1508,7 +1508,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |    |
 | --- | --- |
-| <form action="https://bhave.sh/micropython-ntp/"  target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button></form> | <form action="https://www.engineersgarage.com/micropython-esp8266-esp32-rtc-utc-local-time/"  target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button></form> |
+| <form action="https://bhave.sh/micropython-ntp/"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>Extern</b></mark></button></form> | <form action="https://www.engineersgarage.com/micropython-esp8266-esp32-rtc-utc-local-time/"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>Extern</b></mark></button></form> |
 
   * `object <module 'ntptime' from 'ntptime.py'> is of type module`
   * `socket -- <module 'usocket'>`
@@ -1525,7 +1525,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="onewire" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="onewire" /> </form> |
 
   * `object <module 'onewire' from 'onewire.py'> is of type module`
   * `__name__ -- onewire`
@@ -1548,7 +1548,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="OneWire" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="OneWire" /> </form> |
 
   * `MATCH_ROM -- 85`
   * `SEARCH_ROM -- 240`
@@ -1576,7 +1576,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uarray.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uarray.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'uarray'> is of type module`
   * `__name__ -- uarray`
@@ -1587,7 +1587,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/array.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/array.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `append -- <function>`
   * `decode -- <function>`
@@ -1601,7 +1601,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'uasyncio/core' from 'uasyncio/core.py'> is of type module`
   * `sys -- <module 'sys'>`
@@ -1638,7 +1638,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <class 'Task'> is of type type`
 
@@ -1649,7 +1649,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <class 'TaskQueue'> is of type type`
   * `peek -- <function>`
@@ -1664,7 +1664,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `__init__ -- <function __init__ at 0x3ffefe50>`
   * `__iter__ -- <function __iter__ at 0x3ffefe40>`
@@ -1680,7 +1680,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `__module__ -- uasyncio/core`
   * `__qualname__ -- TimeoutError`
@@ -1693,7 +1693,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `__module__ -- uasyncio/core`
   * `__qualname__ -- Loop`
@@ -1716,7 +1716,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `__init__ -- <function __init__ at 0x3ffeffb0>`
   * `__module__ -- uasyncio/core`
@@ -1736,7 +1736,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `__module__ -- uasyncio/core`
   * `__qualname__ -- CancelledError`
@@ -1749,7 +1749,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'ubinascii'> is of type module`
   * `__name__ -- ubinascii`
@@ -1764,7 +1764,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/ubluetooth.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/ubluetooth.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'ubluetooth'> is of type module`
   * `__name__ -- ubluetooth`
@@ -1778,6 +1778,10 @@ Generated: 05.04.2023 21:22:11
 
 [--> Overview](#Overview)
 ## ubluetooth --> BLE <span id="ubluetooth.BLE"></span>
+
+|    |
+| --- |
+| <form action="https://docs.micropython.org/en/latest/library/bluetooth.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `active -- <function>`
   * `config -- <function>`
@@ -1805,6 +1809,10 @@ Generated: 05.04.2023 21:22:11
 [--> Overview](#Overview)
 ## ubluetooth --> UUID <span id="ubluetooth.UUID"></span>
 
+|    |
+| --- |
+| <form action="https://docs.micropython.org/en/latest/library/bluetooth.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
+
   * `object <class 'UUID'> is of type type`
 
 [--> ubluetooth](#ubluetooth)
@@ -1814,7 +1822,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/ucollections.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/ucollections.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'ucollections'> is of type module`
   * `__name__ -- ucollections`
@@ -1825,9 +1833,9 @@ Generated: 05.04.2023 21:22:11
 [--> Overview](#Overview)
 ## ucollections --> deque <span id="ucollections.deque"></span>
 
-|    |
-| --- |
-| <form action="https://docs.micropython.org/en/latest/library/collections.html" method="get" target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button><input  type="hidden" name="highlight" value="deque" /> </form> |
+|    |    |
+| --- | --- |
+| <form action="https://docs.micropython.org/en/latest/library/collections.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> | <form action="https://docs.micropython.org/en/latest/library/collections.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="deque" /> </form> |
 
   * `append -- <function>`
   * `object <class 'deque'> is of type type`
@@ -1838,9 +1846,9 @@ Generated: 05.04.2023 21:22:11
 [--> Overview](#Overview)
 ## ucollections --> OrderedDict <span id="ucollections.OrderedDict"></span>
 
-|    |
-| --- |
-| <form action="https://docs.micropython.org/en/latest/library/collections.html" method="get" target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button><input  type="hidden" name="highlight" value="OrderedDict" /> </form> |
+|    |    |
+| --- | --- |
+| <form action="https://docs.micropython.org/en/latest/library/collections.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> | <form action="https://docs.micropython.org/en/latest/library/collections.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="OrderedDict" /> </form> |
 
   * `__delitem__ -- <function>`
   * `__getitem__ -- <function>`
@@ -1865,7 +1873,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/ucryptolib.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/ucryptolib.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'ucryptolib'> is of type module`
   * `__name__ -- ucryptolib`
@@ -1874,9 +1882,9 @@ Generated: 05.04.2023 21:22:11
 [--> Overview](#Overview)
 ## ucryptolib --> aes <span id="ucryptolib.aes"></span>
 
-|    |    |
-| --- | --- |
-| <form action="https://hwwong168.wordpress.com/2019/09/25/esp32-micropython-implementation-of-cryptographic/"  target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button></form> | <form action="https://docs.micropython.org/en/latest/library/cryptolib.html" method="get" target="_blank"><button type="submit"><mark style="background: AntiqueWhite;"><b>Extern</b></mark></button><input  type="hidden" name="highlight" value="aes" /> </form> |
+|    |    |    |
+| --- | --- | --- |
+| <form action="https://docs.micropython.org/en/latest/library/cryptolib.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> | <form action="https://docs.micropython.org/en/latest/library/cryptolib.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="aes" /> </form> | <form action="https://hwwong168.wordpress.com/2019/09/25/esp32-micropython-implementation-of-cryptographic/"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>Extern</b></mark></button></form> |
 
   * `decrypt -- <function>`
   * `encrypt -- <function>`
@@ -1889,7 +1897,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uctypes.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uctypes.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'uctypes'> is of type module`
   * `__name__ -- uctypes`
@@ -1936,7 +1944,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/struct.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="struct" /> </form> |
 
   * `object <class 'struct'> is of type type`
 
@@ -1947,7 +1955,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uerrno.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uerrno.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'uerrno'> is of type module`
   * `__name__ -- uerrno`
@@ -1980,7 +1988,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uhashlib.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uhashlib.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'uhashlib'> is of type module`
   * `__name__ -- uhashlib`
@@ -1990,6 +1998,10 @@ Generated: 05.04.2023 21:22:11
 [--> Overview](#Overview)
 ## uhashlib --> sha256 <span id="uhashlib.sha256"></span>
 
+|    |
+| --- |
+| <form action="https://docs.micropython.org/en/latest/library/hashlib.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
+
   * `digest -- <function>`
   * `object <class 'sha256'> is of type type`
   * `update -- <function>`
@@ -1998,6 +2010,10 @@ Generated: 05.04.2023 21:22:11
 
 [--> Overview](#Overview)
 ## uhashlib --> sha1 <span id="uhashlib.sha1"></span>
+
+|    |
+| --- |
+| <form action="https://docs.micropython.org/en/latest/library/hashlib.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `digest -- <function>`
   * `object <class 'sha1'> is of type type`
@@ -2010,7 +2026,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uheapq.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uheapq.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'uheapq'> is of type module`
   * `__name__ -- uheapq`
@@ -2023,7 +2039,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uio.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uio.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'uio'> is of type module`
   * `__name__ -- uio`
@@ -2038,6 +2054,10 @@ Generated: 05.04.2023 21:22:11
 [--> Overview](#Overview)
 ## uio --> IOBase <span id="uio.IOBase"></span>
 
+|    |
+| --- |
+| <form action="https://docs.micropython.org/en/latest/library/io.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
+
   * `object <class 'IOBase'> is of type type`
 
 [--> uio](#uio)
@@ -2047,7 +2067,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/io.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="FileIO" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/io.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `__del__ -- <function>`
   * `__enter__ -- <function>`
@@ -2070,7 +2090,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/io.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="TextIOWrapper" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/io.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `__del__ -- <function>`
   * `__enter__ -- <function>`
@@ -2093,7 +2113,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/io.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="StringIO" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/io.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `__enter__ -- <function>`
   * `__exit__ -- <function>`
@@ -2115,7 +2135,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/io.html" method="get" target="_blank"><button type="submit"><mark style="background: Cyan;"><b>MP Home highlight</b></mark></button><input  type="hidden" name="highlight" value="BytesIO" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/io.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `__enter__ -- <function>`
   * `__exit__ -- <function>`
@@ -2135,6 +2155,10 @@ Generated: 05.04.2023 21:22:11
 [--> Overview](#Overview)
 ## uio --> BufferedWriter <span id="uio.BufferedWriter"></span>
 
+|    |
+| --- |
+| <form action="https://docs.micropython.org/en/latest/library/io.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
+
   * `flush -- <function>`
   * `object <class 'BufferedWriter'> is of type type`
   * `write -- <function>`
@@ -2146,7 +2170,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/ujson.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/ujson.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'ujson'> is of type module`
   * `__name__ -- ujson`
@@ -2160,7 +2184,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'umachine'> is of type module`
   * `__name__ -- umachine`
@@ -2217,7 +2241,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="Timer" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `ONE_SHOT -- 0`
   * `PERIODIC -- 1`
@@ -2234,7 +2258,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="WDT" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `feed -- <function>`
   * `object <class 'WDT'> is of type type`
@@ -2246,7 +2270,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="SDCard" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `__del__ -- <function>`
   * `deinit -- <function>`
@@ -2263,7 +2287,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="Pin" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `DRIVE_0 -- 0`
   * `DRIVE_1 -- 1`
@@ -2292,7 +2316,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="Signal" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <class 'Signal'> is of type type`
   * `off -- <function>`
@@ -2306,7 +2330,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="TouchPad" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `config -- <function>`
   * `object <class 'TouchPad'> is of type type`
@@ -2319,7 +2343,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="ADC" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `ATTN_0DB -- 0`
   * `ATTN_11DB -- 3`
@@ -2345,7 +2369,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="ADCBlock" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `connect -- <function>`
   * `init -- <function>`
@@ -2355,6 +2379,10 @@ Generated: 05.04.2023 21:22:11
 
 [--> Overview](#Overview)
 ## umachine --> DAC <span id="umachine.DAC"></span>
+
+|    |
+| --- |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <class 'DAC'> is of type type`
   * `write -- <function>`
@@ -2366,7 +2394,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="I2C" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `init -- <function>`
   * `object <class 'I2C'> is of type type`
@@ -2390,7 +2418,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="SoftI2C" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `init -- <function>`
   * `object <class 'SoftI2C'> is of type type`
@@ -2414,7 +2442,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="I2S" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `MONO -- 0`
   * `RX -- 9`
@@ -2435,7 +2463,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="PWM" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `deinit -- <function>`
   * `duty -- <function>`
@@ -2452,7 +2480,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="RTC" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `datetime -- <function>`
   * `init -- <function>`
@@ -2466,7 +2494,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="SPI" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `LSB -- 1`
   * `MSB -- 0`
@@ -2485,7 +2513,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="SoftSPI" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `LSB -- 1`
   * `MSB -- 0`
@@ -2504,7 +2532,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="UART" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/library/machine.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `CTS -- 2`
   * `INV_CTS -- 8`
@@ -2571,7 +2599,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uos.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uos.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'uos'> is of type module`
   * `__name__ -- uos`
@@ -2598,6 +2626,10 @@ Generated: 05.04.2023 21:22:11
 [--> Overview](#Overview)
 ## uos --> VfsFat <span id="uos.VfsFat"></span>
 
+|    |
+| --- |
+| <form action="https://docs.micropython.org/en/latest/library/os.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
+
   * `chdir -- <function>`
   * `getcwd -- <function>`
   * `ilistdir -- <function>`
@@ -2617,6 +2649,10 @@ Generated: 05.04.2023 21:22:11
 
 [--> Overview](#Overview)
 ## uos --> VfsLfs2 <span id="uos.VfsLfs2"></span>
+
+|    |
+| --- |
+| <form action="https://docs.micropython.org/en/latest/library/os.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `chdir -- <function>`
   * `getcwd -- <function>`
@@ -2836,7 +2872,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/random.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/random.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'urandom'> is of type module`
   * `__name__ -- urandom`
@@ -2854,7 +2890,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/ure.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/ure.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'ure'> is of type module`
   * `__name__ -- ure`
@@ -2868,7 +2904,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="urequests" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="urequests" /> </form> |
 
   * `object <module 'urequests' from 'urequests.py'> is of type module`
   * `put -- <function put at 0x3fff24e0>`
@@ -2902,7 +2938,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uselect.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uselect.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'uselect'> is of type module`
   * `__name__ -- uselect`
@@ -2918,7 +2954,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/usocket.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/usocket.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'usocket'> is of type module`
   * `__name__ -- usocket`
@@ -2942,7 +2978,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/socket.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/socket.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `__del__ -- <function>`
   * `accept -- <function>`
@@ -2973,7 +3009,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/ussl.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/ussl.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'ussl'> is of type module`
   * `__name__ -- ussl`
@@ -2984,7 +3020,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/ustruct.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/ustruct.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'ustruct'> is of type module`
   * `__name__ -- ustruct`
@@ -2999,7 +3035,7 @@ Generated: 05.04.2023 21:22:11
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/usys.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/usys.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
 Hile in Micropython hat fehlgeschlagen
 
@@ -3009,7 +3045,7 @@ Hile in Micropython hat fehlgeschlagen
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/utime.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/utime.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'utime'> is of type module`
   * `__name__ -- utime`
@@ -3069,7 +3105,7 @@ Hile in Micropython hat fehlgeschlagen
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/library/uzlib.html"  target="_blank"><button type="submit"><mark style="background: LightBlue;"><b>MP Home</b></mark></button></form> |
+| <form action="https://docs.micropython.org/en/latest/library/uzlib.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <module 'uzlib'> is of type module`
   * `__name__ -- uzlib`
@@ -3078,6 +3114,10 @@ Hile in Micropython hat fehlgeschlagen
 
 [--> Overview](#Overview)
 ## uzlib --> DecompIO <span id="uzlib.DecompIO"></span>
+
+|    |
+| --- |
+| <form action="https://docs.micropython.org/en/latest/library/zlib.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
 
   * `object <class 'DecompIO'> is of type type`
   * `read -- <function>`
@@ -3091,7 +3131,7 @@ Hile in Micropython hat fehlgeschlagen
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="webrepl" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="webrepl" /> </form> |
 
 Hile in Micropython hat fehlgeschlagen
 
@@ -3101,7 +3141,7 @@ Hile in Micropython hat fehlgeschlagen
 
 |    |
 | --- |
-| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Chartreuse;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="webrepl_setup" /> </form> |
+| <form action="https://docs.micropython.org/en/latest/esp32/quickref.html" method="get" target="_blank"><button type="submit"><mark style="background: Yellow;"><b>MP ESP32 highlight</b></mark></button><input  type="hidden" name="highlight" value="webrepl_setup" /> </form> |
 
 Hile in Micropython hat fehlgeschlagen
 
