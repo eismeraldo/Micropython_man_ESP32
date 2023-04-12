@@ -7,6 +7,8 @@ das Hilfe Manual `mp_referenz_xx.md` generiert werden.
 
   - [Manual für ESP32 DOIT](./data/mp_referenz_final_DOIT.md)
   - [Manual für ESP32-S2 Mini](./data/mp_referenz_final_S2-Mini.md)
+  - [/data/mp_referenz_final_S2-Mini.md: Manual für ESP32-S2 Mini](./data/mp_referenz_final_S2-Mini.md)
+  - <a id="raw-url" href="./data/mp_referenz_final_DOIT.pdf" download="mp_referenz_final_DOIT.pdf">Download DOIT</a>
 
 ## Ablauf
 
@@ -23,6 +25,7 @@ B --> |Copy mauell| D[(01_help_roh_xx.txt)]
     D --> O
     G --> O
     K --> O[[4. gen_final_md.py ]] --> R[(mp_referenz_xx.md)]
+    R --> T[[5. Optional: \nPDF generieren mit\n VSCode Markdown PDF Extension]] --> U[(mp_referenz_xx.pdf)]
 ```
 
 ### 1. Skript mit Thonny ausführen (nur erstes Mal pro Board)
@@ -64,6 +67,14 @@ Sollten auch Links für weitere Module bereitgestellt werden, können diese aus 
 ### 4. Finale Hilfe generieren
 
 Die Generierung des eigentlichen Ziels, nämlich der Datei `mp_referenz_xx.md`, erfolgt mit dem Python 3 Skript `gen_final_md.py`. Dieser Skript liest die drei zuvor besprochenen Dateien ein und erzeugt aus ihnen das gewünschte Resultat.
+
+### 5. Optional: PDF generieren
+
+Mit der **Markdown PDF** Extensio von VSCode kann aus dem resultierenden `md` File ein PDF generiert werden. 
+
+#### Problem: 
+
+Die externen Links in Form von Buttons funktionieren nicht
 
 # Beispiel Ausschnitte aus der Hiledatei
 
