@@ -27,6 +27,8 @@ ntptime, https://bhave.sh/micropython-ntp/
 ntptime, https://www.engineersgarage.com/micropython-esp8266-esp32-rtc-utc-local-time/
 onewire.OneWireError
 s2mini, https://micropython.org/download/LOLIN_S2_MINI/
+uasyncio/core, https://github.com/peterhinch/micropython-async/blob/master/v3/README.md
+uasyncio/core, https://github.com/peterhinch/micropython-async/blob/master/v3/docs/TUTORIAL.md
 ucollections.OrderedDict, https://docs.micropython.org/en/latest/library/collections.html?highlight=OrderedDict
 ucollections.deque, https://docs.micropython.org/en/latest/library/collections.html?highlight=deque
 ucryptolib.aes, https://hwwong168.wordpress.com/2019/09/25/esp32-micropython-implementation-of-cryptographic/

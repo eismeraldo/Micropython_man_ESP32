@@ -17,7 +17,7 @@
     }
   </style>
 </head>
-Generated: 08.04.2023 10:55:04
+Generated: 12.04.2023 16:36:05
 
 
 ## Legende: Links and Buttons
@@ -1599,9 +1599,9 @@ Generated: 08.04.2023 10:55:04
 [--> Overview](#Overview)
 # uasyncio/core <span id="uasyncio/core"></span>
 
-|    |
-| --- |
-| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> |
+|    |    |    |
+| --- | --- | --- |
+| <form action="https://docs.micropython.org/en/latest/library/uasyncio.html"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>MP Home</b></mark></button></form> | <form action="https://github.com/peterhinch/micropython-async/blob/master/v3/README.md"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>Extern</b></mark></button></form> | <form action="https://github.com/peterhinch/micropython-async/blob/master/v3/docs/TUTORIAL.md"  target="_blank"><button type="submit"><mark style="background: SkyBlue;"><b>Extern</b></mark></button></form> |
 
   * `object <module 'uasyncio/core' from 'uasyncio/core.py'> is of type module`
   * `sys -- <module 'sys'>`
