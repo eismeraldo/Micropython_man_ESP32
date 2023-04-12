@@ -5,6 +5,9 @@
 Die Micropython (MP) Hilfe ist etwas düftig. Mit Hilfe dieses Projektes können im Moment für die Boards ESP32 DOIT und S2-Mini
 das Hilfe Manual `mp_referenz_xx.md` generiert werden.
 
+  - [Manual für ESP32 DOIT](./data/mp_referenz_final_DOIT.md)
+  - [Manual für ESP32-S2 Mini](./data/mp_referenz_final_S2-Mini.md)
+
 ## Ablauf
 
 ```mermaid
